@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /*?
+Disallow: /ru/*?
+Disallow: /*&
+Disallow: /ru/*&
+Disallow: /_*
+Disallow: /ru/_*
+Host: https://metagarden.io

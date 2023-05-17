@@ -1,0 +1,34 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ include "chart.fullname" . }}
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    # production
+    {{- if .Values.ingress.clusterissuer }}
+    cert-manager.io/cluster-issuer: {{ .Values.ingress.clusterissuer }}
+    certmanager.k8s.io/cluster-issuer: {{ .Values.ingress.clusterissuer }}
+    kubernetes.io/tls-acme: "true"
+    {{- end }}
+    # staging
+    {{- if .Values.ingress.issuer }}
+    cert-manager.io/issuer: {{ .Values.ingress.issuer }}
+    {{- end }}
+    nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
+spec:
+  rules:
+    - host: "{{ .Values.ingress.domain }}"
+      http:
+        paths:
+          - backend:
+              service:
+                name: "{{ include "chart.fullname" . }}"
+                port:
+                  number: {{ .Values.service.port }}
+            path: /
+            pathType: ImplementationSpecific
+  tls:
+    - hosts:
+        - {{ .Values.ingress.domain }}
+        - www.{{ .Values.ingress.domain }}
+      secretName: {{ .Values.ingress.tlsname }}

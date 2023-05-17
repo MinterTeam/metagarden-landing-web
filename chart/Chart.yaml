@@ -1,0 +1,17 @@
+version: 1.0.0
+apiVersion: v2
+name: metagarden-landing-web
+icon: https://metagarden.io/favicon.png
+description: A Helm chart for Metagarden Landing Web
+
+appVersion: v1.0.0
+
+home: https://github.com/MinterTeam/metagarden-landing-web
+keywords:
+  - minter
+  - honee
+  - metagarden
+maintainers:
+  - name: shrpne
+    email: shrpne@gmail.com
+
