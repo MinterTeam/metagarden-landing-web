@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: registry.minter.network/honee-landing-web
+  repository: registry.minter.network/metagarden-landing-web
   pullPolicy: Always
   tag: latest
 
