@@ -12,7 +12,7 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Metagarden Chain — advanced level 1 EVM Blockchain for gaming', 'metagarden-chain.title'));
+        const title = getTitle(this.$td('Metagarden Chain — advanced Layer 1 EVM Blockchain for gaming', 'metagarden-chain.title'));
         const description = this.$td('5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.description');
 
         return {
@@ -129,7 +129,7 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <h1>{{ $td('Ultimate Gaming EVM Blockchain', 'metagarden-chain.hello-title')}}</h1>
-                        <p class="subtitle-h1">{{ $td('The Metagarden Chain is the fastest level-1 EVM blockchain designed for gaming. 5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.hello-description')}}</p>
+                        <p class="subtitle-h1">{{ $td('The Metagarden Chain is the fastest Layer 1 EVM blockchain designed for gaming. 5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.hello-description')}}</p>
                         <div class="buttons-block">
                             <a :href="$td('/early-access', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
                             <!--<a :href="$td('123', 'metagarden-chain.learn-button-url')" class="btn btn-outline" target="_blank">{{ $td('Learn More', 'metagarden-chain.learn-button')}}</a>-->
@@ -318,7 +318,7 @@ export default {
                                 <td>from $7</td>
                                 <td>$0.06</td>
                                 <td>$0.03</td>
-                                <td>3 sec</td>
+                                <td>12 sec</td>
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://arbiscan.io/" target="_blank"><img src="/img/metagarden-chain/c-arbitrum.png" width="24" height="24" /> Arbitrum</a></td>
