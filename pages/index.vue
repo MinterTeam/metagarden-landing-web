@@ -131,7 +131,7 @@ export default {
                         <h1>{{ $td('Ultimate Gaming EVM Blockchain', 'metagarden-chain.hello-title')}}</h1>
                         <p class="subtitle-h1">{{ $td('The Metagarden Chain is the fastest level 1 EVM blockchain designed for gaming. 5 second final blocks, high throughput, low cost transactions, API and SDK for game developers.', 'metagarden-chain.hello-description')}}</p>
                         <div class="buttons-block">
-                            <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.become-button-url')" class="btn" target="_blank">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
+                            <a :href="$td('/early-access', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
                             <!--<a :href="$td('123', 'metagarden-chain.learn-button-url')" class="btn btn-outline" target="_blank">{{ $td('Learn More', 'metagarden-chain.learn-button')}}</a>-->
                         </div>
                     </div>

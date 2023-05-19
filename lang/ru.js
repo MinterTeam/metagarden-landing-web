@@ -453,7 +453,7 @@ export default {
 		'menu-tokenomics-description': 'METAGARDEN — это газовый токен, обеспечивающий работу игрового блокчейна (Metagarden Chain), и служебный токен Metagarden, play-to-earn платформы с мини-играми. Он играет ключевую роль в функциональности блокчейна и платформы.',
 		'menu-launchpad-description': 'Лаунчпад Metagarden Chain.',
 		'become-button': 'Стать первопроходцем',
-		'become-button-url': 'https://launchpad.metagarden.io/ru',
+		'become-button-url': '/ru/early-access',
 		'learn-button': 'Подробнее',
 		'learn-button-url': '',
 		'features-title': 'Особенности',
