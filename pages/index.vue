@@ -1,18 +1,19 @@
 <script>
 import getTitle from '~/assets/get-title.js';
 import trackClick from '~/assets/v-track-click.js';
-import LiteYoutube from '@/components/LiteYoutube.vue';
+import Language from '~/components/base/Language.vue';
 
 export default {
+    layout: 'metagarden-chain',
     components: {
-        LiteYoutube,
+        Language,
     },
     directives: {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Crypto Wallet That Helps You Earn', 'index.title'));
-        const description = this.$td('Honee is the simplest crypto wallet that helps you earn through user-friendly, one-click money-making cards.', 'index.description');
+        const title = getTitle(this.$td('Metagarden Chain — advanced level 1 EVM-Blockchain for gaming', 'metagarden-chain.title'));
+        const description = this.$td('5 second final blocks, high throughput, low cost transactions, API and SDK for game developers.', 'metagarden-chain.description');
 
         return {
             title: title,
@@ -20,6 +21,10 @@ export default {
                 { hid: 'og-title', name: 'og:title', content: title },
                 { hid: 'description', name: 'description', content: description },
                 { hid: 'og-description', name: 'og:description', content: description },
+                { hid: 'og-image', name: 'og:image', content: '/img/metagarden-chain/metagarden-chain-share.jpg' },
+            ],
+            link: [
+                { hid: 'favicon', rel: 'icon', href: '/img/metagarden-chain/metagarden-chain-logo-32.png' },
             ],
         };
     },
@@ -28,12 +33,6 @@ export default {
 
         };
     },
-    computed: {
-        appUrl() {
-            const localeSuffix = this.$i18n.locale === 'en' ? '' : this.$i18n.locale;
-            return `https://my.honee.app/${localeSuffix}`;
-        },
-    },
 };
 </script>
 
@@ -41,134 +40,304 @@ export default {
 <template>
     <div>
         <header>
-            <!--<nav class="lang"><a href="#"><img src="/img/landing/en.svg" alt="" /></a></nav>-->
             <div class="container">
+                <div class="top-bar">
+                    <div class="menu">
+                        <div class="menu-link menu-link-active">
+                            <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM-Blockchain', 'metagarden-chain.menu-evm')}}</a>
+                        </div>
+                        <div class="menu-link">
+                            <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</a>
+                        </div>
+                        <div class="menu-link">
+                            <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
+                        </div>
+                        <div class="menu-link">
+                            <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
+                        </div>
+                        <div class="menu-link">
+                            <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank" class="menu-link-a">{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</a>
+                        </div>
+                        
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox" />
+                            <label class="menu__btn" for="menu__toggle">
+                                <span></span>
+                            </label>
+                            <div class="menu__box">
+                                <div class="sub-menu-item">
+                                    <a :href="$td('/', 'metagarden-chain.menu-evm-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('EVM-Blockchain', 'metagarden-chain.menu-evm')}}</h4>
+                                            <p>{{ $td('Fast blocks, high throughput, cheap smart contract deployment, cheap NFT minting, cheap transactions, API and SDK for game developers and many more features.', 'metagarden-chain.menu-evm-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</h4>
+                                            <p>{{ $td('Become Metagarden Chain Early adopter.', 'menu-early-access-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</h4>
+                                            <p>{{ $td('Meganet – the Metaharden Chain testnet.', 'metagarden-chain.menu-testnet-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
+                                            <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</h4>
+                                            <p>{{ $td('The Metagarden Chain launchpad.', 'metagarden-chain.menu-launchpad-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <Language/>
+                </div>
                 <div class="hello">
                     <div class="hello-content">
-                        <div class="logo"><img src="/img/logo-honee.svg" alt="" width="122" height="24"/></div>
-                        <h1>{{ $td('Crypto wallet that helps you earn', 'index.hello-title')}}</h1>
-                        <p class="subtitle-h1">{{ $td('Honee is focused on helping people to earn crypto. Join today!', 'index.hello-description')}}</p>
-                        <a class="btn" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Start Earning', 'index.hello-button')}}</a>
-<!--                        <IndexSubscribeForm class="u-mb-15"/>-->
-<!--                        <h3>{{ $td('Alpha Coming Sep 28, 2021', 'index.hello-coming')}}</h3>-->
+                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
+                        <h1>{{ $td('Ultimate Gaming EVM Blockchain', 'metagarden-chain.hello-title')}}</h1>
+                        <p class="subtitle-h1">{{ $td('The Metagarden Chain is the fastest level 1 EVM blockchain designed for gaming. 5 second final blocks, high throughput, low cost transactions, API and SDK for game developers.', 'metagarden-chain.hello-description')}}</p>
+                        <div class="buttons-block">
+                            <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.become-button-url')" class="btn" target="_blank">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
+                            <!--<a :href="$td('123', 'metagarden-chain.learn-button-url')" class="btn btn-outline" target="_blank">{{ $td('Learn More', 'metagarden-chain.learn-button')}}</a>-->
+                        </div>
                     </div>
                     <picture>
-                        <source srcset="/img/landing/phone-mobile.avif 1x, /img/landing/phone-mobile@2x.avif 2x" type="image/avif" media="(max-width: 420px)">
-                        <source srcset="/img/landing/phone-mobile.webp 1x, /img/landing/phone-mobile@2x.webp 2x" type="image/webp" media="(max-width: 420px)">
-                        <source srcset="/img/landing/phone.avif 1x, /img/landing/phone@2x.avif 2x" type="image/avif">
-                        <source srcset="/img/landing/phone.webp 1x, /img/landing/phone@2x.webp 2x" type="image/webp">
-                        <img src="/img/landing/phone.png" srcset="/img/landing/phone@2x.png 2x" alt="" class="hello-image" role="presentation"/>
+                        <source srcset="/img/metagarden-chain/hello-img.avif 1x, /img/metagarden-chain/hello-img@2x.avif 2x" type="image/avif">
+                        <source srcset="/img/metagarden-chain/hello-img.webp 1x, /img/metagarden-chain/hello-img@2x.webp 2x" type="image/webp">
+                        <img src="/img/metagarden-chain/hello-img.png" srcset="/img/metagarden-chain/hello-img@2x.png 2x" alt="Metagarden Chain" class="hello-image" role="presentation"/>
                     </picture>
                 </div>
             </div>
         </header>
-        <section class="video">
-            <div class="container">
-                <h2>{{ $td('What’s Honee?', 'index.video-title')}}</h2>
-                <p class="subtitle-h2">{{ $td('Hit the play button to learn more', 'index.video-description')}}</p>
-                <!--
-                <div class="video-youtube">
-                    <iframe :src="$td('https://www.youtube.com/embed/fVRlrTYCtvg', 'index.video-url') + '?rel=0'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                </div>
-                -->
-                <LiteYoutube
-                    class="video-youtube"
-                    :video-id="$td('fVRlrTYCtvg', 'index.video-id')"
-                />
-            </div>
-        </section>
         <section class="features">
             <div class="container">
-                <h2>{{ $td('Сrypto wallet as it’s meant to be', 'index.features-title')}}</h2>
-                <i18n tag="p" class="subtitle-h2" path="index.features-description">
-                    <b><i>{{ $td('the', 'index.features-description-highlight')}}</i></b>
-                </i18n>
-                <p class="subtitle-h2"></p>
+                <h2>{{ $td('Features', 'metagarden-chain.features-title')}}</h2>
                 <div class="features-items">
                     <div class="features-item">
-                        <img src="/img/landing/f1.svg" alt="" width="64" height="64">
-                        <h3>{{ $td('Great to Earn With', 'index.features-item1-title')}}</h3>
-                        <p>{{ $td('Crypto and decentralized finance are complicated, but we did all the hard work for you. Enjoy our one-click solutions applying the best earning tools to your balance.', 'index.features-item1-description')}}</p>
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f1.avif 1x, /img/metagarden-chain/f1@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f1.webp 1x, /img/metagarden-chain/f1@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f1.png" srcset="/img/metagarden-chain/f1@2x.png 2x" alt="Made for gamers" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('Made for gamers', 'metagarden-chain.f1')}}</h3>
                     </div>
                     <div class="features-item">
-                        <img src="/img/landing/f2.svg" alt="" width="64" height="64">
-                        <h3>{{ $td('Simple to Use', 'index.features-item2-title')}}</h3>
-                        <p>{{ $td('Aside from helping you earn, our second-biggest goal is to provide a smooth user experience. Honee is simple and user-friendly at every step of the way.', 'index.features-item2-description')}}</p>
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f2.avif 1x, /img/metagarden-chain/f2@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f2.webp 1x, /img/metagarden-chain/f2@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f2.png" srcset="/img/metagarden-chain/f2@2x.png 2x" alt="Cross-chain compatibility with TOP blockchains " role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('Cross-chain compatibility with Top blockchains', 'metagarden-chain.f2')}}</h3>
                     </div>
                     <div class="features-item">
-                        <img src="/img/landing/f3.svg" alt="" width="64" height="64">
-                        <h3>{{ $td('Best to Trade At', 'index.features-item3-title')}}</h3>
-                        <p>{{ $td('Buy, sell, and swap your Bitcoin, Ether, USDT, and other popular cryptos instantly & at the lowest fees in the industry.', 'index.features-item3-description')}}</p>
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f3.avif 1x, /img/metagarden-chain/f3@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f3.webp 1x, /img/metagarden-chain/f3@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f3.png" srcset="/img/metagarden-chain/f3@2x.png 2x" alt="Low-cost smart contract deployment" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('Low-cost smart contract deployment', 'metagarden-chain.f3')}}</h3>
                     </div>
                     <div class="features-item">
-                        <img src="/img/landing/f4.svg" alt="" width="64" height="64">
-                        <h3>{{ $td('Private & Secure', 'index.features-item4-title')}}</h3>
-                        <p>{{ $td('You are the only person who can access your wallet. We don\'t store your seed phrase.', 'index.features-item4-description')}}</p>
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f4.avif 1x, /img/metagarden-chain/f4@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f4.webp 1x, /img/metagarden-chain/f4@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f4.png" srcset="/img/metagarden-chain/f4@2x.png 2x" alt="Final blocks" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('Final blocks', 'metagarden-chain.f4')}}</h3>
                     </div>
                     <div class="features-item">
-                        <img src="/img/landing/f5.svg" alt="" width="64" height="64">
-                        <h3>{{ $td('Fully Decentralized', 'index.features-item5-title')}}</h3>
-                        <p>{{ $td('It means that only you own your money, not an exchange or a wallet. No one can stop or limit your actions.', 'index.features-item5-description')}}</p>
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f5.avif 1x, /img/metagarden-chain/f5@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f5.webp 1x, /img/metagarden-chain/f5@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f5.png" srcset="/img/metagarden-chain/f5@2x.png 2x" alt="Fast block propagation" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('Fast block propagation', 'metagarden-chain.f5')}}</h3>
                     </div>
                     <div class="features-item">
-                        <img src="/img/landing/f6.svg" alt="" width="64" height="64">
-                        <h3>{{ $td('Rewarding', 'index.features-item6-title')}}</h3>
-                        <p>{{ $td('Honee has rich programs to reward users for different actions. It’s the best way to win crypto or get it for free.', 'index.features-item6-description')}}</p>
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f6.avif 1x, /img/metagarden-chain/f6@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f6.webp 1x, /img/metagarden-chain/f6@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f6.png" srcset="/img/metagarden-chain/f6@2x.png 2x" alt="Low-cost NFT minting" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('Low-cost NFT minting', 'metagarden-chain.f6')}}</h3>
+                    </div>
+                    <div class="features-item">
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f7.avif 1x, /img/metagarden-chain/f7@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f7.webp 1x, /img/metagarden-chain/f7@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f7.png" srcset="/img/metagarden-chain/f7@2x.png 2x" alt="Low-cost transactions" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('Low-cost transactions', 'metagarden-chain.f7')}}</h3>
+                    </div>
+                    <div class="features-item">
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f8.avif 1x, /img/metagarden-chain/f8@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f8.webp 1x, /img/metagarden-chain/f8@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f8.png" srcset="/img/metagarden-chain/f8@2x.png 2x" alt="High throughput capacity" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('High throughput capacity', 'metagarden-chain.f8')}}</h3>
+                    </div>
+                    <div class="features-item">
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f9.avif 1x, /img/metagarden-chain/f9@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f9.webp 1x, /img/metagarden-chain/f9@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f9.png" srcset="/img/metagarden-chain/f9@2x.png 2x" alt="API and SDK for game developers" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('API and SDK for game developers', 'metagarden-chain.f9')}}</h3>
+                    </div>
+                    <div class="features-item">
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f10.avif 1x, /img/metagarden-chain/f10@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f10.webp 1x, /img/metagarden-chain/f10@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f10.png" srcset="/img/metagarden-chain/f10@2x.png 2x" alt="Universal Smart Addresses" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('Universal Smart Addresses', 'metagarden-chain.f10')}}</h3>
+                    </div>
+                    <div class="features-item">
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f11.avif 1x, /img/metagarden-chain/f11@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f11.webp 1x, /img/metagarden-chain/f11@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f11.png" srcset="/img/metagarden-chain/f11@2x.png 2x" alt="Delegated Proof of Stake" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('Delegated Proof of Stake', 'metagarden-chain.f11')}}</h3>
+                    </div>
+                    <div class="features-item">
+                        <div class="features-img">
+                            <picture>
+                                <source srcset="/img/metagarden-chain/f12.avif 1x, /img/metagarden-chain/f12@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/f12.webp 1x, /img/metagarden-chain/f12@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/f12.png" srcset="/img/metagarden-chain/f12@2x.png 2x" alt="Embedded Cross-Chain DEX" role="presentation"/>
+                            </picture>
+                        </div>
+                        <h3>{{ $td('Embedded Cross-Chain DEX', 'metagarden-chain.f12')}}</h3>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="steps">
+        <section class="compare">
             <div class="container">
-                <h2>{{ $td('Two simple steps to get started', 'index.steps-title')}}</h2>
-                <p class="subtitle-h2">{{ $td('Takes a few minutes, tops', 'index.steps-description')}}</p>
-                <div class="steps-items">
-                    <div class="steps-item">
-                        <div class="steps-icon">
-                            <img src="/img/landing/step1.svg" alt="" width="64" height="64">
-                            <span class="badge">1</span>
-                        </div>
-                        <h3>{{ $td('Create a new wallet', 'index.steps-step1')}}</h3>
-                    </div>
-                    <img src="/img/landing/arrow-right.svg" class="arrow" alt="">
-                    <div class="steps-item">
-                        <div class="steps-icon">
-                            <img src="/img/landing/step2.svg" alt="" width="64" height="64">
-                            <span class="badge">2</span>
-                        </div>
-                        <h3>{{ $td('Top it up', 'index.steps-step2')}}</h3>
-                    </div>
-                </div>
-                <a class="btn btn-2 u-mt-40" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Get Started', 'index.steps-button')}}</a>
-            </div>
-        </section>
-        <section class="bee">
-            <div class="container">
-                <div class="bee-block">
-                    <div class="bee-logo">
-                        <img src="/img/landing/bee-logo.svg" alt="BEE token">
-                    </div>
-                    <div class="bee-content">
-                        <h2>{{ $td('BEE Token', 'index.bee-title')}}</h2>
-                        <p>{{ $td('Honee wallet token, or BEE, is a simple BEP-20 utility token that provides a wide range of benefits and incentives to Honee wallet users.', 'index.bee-p1')}}</p>
-                        <p>{{ $td('BEE token holders unlock a variety of benefits when using Honee wallet, including rewards for actions, boosted yield for earning options in the app, access to premium features, and discounts on the use of DeFi services.', 'index.bee-p2')}} 
-                            <template v-if="$i18n.locale === 'en'">
-                                Learn more about the <a href="/bee" target="_blank">BEE token and its utility</a>.
-                            </template>
-                            <template v-if="$i18n.locale === 'ru'">
-                                Узнайте больше о <a href="/ru/bee" target="_blank">BEE и его использовании</a>.
-                            </template>
-                        </p>
-                        <div class="bee-buttons">
-                            <a href="https://pancakeswap.finance/swap?outputCurrency=0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" class="btn btn-3" target="_blank" rel="nofollow"><img src="/img/landing/bee-pancake.svg" alt="Buy BEE on Pancake"> {{ $td('Buy on PancakeSwap', 'index.bee-pancake')}}</a>
-                            <a :href="$td('https://medium.com/@honeeapp/bee-staking-2-yield-up-to-20-in-apr-40a967eee243', 'index.bee-stake-url')" class="btn btn-4" target="_blank"><img src="/img/honee.svg" alt="Stake BEE and earn"> {{ $td('Stake BEE', 'index.bee-stake')}}</a>
-                            <a :href="$td('https://honee.app/farming-pancakeswap-bnb-bee', 'index.bee-farming-url')" class="btn btn-4" target="_blank"><img src="/img/bsc-icon.svg" alt="" class="pool-pair-icon"> <img src="/img/honee.svg" alt="" class="pool-pair-icon pool-pair-icon2"> {{ $td('Farming', 'index.bee-farming')}}</a>
-                            <!--<div class="bee-buttons-links">
-                                <a href="https://www.dextools.io/app/bsc/pair-explorer/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" target="_blank" rel="nofollow"><img src="/img/landing/bee-dextools.png" alt="BEE on Dextools" srcset="/img/landing/bee-dextools@2x.png 2x"> DexTools</a>
-                                <a href="https://bscscan.com/token/0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" target="_blank" rel="nofollow"><img src="/img/landing/bee-bsc.png" alt="BEE on bscscan" srcset="/img/landing/bee-bsc@2x.png 2x">BSC</a>
-                            </div>-->
-                        </div>
-                    </div>
+                <h2>{{ $td('Compare fees and speed', 'metagarden-chain.compare-title')}}</h2>
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <template v-if="$i18n.locale === 'en'">
+                                    <th>EVM-Blockchain</th>
+                                    <th>Tx Speed</th>
+                                    <th>Smart contract deployment cost</th>
+                                    <th>NFT minting cost</th>
+                                    <th>Transfer cost</th>
+                                    <th>Swap cost</th>
+                                </template>
+                                <template v-if="$i18n.locale === 'ru'">
+                                    <th>EVM-блокчейн</th>
+                                    <th>Tx скорость</th>
+                                    <th>Создание смарт-контракта</th>
+                                    <th>Минтинг NFT</th>
+                                    <th>Отправка</th>
+                                    <th>Финальность блока</th>
+                                </template>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tr-active">
+                                <td class="flextd"><a href="https://scan.testnet.metagarden.io/" target="_blank"><img src="/img/metagarden-chain/c-metagarden.png" width="24" height="24" /> Metagarden</a></td>
+                                <td>5 sec</td>
+                                <td>$0.002</td>
+                                <td>$0.0002</td>
+                                <td>$0.0002</td>
+                                <td>5 sec</td>
+                            </tr>
+                            <tr>
+                                <td class="flextd"><a href="https://etherscan.io/" target="_blank"><img src="/img/metagarden-chain/c-ethereum.png" width="24" height="24" /> Ethereum</a></td>
+                                <td>30 sec</td>
+                                <td>from $150</td>
+                                <td>from $8</td>
+                                <td>from $5</td>
+                                <td>15 min</td>
+                            </tr>
+                            <tr>
+                                <td class="flextd"><a href="https://bscscan.com/" target="_blank"><img src="/img/metagarden-chain/c-bnb.png" width="24" height="24" /> BNB Smart Chain</a></td>
+                                <td>3 sec</td>
+                                <td>from $7</td>
+                                <td>$0.06</td>
+                                <td>$0.03</td>
+                                <td>3 sec</td>
+                            </tr>
+                            <tr>
+                                <td class="flextd"><a href="https://arbiscan.io/" target="_blank"><img src="/img/metagarden-chain/c-arbitrum.png" width="24" height="24" /> Arbitrum</a></td>
+                                <td>0.25 sec</td>
+                                <td>$1 – $8</td>
+                                <td>$0.2</td>
+                                <td>$0.13</td>
+                                <td>1-3 min</td>
+                            </tr>
+                            <tr>
+                                <td class="flextd"><a href="https://optimistic.etherscan.io/" target="_blank"><img src="/img/metagarden-chain/c-optimism.png" width="24" height="24" /> Optimism</a></td>
+                                <td>0.36 sec</td>
+                                <td>$1 - $30</td>
+                                <td>$0.26</td>
+                                <td>$0.26</td>
+                                <td>30 – 60 sec</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
