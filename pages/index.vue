@@ -12,8 +12,8 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Metagarden Chain — advanced level 1 EVM-Blockchain for gaming', 'metagarden-chain.title'));
-        const description = this.$td('5 second final blocks, high throughput, low cost transactions, API and SDK for game developers.', 'metagarden-chain.description');
+        const title = getTitle(this.$td('Metagarden Chain — advanced level 1 EVM Blockchain for gaming', 'metagarden-chain.title'));
+        const description = this.$td('5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.description');
 
         return {
             title: title,
@@ -44,7 +44,7 @@ export default {
                 <div class="top-bar">
                     <div class="menu">
                         <div class="menu-link menu-link-active">
-                            <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM-Blockchain', 'metagarden-chain.menu-evm')}}</a>
+                            <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</a>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</a>
@@ -71,7 +71,7 @@ export default {
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
-                                            <h4>{{ $td('EVM-Blockchain', 'metagarden-chain.menu-evm')}}</h4>
+                                            <h4>{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</h4>
                                             <p>{{ $td('Fast blocks, high throughput, cheap smart contract deployment, cheap NFT minting, cheap transactions, API and SDK for game developers and many more features.', 'metagarden-chain.menu-evm-description')}}</p>
                                         </div>
                                     </a>
@@ -129,7 +129,7 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <h1>{{ $td('Ultimate Gaming EVM Blockchain', 'metagarden-chain.hello-title')}}</h1>
-                        <p class="subtitle-h1">{{ $td('The Metagarden Chain is the fastest level 1 EVM blockchain designed for gaming. 5 second final blocks, high throughput, low cost transactions, API and SDK for game developers.', 'metagarden-chain.hello-description')}}</p>
+                        <p class="subtitle-h1">{{ $td('The Metagarden Chain is the fastest level-1 EVM blockchain designed for gaming. 5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.hello-description')}}</p>
                         <div class="buttons-block">
                             <a :href="$td('/early-access', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
                             <!--<a :href="$td('123', 'metagarden-chain.learn-button-url')" class="btn btn-outline" target="_blank">{{ $td('Learn More', 'metagarden-chain.learn-button')}}</a>-->
@@ -278,12 +278,12 @@ export default {
                         <thead>
                             <tr>
                                 <template v-if="$i18n.locale === 'en'">
-                                    <th>EVM-Blockchain</th>
+                                    <th>EVM Blockchain</th>
                                     <th>Tx Speed</th>
                                     <th>Smart contract deployment cost</th>
                                     <th>NFT minting cost</th>
                                     <th>Transfer cost</th>
-                                    <th>Swap cost</th>
+                                    <th>Block finality</th>
                                 </template>
                                 <template v-if="$i18n.locale === 'ru'">
                                     <th>EVM-блокчейн</th>
