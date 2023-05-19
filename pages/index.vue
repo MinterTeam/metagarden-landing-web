@@ -1,12 +1,12 @@
 <script>
 import getTitle from '~/assets/get-title.js';
 import trackClick from '~/assets/v-track-click.js';
-import Language from '~/components/base/Language.vue';
+//import Language from '~/components/base/Language.vue';
 
 export default {
     layout: 'metagarden-chain',
     components: {
-        Language,
+//        Language,
     },
     directives: {
         trackClick,
