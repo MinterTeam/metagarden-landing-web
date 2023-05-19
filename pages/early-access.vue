@@ -12,7 +12,7 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Metagarden Chain — advanced level 1 EVM-Blockchain for gaming', 'metagarden-chain.title'));
+        const title = getTitle(this.$td('Early Access Campaign — Become Metagarden Chain Early Adopter', 'metagarden-chain.title'));
         const description = this.$td('5 second final blocks, high throughput, low cost transactions, API and SDK for game developers.', 'metagarden-chain.description');
 
         return {
@@ -44,7 +44,7 @@ export default {
                 <div class="top-bar">
                     <div class="menu">
                         <div class="menu-link">
-                            <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM-Blockchain', 'metagarden-chain.menu-evm')}}</a>
+                            <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</a>
                         </div>
                         <div class="menu-link menu-link-active">
                             <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</a>
@@ -71,7 +71,7 @@ export default {
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
-                                            <h4>{{ $td('EVM-Blockchain', 'metagarden-chain.menu-evm')}}</h4>
+                                            <h4>{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</h4>
                                             <p>{{ $td('Fast blocks, high throughput, cheap smart contract deployment, cheap NFT minting, cheap transactions, API and SDK for game developers and many more features.', 'metagarden-chain.menu-evm-description')}}</p>
                                         </div>
                                     </a>
@@ -132,7 +132,7 @@ export default {
                             <h1>Become Metagarden Chain Early adopter</h1>
                             <p class="subtitle-h1">You can help launch our gaming EVM and become an early adopter of the Metagarden Chain. This can be done by purchasing early access tokens called MEGANET.</p>
                             <p class="subtitle-h1">MEGANET tokens entitle you to enter the Metagarden Chain genesis block at the Mainnet launch and receive METAGARDEN (native Metagarden Chain coins) with a 100% bonus.</p>
-                            <p class="subtitle-h1">This bonus is our way of thanking you for supporting the launch of Metagarden Chain.</p>
+                            <p class="subtitle-h1">This bonus is our way of thanking you for supporting the Metagarden Chain launch.</p>
                             <div class="buttons-block">
                                 <a href="https://launchpad.metagarden.io" class="btn" target="_blank">Buy MEGANET tokens</a>
                                 <a href="/" class="btn btn-outline">About blockchain</a>

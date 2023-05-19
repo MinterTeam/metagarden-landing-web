@@ -12,7 +12,7 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Metagarden Chain — advanced Layer 1 EVM Blockchain for gaming', 'metagarden-chain.title'));
+        const title = getTitle(this.$td('Metagarden Chain — Ultimate EVM-compatible Blockchain for Gaming', 'metagarden-chain.title'));
         const description = this.$td('5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.description');
 
         return {
@@ -129,7 +129,7 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <h1>{{ $td('Ultimate Gaming EVM Blockchain', 'metagarden-chain.hello-title')}}</h1>
-                        <p class="subtitle-h1">{{ $td('The Metagarden Chain is the fastest Layer 1 EVM blockchain designed for gaming. 5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.hello-description')}}</p>
+                        <p class="subtitle-h1">{{ $td('The Metagarden Chain is the fastest Layer 1 EVM-compatible blockchain designed for gaming. 5-second blocks with immediate finality, high throughput, low-cost transactions, ultra-fast cross-chain bridge with top EVMs, API and SDK for game developers.', 'metagarden-chain.hello-description')}}</p>
                         <div class="buttons-block">
                             <a :href="$td('/early-access', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
                             <!--<a :href="$td('123', 'metagarden-chain.learn-button-url')" class="btn btn-outline" target="_blank">{{ $td('Learn More', 'metagarden-chain.learn-button')}}</a>-->
