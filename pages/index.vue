@@ -323,7 +323,7 @@ export default {
                             <tr>
                                 <td class="flextd"><a href="https://polygonscan.com/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-polygon.png" width="24" height="24" /> Polygon</a></td>
                                 <td>2 sec</td>
-                                <td></td>
+                                <td>$0.1 – $1.5</td>
                                 <td>from $0.05</td>
                                 <td>$0.005</td>
                                 <td>30 min</td>

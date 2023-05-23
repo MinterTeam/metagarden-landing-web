@@ -13,7 +13,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Tokenomics — Metagarden Chain', 'metagarden-chain.title'));
-        const description = this.$td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.description');
+        const description = this.$td('METAGARDEN is the gas token that enables the work of the gaming EVM blockchain (Metagarden Сhain) and a utility token of the Metagarden platform, a play-to-earn platform with mini-games. The METAGARDEN token plays a key role in the functioning of the blockchain and its gaming platform.', 'metagarden-chain.description');
 
         return {
             title: title,
@@ -94,7 +94,7 @@ export default {
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
-                                            <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
+                                            <p>{{ $td('METAGARDEN is the gas token that enables the work of the gaming EVM blockchain (Metagarden Сhain) and a utility token of the Metagarden platform, a play-to-earn platform with mini-games. The METAGARDEN token plays a key role in the functioning of the blockchain and its gaming platform.', 'metagarden-chain.menu-tokenomics-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
@@ -129,9 +129,9 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <h1>Tokenomics</h1>
-                        <p class="subtitle-h1">METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.</p>
+                        <p class="subtitle-h1">METAGARDEN is the gas token that enables the work of the gaming EVM blockchain (Metagarden Сhain) and a utility token of the Metagarden platform, a play-to-earn platform with mini-games. The METAGARDEN token plays a key role in the functioning of the blockchain and its gaming platform.</p>
                         <div class="buttons-block">
-                            <a href="/early-access" class="btn">Become Early Participant</a>
+                            <a href="/early-access" class="btn">Become Early Adopter</a>
                         </div>
                     </div>
                     <picture>
@@ -144,7 +144,7 @@ export default {
         </header>
         <section class="use">
             <div class="container">
-                <h2>Tokens Utility for EVM Blockchain</h2>
+                <h2>Utility for EVM Blockchain</h2>
                 <div class="use-block">
                     <div class="use-img">
                         <img src="/img/metagarden-chain/use-1.svg" alt="">
@@ -169,7 +169,7 @@ export default {
         </section>
         <section class="use">
             <div class="container">
-                <h2>Tokens Utility for Play-to-Eran  Paltform</h2>
+                <h2>Utility for Play-to-Earn Platform</h2>
                 <div class="use-block">
                     <div class="use-img">
                         <img src="/img/metagarden-chain/use-2.svg" alt="">
@@ -266,7 +266,7 @@ export default {
         </section>
         <section class="circulation">
             <div class="container">
-                <h2>Tokens Circulation</h2>
+                <h2>Circulation</h2>
                 <div class="pie">
                     <div class="pie-img">
                         <img src="/img/metagarden-chain/pie.svg" alt="">
@@ -302,14 +302,14 @@ export default {
                     </div>
                     <div class="circulation-text-block">
                         <p>Currently, there are about 500,000 tokens in free circulation on the market. Over 99% of the total token supply is held by the project team.</p>
-                        <a href="/early-access" class="btn">Become Early Participant</a>
+                        <a href="/early-access" class="btn">Become Early Adopter</a>
                     </div>
                 </div>
             </div>
         </section>
         <section class="vision">
             <div class="container">
-                <h2>Token allocation vision</h2>
+                <h2>Allocation vision</h2>
                 <p>As a development team, we strongly believe that the gaming EVM blockchain and play-to-earn platform we are building has a strong proposition and promising market value as we observe the development of web3 space. We have decided to withhold 99% of the token supply in order to program a robust development of the project. We are considering three main areas that will help us achieve success for the project and our tokens are planned to be used in these areas.</p>
                 <div class="vision-ico">
                     <div class="vision-ico-item">
