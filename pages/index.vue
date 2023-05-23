@@ -337,7 +337,7 @@ export default {
                                 <td>1-3 min</td>
                             </tr>
                             <tr>
-                                <td class="flextd"><a href="https://optimistic.etherscan.io/" target="_blank" rel="nofollow"<img src="/img/metagarden-chain/c-optimism.png" width="24" height="24" /> Optimism</a></td>
+                                <td class="flextd"><a href="https://optimistic.etherscan.io/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-optimism.png" width="24" height="24" /> Optimism</a></td>
                                 <td>0.36 sec</td>
                                 <td>$1 - $30</td>
                                 <td>$0.26</td>
