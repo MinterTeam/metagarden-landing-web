@@ -50,11 +50,11 @@ export default {
                             <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</a>
                         </div>
                         <div class="menu-link">
+                            <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
+                        </div>
+                        <div class="menu-link">
                             <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
                         </div>
-                        <!--<div class="menu-link">
-                            <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
-                        </div>-->
                         <div class="menu-link">
                             <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank" class="menu-link-a">{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</a>
                         </div>
@@ -88,6 +88,17 @@ export default {
                                     </a>
                                 </div>
                                 <div class="sub-menu-item">
+                                    <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
+                                            <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
                                     <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank">
                                         <div class="sub-menu-item-image">
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
@@ -98,17 +109,6 @@ export default {
                                         </div>
                                     </a>
                                 </div>
-                                <!--<div class="sub-menu-item">
-                                    <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')">
-                                        <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
-                                        </div>
-                                        <div class="sub-menu-item-content">
-                                            <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
-                                            <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
-                                        </div>
-                                    </a>
-                                </div>-->
                                 <div class="sub-menu-item">
                                     <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank">
                                         <div class="sub-menu-item-image">
@@ -305,7 +305,7 @@ export default {
                                 <td>5 sec</td>
                             </tr>
                             <tr>
-                                <td class="flextd"><a href="https://etherscan.io/" target="_blank"><img src="/img/metagarden-chain/c-ethereum.png" width="24" height="24" /> Ethereum</a></td>
+                                <td class="flextd"><a href="https://etherscan.io/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-ethereum.png" width="24" height="24" /> Ethereum</a></td>
                                 <td>30 sec</td>
                                 <td>from $150</td>
                                 <td>from $8</td>
@@ -313,7 +313,7 @@ export default {
                                 <td>15 min</td>
                             </tr>
                             <tr>
-                                <td class="flextd"><a href="https://bscscan.com/" target="_blank"><img src="/img/metagarden-chain/c-bnb.png" width="24" height="24" /> BNB Smart Chain</a></td>
+                                <td class="flextd"><a href="https://bscscan.com/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-bnb.png" width="24" height="24" /> BNB Smart Chain</a></td>
                                 <td>3 sec</td>
                                 <td>from $7</td>
                                 <td>$0.06</td>
@@ -321,7 +321,15 @@ export default {
                                 <td>12 sec</td>
                             </tr>
                             <tr>
-                                <td class="flextd"><a href="https://arbiscan.io/" target="_blank"><img src="/img/metagarden-chain/c-arbitrum.png" width="24" height="24" /> Arbitrum</a></td>
+                                <td class="flextd"><a href="https://polygonscan.com/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-polygon.png" width="24" height="24" /> Polygon</a></td>
+                                <td>2 sec</td>
+                                <td></td>
+                                <td>from $0.05</td>
+                                <td>$0.005</td>
+                                <td>30 min</td>
+                            </tr>
+                            <tr>
+                                <td class="flextd"><a href="https://arbiscan.io/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-arbitrum.png" width="24" height="24" /> Arbitrum</a></td>
                                 <td>0.25 sec</td>
                                 <td>$1 – $8</td>
                                 <td>$0.2</td>
@@ -329,7 +337,7 @@ export default {
                                 <td>1-3 min</td>
                             </tr>
                             <tr>
-                                <td class="flextd"><a href="https://optimistic.etherscan.io/" target="_blank"><img src="/img/metagarden-chain/c-optimism.png" width="24" height="24" /> Optimism</a></td>
+                                <td class="flextd"><a href="https://optimistic.etherscan.io/" target="_blank" rel="nofollow"<img src="/img/metagarden-chain/c-optimism.png" width="24" height="24" /> Optimism</a></td>
                                 <td>0.36 sec</td>
                                 <td>$1 - $30</td>
                                 <td>$0.26</td>

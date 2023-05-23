@@ -34,7 +34,7 @@ export default {
                         </template>
                     </div>
                 </div>
-                <p>© 2023 GROM R&D LIMITED, COMPANY NUMBER 12444209, 27 OLD GLOUCESTER STREET, LONDON, UNITED KINGDOM, WC1N 3AX. </p>
+                <p>© 2023 GROM R&D LIMITED, COMPANY NUMBER 12444209, 27 OLD GLOUCESTER STREET, LONDON, UNITED KINGDOM, WC1N 3AX.<br><b>hello@metagarden.io</b></p>
             </div>
         </footer>
     </div>

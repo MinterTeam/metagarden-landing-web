@@ -50,11 +50,11 @@ export default {
                             <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</a>
                         </div>
                         <div class="menu-link">
+                            <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
+                        </div>
+                        <div class="menu-link">
                             <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
                         </div>
-                        <!--<div class="menu-link">
-                            <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
-                        </div>-->
                         <div class="menu-link">
                             <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank" class="menu-link-a">{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</a>
                         </div>
@@ -88,6 +88,17 @@ export default {
                                     </a>
                                 </div>
                                 <div class="sub-menu-item">
+                                    <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
+                                            <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
                                     <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank">
                                         <div class="sub-menu-item-image">
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
@@ -98,17 +109,6 @@ export default {
                                         </div>
                                     </a>
                                 </div>
-                                <!--<div class="sub-menu-item">
-                                    <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')">
-                                        <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
-                                        </div>
-                                        <div class="sub-menu-item-content">
-                                            <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
-                                            <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
-                                        </div>
-                                    </a>
-                                </div>-->
                                 <div class="sub-menu-item">
                                     <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank">
                                         <div class="sub-menu-item-image">
