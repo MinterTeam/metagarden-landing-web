@@ -24,11 +24,13 @@ export default {
                     <div class="metagarden-footer-right">
                         <template v-if="$i18n.locale === 'en'">
                             <a href="https://discord.gg/CvyR3h3BQV" target="_blank"><img src="/img/metagarden-chain/icon-discord.svg" alt="discord eng"></a>
+                            <a href="https://www.youtube.com/@metagarden-chain" target="_blank"><img src="/img/metagarden-chain/icon-youtube.svg" alt="youtube eng"></a>
                             <a href="https://twitter.com/metagardengames" target="_blank"><img src="/img/metagarden-chain/icon-twitter.svg" alt="twitter eng"></a>
                             <a href="https://t.me/metagarden" target="_blank"><img src="/img/metagarden-chain/icon-telegram.svg" alt="telegram eng"></a>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <a href="https://discord.gg/CvyR3h3BQV" target="_blank"><img src="/img/metagarden-chain/icon-discord.svg" alt="discord ru"></a>
+                            <a href="https://www.youtube.com/@metagarden-chain" target="_blank"><img src="/img/metagarden-chain/icon-youtube.svg" alt="youtube ru"></a>
                             <a href="https://twitter.com/metagardengames" target="_blank"><img src="/img/metagarden-chain/icon-twitter.svg" alt="twitter ru"></a>
                             <a href="https://t.me/metagardenru" target="_blank"><img src="/img/metagarden-chain/icon-telegram.svg" alt="telegram ru"></a>
                         </template>
