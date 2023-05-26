@@ -1,19 +1,19 @@
 <script>
 import getTitle from '~/assets/get-title.js';
 import trackClick from '~/assets/v-track-click.js';
-//import Language from '~/components/base/Language.vue';
+import Language from '~/components/base/Language.vue';
 
 export default {
     layout: 'metagarden-chain',
     components: {
-//        Language,
+        Language,
     },
     directives: {
         trackClick,
     },
     head() {
         const title = getTitle(this.$td('Metagarden Chain — Ultimate EVM-compatible Blockchain for Gaming', 'metagarden-chain.title'));
-        const description = this.$td('5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.description');
+        const description = this.$td('5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.menu-evm-description');
 
         return {
             title: title,
@@ -53,6 +53,9 @@ export default {
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
                         </div>
                         <div class="menu-link">
+                            <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</a>
+                        </div>
+                        <div class="menu-link">
                             <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
                         </div>
                         <div class="menu-link">
@@ -72,7 +75,7 @@ export default {
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</h4>
-                                            <p>{{ $td('Fast blocks, high throughput, cheap smart contract deployment, cheap NFT minting, cheap transactions, API and SDK for game developers and many more features.', 'metagarden-chain.menu-evm-description')}}</p>
+                                            <p>{{ $td('5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.menu-evm-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
@@ -83,7 +86,7 @@ export default {
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</h4>
-                                            <p>{{ $td('Become Metagarden Chain Early adopter.', 'menu-early-access-description')}}</p>
+                                            <p>{{ $td('Become Metagarden Chain Early adopter.', 'metagarden-chain.menu-early-access-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
@@ -95,6 +98,17 @@ export default {
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
                                             <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</h4>
+                                            <p>{{ $td('Powered by the fastest EVM blockchain, the Metagarden Gaming Platform offers developers the easiest way to seamlessly integrate crypto, NFTs and smart contracts into their games.', 'metagarden-chain.menu-platform-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
@@ -123,7 +137,7 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <!--<Language/>-->
+                    <Language/>
                 </div>
                 <div class="hello">
                     <div class="hello-content">
@@ -298,51 +312,51 @@ export default {
                         <tbody>
                             <tr class="tr-active">
                                 <td class="flextd"><a href="https://scan.testnet.metagarden.io/" target="_blank"><img src="/img/metagarden-chain/c-metagarden.png" width="24" height="24" /> Metagarden</a></td>
-                                <td>5 sec</td>
+                                <td>5 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                                 <td>$0.002</td>
                                 <td>$0.0002</td>
                                 <td>$0.0002</td>
-                                <td>5 sec</td>
+                                <td>5 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://etherscan.io/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-ethereum.png" width="24" height="24" /> Ethereum</a></td>
-                                <td>30 sec</td>
-                                <td>from $150</td>
-                                <td>from $8</td>
-                                <td>from $5</td>
-                                <td>15 min</td>
+                                <td>30 {{ $td('sec', 'metagarden-chain.sec')}}</td>
+                                <td>{{ $td('from', 'metagarden-chain.from')}} $150</td>
+                                <td>{{ $td('from', 'metagarden-chain.from')}} $8</td>
+                                <td>{{ $td('from', 'metagarden-chain.from')}} $5</td>
+                                <td>15 {{ $td('min', 'metagarden-chain.min')}}</td>
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://bscscan.com/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-bnb.png" width="24" height="24" /> BNB Smart Chain</a></td>
-                                <td>3 sec</td>
-                                <td>from $7</td>
+                                <td>3 {{ $td('sec', 'metagarden-chain.sec')}}</td>
+                                <td>{{ $td('from', 'metagarden-chain.from')}} $7</td>
                                 <td>$0.06</td>
                                 <td>$0.03</td>
-                                <td>12 sec</td>
+                                <td>12 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://polygonscan.com/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-polygon.png" width="24" height="24" /> Polygon</a></td>
-                                <td>2 sec</td>
+                                <td>2 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                                 <td>$0.1 – $1.5</td>
-                                <td>from $0.05</td>
+                                <td>{{ $td('from', 'metagarden-chain.from')}} $0.05</td>
                                 <td>$0.005</td>
-                                <td>30 min</td>
+                                <td>30 {{ $td('min', 'metagarden-chain.min')}}</td>
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://arbiscan.io/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-arbitrum.png" width="24" height="24" /> Arbitrum</a></td>
-                                <td>0.25 sec</td>
+                                <td>0.25 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                                 <td>$1 – $8</td>
                                 <td>$0.2</td>
                                 <td>$0.13</td>
-                                <td>1-3 min</td>
+                                <td>1-3 {{ $td('min', 'metagarden-chain.min')}}</td>
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://optimistic.etherscan.io/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-optimism.png" width="24" height="24" /> Optimism</a></td>
-                                <td>0.36 sec</td>
+                                <td>0.36 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                                 <td>$1 - $30</td>
                                 <td>$0.26</td>
                                 <td>$0.26</td>
-                                <td>30 – 60 sec</td>
+                                <td>30 – 60 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                             </tr>
                         </tbody>
                     </table>

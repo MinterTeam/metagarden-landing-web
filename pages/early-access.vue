@@ -1,19 +1,19 @@
 <script>
 import getTitle from '~/assets/get-title.js';
 import trackClick from '~/assets/v-track-click.js';
-// import Language from '~/components/base/Language.vue';
+import Language from '~/components/base/Language.vue';
 
 export default {
     layout: 'metagarden-chain',
     components: {
-//        Language,
+        Language,
     },
     directives: {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Early Access Campaign — Become Metagarden Chain Early Adopter', 'metagarden-chain.title'));
-        const description = this.$td('5 second final blocks, high throughput, low cost transactions, API and SDK for game developers.', 'metagarden-chain.description');
+        const title = getTitle(this.$td('Early Access Campaign — Become Metagarden Chain Early Adopter', 'metagarden-chain.title-early-access'));
+        const description = this.$td('5 second final blocks, high throughput, low cost transactions, API and SDK for game developers.', 'metagarden-chain.menu-early-access-description');
 
         return {
             title: title,
@@ -53,6 +53,9 @@ export default {
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
                         </div>
                         <div class="menu-link">
+                            <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</a>
+                        </div>
+                        <div class="menu-link">
                             <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
                         </div>
                         <div class="menu-link">
@@ -83,7 +86,7 @@ export default {
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</h4>
-                                            <p>{{ $td('Become Metagarden Chain Early adopter.', 'menu-early-access-description')}}</p>
+                                            <p>{{ $td('Become Metagarden Chain Early adopter.', 'metagarden-chain.menu-early-access-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
@@ -95,6 +98,17 @@ export default {
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
                                             <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</h4>
+                                            <p>{{ $td('Powered by the fastest EVM blockchain, the Metagarden Gaming Platform offers developers the easiest way to seamlessly integrate crypto, NFTs and smart contracts into their games.', 'metagarden-chain.menu-platform-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
@@ -123,7 +137,7 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <!--<Language/>-->
+                    <Language/>
                 </div>
                 <div class="hello">
                     <div class="hello-content">
@@ -144,8 +158,8 @@ export default {
                             <p class="subtitle-h1">Токены MEGANET дают вам право войти в генезисный блок Metagarden Chain при запуске основной сети и получить METAGARDEN (нативные монеты Metagarden Chain) со 100% бонусом.</p>
                             <p class="subtitle-h1">Этот бонус – наш способ отблагодарить вас за поддержку запуска Metagarden Chain.</p>
                             <div class="buttons-block">
-                                <a href="https://launchpad.metagarden.io" class="btn" target="_blank">Купить MEGANET</a>
-                                <a href="/" class="btn btn-outline">О блокчейне</a>
+                                <a href="https://launchpad.metagarden.io/ru" class="btn" target="_blank">Купить MEGANET</a>
+                                <a href="/ru" class="btn btn-outline">О блокчейне</a>
                             </div>
                         </template>
                     </div>
