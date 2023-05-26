@@ -53,7 +53,7 @@ export default {
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
                         </div>
                         <div class="menu-link menu-link-active">
-                            <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Platform', 'metagarden-chain.menu-platform')}}</a>
+                            <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</a>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
@@ -107,7 +107,7 @@ export default {
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
-                                            <h4>{{ $td('Platform', 'metagarden-chain.menu-platform')}}</h4>
+                                            <h4>{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</h4>
                                             <p>{{ $td('Powered by the fastest EVM blockchain, the Metagarden Gaming Platform offers developers the easiest way to seamlessly integrate crypto, NFTs and smart contracts into their games.', 'metagarden-chain.menu-platform-description')}}</p>
                                         </div>
                                     </a>
@@ -144,12 +144,12 @@ export default {
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <h1>{{ $td('Metagarden gaming platform', 'metagarden-chain.platform-title')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
-                            <p class="subtitle-h1">The future has arrived! Almost any internet user can now become a game developer without having any programming skills, just by using ChatGPT-like technologies to create mini-games in a matter of days.</p>
+                            <p class="subtitle-h1"><b>The future has arrived!</b> Almost any internet user can now become a game developer without having any programming skills, just by using ChatGPT-like technologies to create mini-games in a matter of days.</p>
                             <p class="subtitle-h1">Powered by the fastest and most cost-effective EVM blockchain, the Metagarden Gaming Platform offers game developers the easiest way to seamlessly integrate crypto, NFTs and smart contracts into their games. Developers will also be able to release their own game tokens or use popular ones, and easily integrate a simple custom wallet with crypto deposits and withdrawals for the players.</p>
                             <p class="subtitle-h1">What's important. Players won't have to deal with any blockchain mumbo jumbo like Meta Masks, gas for transactions, unlocks, permissions and other confusing stuff.</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <p class="subtitle-h1">Будущее наступило! Теперь почти любой пользователь интернета может стать разработчиком игр, не имея навыков программирования, просто используя технологии, подобные ChatGPT, для создания мини-игр за считанные дни.</p>
+                            <p class="subtitle-h1"><b>Будущее наступило!</b> Теперь почти любой пользователь интернета может стать разработчиком игр, не имея навыков программирования, просто используя технологии, подобные ChatGPT, для создания мини-игр за считанные дни.</p>
                             <p class="subtitle-h1">Игровая платформа Metagarden, работающая на самом быстром и экономически эффективном блокчейне EVM, предлагает разработчикам игр самый простой способ беспрепятственной интеграции криптовалют, NFT и смарт-контрактов в свои игры. Разработчики также смогут выпускать собственные игровые токены или использовать популярные, а также легко интегрировать простой пользовательский кошелек с криптовалютными депозитами и выводом средств для своих игроков.</p>
                             <p class="subtitle-h1">Особенно важно! Игрокам не придется иметь дело с какими-либо блокчейн-штучками, такими как Metamask, газ для транзакций, аппрувы, разрешения и другие запутанные вещи.</p>
                         </template>
