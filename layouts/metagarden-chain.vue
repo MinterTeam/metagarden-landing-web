@@ -5,10 +5,13 @@ export default {
     components: {
         TheFooter,
     },
-    head: {
-        htmlAttrs: {
-            class: 'metagarden-chain',
-        },
+    head() {
+        return {
+            htmlAttrs: {
+                class: 'metagarden-chain',
+                'data-lang': this.$i18n.locale,
+            },
+        };
     },
 };
 </script>
