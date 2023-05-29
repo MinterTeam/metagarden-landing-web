@@ -146,11 +146,12 @@ export default {
                         <template v-if="$i18n.locale === 'en'">
                             <p class="subtitle-h1"><b>The future has arrived!</b> Almost any internet user can now become a game developer without having any programming skills, just by using ChatGPT-like technologies to create mini-games in a matter of days.</p>
                             <p class="subtitle-h1">Powered by the fastest and most cost-effective EVM blockchain, the Metagarden Gaming Platform offers game developers the easiest way to seamlessly integrate crypto, NFTs and smart contracts into their games. Developers will also be able to release their own game tokens or use popular ones, and easily integrate a simple custom wallet with crypto deposits and withdrawals for the players.</p>
-                            <p class="subtitle-h1">What's important. Players won't have to deal with any blockchain mumbo jumbo like Meta Masks, gas for transactions, unlocks, permissions and other confusing stuff.</p>
+                            <p class="subtitle-h1">What's important. Players won't have to deal with any blockchain mumbo jumbo like Meta Mask, gas for transactions, unlocks, permissions and other confusing stuff.</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <p class="subtitle-h1"><b>Будущее наступило!</b> Теперь почти любой пользователь интернета может стать разработчиком игр, не имея навыков программирования, просто используя технологии, подобные ChatGPT, для создания мини-игр за считанные дни.</p>
-                            <p class="subtitle-h1">Игровая платформа Metagarden, работающая на самом быстром и экономически эффективном блокчейне EVM, предлагает разработчикам игр самый простой способ беспрепятственной интеграции криптовалют, NFT и смарт-контрактов в свои игры. Разработчики также смогут выпускать собственные игровые токены или использовать популярные, а также легко интегрировать простой пользовательский кошелек с криптовалютными депозитами и выводом средств для своих игроков.</p>
+                            <p class="subtitle-h1"><b>Будущее наступило!</b> Теперь каждый пользователь интернета может стать разработчиком игр, не имея навыков программирования. Для создания мини-игр достаточно будет просто использовать подобные ChatGPT технологии.</p>
+                            <p class="subtitle-h1">Платформа Metagarden, работающая на самом быстром и экономически эффективном игровом EVM-блокчейне, предлагает новому поколению game-разработчиков самый простой способ интеграции криптовалют, NFT и смарт-контрактов в свои игры.</p>
+                            <p class="subtitle-h1">Разработчики также смогут выпускать собственные игровые токены или использовать популярные, легко интегрировать простой пользовательский кошелек с депозитом и выводом средств для своих игроков.</p>
                             <p class="subtitle-h1">Особенно важно! Игрокам не придется иметь дело с какими-либо блокчейн-штучками, такими как Metamask, газ для транзакций, аппрувы, разрешения и другие запутанные вещи.</p>
                         </template>
                         <div class="buttons-block buttons-block-left">
@@ -231,6 +232,15 @@ export default {
                         </picture>
                         <div class="card__badge card__badge--coming-soon" bis_skin_checked="1">{{ $td('Coming soon', 'metagarden-chain.coming-soon')}}</div>
                         <p>Poker (DAO)</p>
+                    </div>
+                    <div class="games-item">
+                        <picture>
+                            <source srcset="/img/metagarden-chain/game-hackito.avif 1x, /img/metagarden-chain/game-hackito@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/metagarden-chain/game-hackito.webp 1x, /img/metagarden-chain/game-hackito@2x.webp 2x" type="image/webp">
+                            <img src="/img/metagarden-chain/game-hackito.png" srcset="/img/metagarden-chain/game-hackito@2x.png 2x" alt="Metagarden game Hackito" class="games-image" role="presentation"/>
+                        </picture>
+                        <div class="card__badge card__badge--coming-soon" bis_skin_checked="1">{{ $td('Coming soon', 'metagarden-chain.coming-soon')}}</div>
+                        <p>Hackito</p>
                     </div>
                 </div>
             </div>
