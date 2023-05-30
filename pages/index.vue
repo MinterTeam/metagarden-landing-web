@@ -188,7 +188,7 @@ export default {
                             <a :href="$td('http://t.me/metagardenbot?start=start', 'metagarden-chain.video-section-button-url')" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.video-section-button')}}</a>
                             <span>{{ $td('Try α-versions of our games in Telegram', 'metagarden-chain.video-button-description')}}</span>
                         </div>
-                        <a :href="$td('/platform', 'metagarden-chain.video-section-more-url')" target="_blank">{{ $td('Read more about platform', 'metagarden-chain.video-section-more')}}</a>
+                        <a :href="$td('/platform', 'metagarden-chain.video-section-more-url')" class="simple-link" target="_blank">{{ $td('Read more about platform', 'metagarden-chain.video-section-more')}}</a>
                     </div>
                 </div>
             </div>
