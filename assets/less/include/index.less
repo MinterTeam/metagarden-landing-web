@@ -73,7 +73,11 @@ p {
 .btn-outline {
     background: transparent;
 }
-
+.btn-disable, .btn-disable:hover {
+    cursor: not-allowed;
+    background: #a56cdd;
+    border: 1px solid #a56cdd;
+}
 .table {
 	overflow-x: auto;
 }
@@ -154,15 +158,18 @@ tbody tr.tr-active {
     height: 100%;
     display: flex;
     align-items: center;
-    margin: 0 42px 0 0;
+    margin: 0 36px 0 0;
 }
 .menu-link:hover .sub-menu {
     display: block;
 }
 .menu-link-a {
-    font-size: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 38px;
+    line-height: 34px;
     text-decoration: none;
     cursor: pointer;
     border-bottom: 4px transparent solid;
@@ -315,6 +322,9 @@ tbody tr.tr-active {
 .menu__item:hover {
     background-color: #CFD8DC;
 }
+.menu-icon {
+    margin: 0 8px 0 0;
+}
 .hello {
     align-items: center;
     justify-content: space-between;
@@ -347,7 +357,11 @@ tbody tr.tr-active {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
+    align-items: center;
     margin: 0 0 24px 0;
+    span {
+        max-width: 188px;
+    }
 }
 p ul {
     margin: 16px 0;
@@ -399,6 +413,34 @@ header {
 }
 section {
     padding: 50px 0;
+}
+.video-section-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+.video-section-video {
+    width: 492px;
+}
+.video-section-text {
+    width: 426px;
+    .buttons-block {
+        margin: 0 0 16px
+    }
+    a {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration-line: underline;
+    }
+    a:hover {
+        text-decoration-line: none;
+    }
+}
+.video-youtube {
+    max-width: 100%;
+    margin: 24px auto 0;
+    border-radius: 24px;
 }
 .features-items {
     display: flex;
@@ -460,6 +502,13 @@ footer p {
         right: 0;
         margin: 0 auto;
     }
+    .video-section-video {
+        display: block;
+        margin: 0 auto;
+    }
+    .video-section-text {
+        width: 100%;
+    }
     .features-item {
         width: 45%;
     }
@@ -469,6 +518,10 @@ footer p {
     .hamburger-menu {display: block;}
     .hello {
         padding: 0;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 54px;
     }
     section {
         padding: 20px 0;
@@ -495,6 +548,9 @@ footer p {
         font-size: 26px;
         line-height: 32px;
     }
+    .buttons-block span {
+        max-width: 100%;
+    }
 }
 
 /* metagarden-chain-early-access */
@@ -514,6 +570,33 @@ footer p {
 }
 @media (max-width: 1016px) {
     .metagarden-chain-early-access .hello-image {
+        max-width: 70%;
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+/* metagarden-chain-gamerid */
+.metagarden-chain-gamerid {
+    .hello-content {
+        max-width: 700px;
+    }
+    .subtitle-h1 {
+        max-width: 513px;
+    }
+    .hello-image {
+        max-width: 459px;
+        max-height: 488px;
+        right: -142px;
+        top: 65px;
+    }
+}
+@media (max-width: 1016px) {
+    .metagarden-chain-gamerid .hello-image {
         max-width: 70%;
         display: block;
         position: relative;

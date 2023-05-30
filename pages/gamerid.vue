@@ -12,8 +12,8 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Early Access Campaign — Become Metagarden Chain Early Adopter', 'metagarden-chain.title-early-access'));
-        const description = this.$td('5 second final blocks, high throughput, low cost transactions, API and SDK for game developers.', 'metagarden-chain.menu-early-access-description');
+        const title = getTitle(this.$td('GamerID for Metagarden Gaming Platform — The Metagarden Chain', 'metagarden-chain.title-gamerid'));
+        const description = this.$td('The GamerID will be released in the form of an NFT at the Metagarden Chain Mainnet launch, and the following privileges will be tied to your GamerID: the ability to receive free game tokens, various game bonuses, and income boosts on the platform.', 'metagarden-chain.menu-gamerid-description');
 
         return {
             title: title,
@@ -38,7 +38,7 @@ export default {
 
 
 <template>
-    <div class="metagarden-chain-early-access">
+    <div class="metagarden-chain-gamerid">
         <header>
             <div class="container">
                 <div class="top-bar">
@@ -49,13 +49,13 @@ export default {
                         <div class="menu-link">
                             <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</a>
                         </div>
-                        <div class="menu-link menu-link-active">
+                        <div class="menu-link">
                             <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</a>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
                         </div>
-                        <div class="menu-link">
+                        <div class="menu-link menu-link-active">
                             <a :href="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')" class="menu-link-a">{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</a>
                         </div>
                         <div class="menu-link">
@@ -156,30 +156,30 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <template v-if="$i18n.locale === 'en'">
-                            <h1>Become Metagarden Chain Early adopter</h1>
-                            <p class="subtitle-h1">You can help launch our gaming EVM and become an early adopter of the Metagarden Chain. This can be done by purchasing early access tokens called MEGANET.</p>
-                            <p class="subtitle-h1">MEGANET tokens entitle you to enter the Metagarden Chain genesis block at the Mainnet launch and receive METAGARDEN (native Metagarden Chain coins) with a 100% bonus.</p>
-                            <p class="subtitle-h1">This bonus is our way of thanking you for supporting the Metagarden Chain launch.</p>
+                            <h1>Limited offer. <br>Get Gamer ID with privileges</h1>
+                            <p class="subtitle-h1">Hurry up and be one of the first to get your GamerID. The first players to register will receive privileges tied to their GamerID.</p>
+                            <p class="subtitle-h1">The GamerID will be released in the form of an NFT at the Metagarden Chain Mainnet launch, and the following privileges will be tied to your GamerID: the ability to receive free game tokens, various game bonuses, and income boosts on the platform.</p>
                             <div class="buttons-block">
-                                <a href="https://launchpad.metagarden.io" class="btn" target="_blank">Buy MEGANET tokens</a>
-                                <a href="/" class="btn btn-outline">About blockchain</a>
+                                <!--<a href="https://launchpad.metagarden.io" class="btn" target="_blank">Get your GamerID</a>-->
+                                <a class="btn btn-disable" target="_blank">Coming soon</a>
+                                <a href="/platform" class="btn btn-outline">About gaming platform</a>
                             </div>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <h1>Станьте первым пользователем Metagarden Chain</h1>
-                            <p class="subtitle-h1">Вы можете помочь запустить нашу игровую EVM и стать одним из первых пользователей Metagarden Chain. Это можно сделать, купив токены раннего доступа под названием MEGANET.</p>
-                            <p class="subtitle-h1">Токены MEGANET дают вам право войти в генезисный блок Metagarden Chain при запуске основной сети и получить METAGARDEN (нативные монеты Metagarden Chain) со 100% бонусом.</p>
-                            <p class="subtitle-h1">Этот бонус – наш способ отблагодарить вас за поддержку запуска Metagarden Chain.</p>
+                            <h1>Ограниченное предложение. <br>Получите Gamer ID с привилегиями</h1>
+                            <p class="subtitle-h1">Поторопитесь получить свой GamerID одним из первых. Первые зарегистрировавшиеся игроки получат привилегии, привязанные к их GamerID.</p>
+                            <p class="subtitle-h1">GamerID будет выпущен в форме NFT во время запуска Metagarden Chain Mainnet, и к вашему GamerID будут привязаны следующие привилегии: возможность получать бесплатные игровые токены, различные игровые бонусы и повышение дохода на платформе.</p>
                             <div class="buttons-block">
-                                <a href="https://launchpad.metagarden.io/ru" class="btn" target="_blank">Купить MEGANET</a>
-                                <a href="/ru" class="btn btn-outline">О блокчейне</a>
+                                <!--<a href="https://launchpad.metagarden.io/ru" class="btn" target="_blank">Получить свой GamerID</a>-->
+                                <a class="btn btn-disable" target="_blank">Скоро</a>
+                                <a href="/ru/platform" class="btn btn-outline">Об игровой платформе</a>
                             </div>
                         </template>
                     </div>
                     <picture>
-                        <source srcset="/img/metagarden-chain/early-access.avif 1x, /img/metagarden-chain/early-access@2x.avif 2x" type="image/avif">
-                        <source srcset="/img/metagarden-chain/early-access.webp 1x, /img/metagarden-chain/early-access@2x.webp 2x" type="image/webp">
-                        <img src="/img/metagarden-chain/early-access.png" srcset="/img/metagarden-chain/early-access@2x.png 2x" alt="Metagarden Chain" class="hello-image" role="presentation"/>
+                        <source srcset="/img/metagarden-chain/gamerid.avif 1x, /img/metagarden-chain/gamerid@2x.avif 2x" type="image/avif">
+                        <source srcset="/img/metagarden-chain/gamerid.webp 1x, /img/metagarden-chain/gamerid@2x.webp 2x" type="image/webp">
+                        <img src="/img/metagarden-chain/gamerid.png" srcset="/img/metagarden-chain/gamerid@2x.png 2x" alt="Metagarden Chain" class="hello-image" role="presentation"/>
                     </picture>
                 </div>
             </div>

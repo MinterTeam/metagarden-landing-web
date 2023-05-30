@@ -44,6 +44,9 @@ export default {
                 <div class="top-bar">
                     <div class="menu">
                         <div class="menu-link">
+                            <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank" class="menu-link-a"><img src="/img/metagarden-chain/launchpad.svg" class="menu-icon" alt="Metagarden Chain Launchpad" width="16" height="16"/>{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</a>
+                        </div>
+                        <div class="menu-link">
                             <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</a>
                         </div>
                         <div class="menu-link">
@@ -52,22 +55,32 @@ export default {
                         <div class="menu-link">
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
                         </div>
+                        <div class="menu-link">
+                            <a :href="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')" class="menu-link-a">{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</a>
+                        </div>
                         <div class="menu-link menu-link-active">
                             <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</a>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
                         </div>
-                        <div class="menu-link">
-                            <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank" class="menu-link-a">{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</a>
-                        </div>
-                        
                         <div class="hamburger-menu">
                             <input id="menu__toggle" type="checkbox" />
                             <label class="menu__btn" for="menu__toggle">
                                 <span></span>
                             </label>
                             <div class="menu__box">
+                                <div class="sub-menu-item">
+                                    <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</h4>
+                                            <p>{{ $td('The Metagarden Chain launchpad.', 'metagarden-chain.menu-launchpad-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
                                 <div class="sub-menu-item">
                                     <a :href="$td('/', 'metagarden-chain.menu-evm-url')">
                                         <div class="sub-menu-item-image">
@@ -102,6 +115,17 @@ export default {
                                     </a>
                                 </div>
                                 <div class="sub-menu-item">
+                                    <a :href="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</h4>
+                                            <p>{{ $td('The GamerID will be released in the form of an NFT at the Metagarden Chain Mainnet launch, and the following privileges will be tied to your GamerID: the ability to receive free game tokens, various game bonuses, and income boosts on the platform.', 'metagarden-chain.menu-gamerid-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
                                     <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')">
                                         <div class="sub-menu-item-image">
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
@@ -119,18 +143,7 @@ export default {
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</h4>
-                                            <p>{{ $td('Meganet – the Metaharden Chain testnet.', 'metagarden-chain.menu-testnet-description')}}</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="sub-menu-item">
-                                    <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank">
-                                        <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
-                                        </div>
-                                        <div class="sub-menu-item-content">
-                                            <h4>{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</h4>
-                                            <p>{{ $td('The Metagarden Chain launchpad.', 'metagarden-chain.menu-launchpad-description')}}</p>
+                                            <p>{{ $td('Meganet – the Metagarden Chain testnet.', 'metagarden-chain.menu-testnet-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
