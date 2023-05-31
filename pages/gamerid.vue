@@ -156,7 +156,7 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <template v-if="$i18n.locale === 'en'">
-                            <h1>Limited offer. <br>Get Gamer ID with privileges</h1>
+                            <h1>Limited offer. <br>Get GamerID with privileges</h1>
                             <p class="subtitle-h1">Hurry up and be one of the first to get your GamerID. The first players to register will receive privileges tied to their GamerID.</p>
                             <p class="subtitle-h1">The GamerID will be released in the form of an NFT at the Metagarden Chain Mainnet launch, and the following privileges will be tied to your GamerID: the ability to receive free game tokens, various game bonuses, and income boosts on the platform.</p>
                             <div class="buttons-block">
@@ -166,7 +166,7 @@ export default {
                             </div>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <h1>Ограниченное предложение. <br>Получите Gamer ID с привилегиями</h1>
+                            <h1>Ограниченное предложение. <br>Получите GamerID с привилегиями</h1>
                             <p class="subtitle-h1">Поторопитесь получить свой GamerID одним из первых. Первые зарегистрировавшиеся игроки получат привилегии, привязанные к их GamerID.</p>
                             <p class="subtitle-h1">GamerID будет выпущен в форме NFT во время запуска Metagarden Chain Mainnet, и к вашему GamerID будут привязаны следующие привилегии: возможность получать бесплатные игровые токены, различные игровые бонусы и повышение дохода на платформе.</p>
                             <div class="buttons-block">
