@@ -493,7 +493,7 @@ export default {
 		'сirculation-title': 'Циркуляция',
 		'сirculation-blockchain': 'Токен Metagarden Chain представлен на нескольких блокчейнах:',
 		'сirculation-team': 'В настоящее время на рынке в свободном обращении находится около 500 000 токенов. Более 99% от общего объема токенов находится у команды проекта.',
-		'video-section-title': 'Игровая платформа Metagarden',
+		'video-section-title': 'Игровая платформа',
 		'video-section-description': 'Попробуйте первые play-to-earn игры нашей платформы. К концу 2023 года мы планируем запустить более 100 мини-игр от разных разработчиков. Представленные игры находятся в альфа-статусе и запускаются из единого Telegram-бота, так что вы можете с легкостью переключаться между ними, не выходя из любимого мессенджера.',
 		'video-section-button-url': 'http://t.me/metagardenbot?start=start',
 		'video-section-button': 'Играть',
@@ -501,5 +501,8 @@ export default {
 		'video-section-more-url': '/ru/platform',
 		'video-section-more': 'Подробнее о платформе',
 		'video-id': 'xC97gHtKO6w',
+		'title-influencer': '',
+		'menu-influencer-description': '',
+		
 	},
 };

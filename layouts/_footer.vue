@@ -36,7 +36,7 @@ export default {
                         </template>
                     </div>
                 </div>
-                <p>© 2023 GROM R&D LIMITED, COMPANY NUMBER 12444209, 27 OLD GLOUCESTER STREET, LONDON, UNITED KINGDOM, WC1N 3AX.<br><b>hello@metagarden.io</b></p>
+                <p>© 2023 Minter Development Foundation. All Rights Reserved. 75 Broadway, Suite 202, San Francisco, CA, 94111.<br>For correspondence: 548 Market St #32852, San Francisco, CA 94104-5401. <b>hello@metagarden.io</b></p>
             </div>
         </footer>
     </div>

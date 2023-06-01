@@ -427,6 +427,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
+    align-items: center;
 }
 .video-section-video {
     width: 492px;
@@ -439,7 +440,7 @@ section {
 }
 .video-youtube {
     max-width: 100%;
-    margin: 24px auto 0;
+    //margin: 24px auto 0;
     border-radius: 24px;
 }
 .features-items {
@@ -763,6 +764,15 @@ footer p {
         right: 0;
         margin: 0 auto;
     }
+    .metagarden-chain-influencer .hello-image {
+        max-width: 70%;
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
 }
 
 .metagarden-chain-platform {
@@ -843,4 +853,31 @@ img.games-image {
     box-shadow: 0 2px 2px rgba(0,0,0,.25);
     border-radius: 8px 0 0 8px;
     color: #222;
+}
+
+.metagarden-chain-influencer {
+    .hello-image {
+        max-width: 527px;
+        max-height: 600px;
+        right: -142px;
+        top: 65px;
+    }
+}
+@media (max-width: 1016px) {
+    .metagarden-chain-influencer .hello-image {
+        max-width: 60%;
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1016px) {
+    .metagarden-chain-influencer {
+        header {
+            padding: 0 0 130px;
+        }
+    }
 }

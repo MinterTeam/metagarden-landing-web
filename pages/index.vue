@@ -52,7 +52,7 @@ export default {
                             <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</a>
                         </div>
                         <div class="menu-link">
-                            <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</a>
+                            <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Early Access', 'metagarden-chain.menu-early-access')}}</a>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
@@ -100,7 +100,7 @@ export default {
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
-                                            <h4>{{ $td('Early Access Campaign', 'metagarden-chain.menu-early-access')}}</h4>
+                                            <h4>{{ $td('Early Access', 'metagarden-chain.menu-early-access')}}</h4>
                                             <p>{{ $td('Become Metagarden Chain Early adopter.', 'metagarden-chain.menu-early-access-description')}}</p>
                                         </div>
                                     </a>
@@ -182,7 +182,7 @@ export default {
                         />
                     </div>
                     <div class="video-section-text">
-                        <h2>{{ $td('Metagarden Gaming Platfrom', 'metagarden-chain.video-section-title')}}</h2>
+                        <h2>{{ $td('Gaming Platfrom', 'metagarden-chain.video-section-title')}}</h2>
                         <p>{{ $td('Try out the first play-to-earn Metagarden platform games. By the end of 2023, we plan to launch more than 100 mini-games from different developers. The games presented are in alpha status and can be played from a single Telegram bot, so you can easily switch between them without leaving your favorite messenger.', 'metagarden-chain.video-section-description')}}</p>
                         <div class="buttons-block">
                             <a :href="$td('http://t.me/metagardenbot?start=start', 'metagarden-chain.video-section-button-url')" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.video-section-button')}}</a>
