@@ -13,7 +13,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Are you a YouTuber or Social Media Influencer? — The Metagarden Chain', 'metagarden-chain.title-influencer'));
-        const description = this.$td('Partner with the Metagarden platform in its early stages! Create content about us. If you are interested, please contact us.', 'metagarden-chain.menu-influencer-description');
+        const description = this.$td('Partner with the Metagarden platform in its early stages!', 'metagarden-chain.menu-influencer-description');
 
         return {
             title: title,
@@ -55,11 +55,14 @@ export default {
                         <div class="menu-link">
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
                         </div>
-                        <div class="menu-link menu-link-active">
+                        <div class="menu-link">
                             <a :href="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')" class="menu-link-a">{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</a>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</a>
+                        </div>
+                        <div class="menu-link menu-link-active">
+                            <a :href="$td('/influencer', 'metagarden-chain.menu-influencer-url')" class="menu-link-a">{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</a>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
@@ -137,6 +140,17 @@ export default {
                                     </a>
                                 </div>
                                 <div class="sub-menu-item">
+                                    <a :href="$td('/influencer', 'metagarden-chain.menu-influencer-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</h4>
+                                            <p>{{ $td('Partner with the Metagarden platform in its early stages!', 'metagarden-chain.menu-influencer-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
                                     <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank">
                                         <div class="sub-menu-item-image">
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
@@ -159,7 +173,7 @@ export default {
                             <h1>Are you a YouTuber or Social Media Influencer?</h1>
                             <p class="subtitle-h1">Partner with the <b>Metagarden</b> platform in its early stages! Create content about us. If you are interested, please contact us.</p>
                             <div class="buttons-block">
-                                <a href="https://t.me/bcmflead" class="btn" target="_blank">Contact Us</a>
+                                <a href="https://t.me/diigity" class="btn" target="_blank">Contact Us</a>
                                 <a href="/" class="btn btn-outline">About Metagarden</a>
                             </div>
                         </template>
@@ -167,7 +181,7 @@ export default {
                             <h1>Вы Ютьюбер, у вас своя аудитория?</h1>
                             <p class="subtitle-h1">Станьте партнером платформы <b>Metagarden</b> на ранних стадиях проекта! Создавайте контент о нас. Если заинтересованы, пишите.</p>
                             <div class="buttons-block">
-                                <a href="https://t.me/bcmflead" class="btn" target="_blank">Написать нам</a>
+                                <a href="https://t.me/diigity" class="btn" target="_blank">Написать нам</a>
                                 <a href="/ru" class="btn btn-outline">Про Metagarden</a>
                             </div>
                         </template>

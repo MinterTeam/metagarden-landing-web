@@ -482,7 +482,7 @@ export default {
 		'f11': 'Delegated Proof of Stake',
 		'f12': 'Встроенный кросс-чейн DEX',
 		'compare-title': 'Сравните комиссии и скорость',
-		'platform-title': 'Игровая платформа Metagarden',
+		'platform-title': 'Игровая платформа',
 		'play-button': 'Играть',
 		'platform-games-title': 'К концу 2023 года мы планируем запустить более 100 мини-игр от разных разработчиков',
 		'coming-soon': 'Скоро',
@@ -501,8 +501,9 @@ export default {
 		'video-section-more-url': '/ru/platform',
 		'video-section-more': 'Подробнее о платформе',
 		'video-id': 'xC97gHtKO6w',
-		'title-influencer': '',
-		'menu-influencer-description': '',
-		
+		'title-influencer': 'Вы Ютьюбер, у вас своя аудитория? — Metagarden Chain',
+		'menu-influencer': 'Инфлюенсерам',
+		'menu-influencer-description': 'Станьте партнером платформы Metagarden на ранних стадиях проекта!',
+		'menu-influencer-url': '/ru/influencer',
 	},
 };

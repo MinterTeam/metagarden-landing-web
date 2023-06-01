@@ -62,6 +62,9 @@ export default {
                             <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</a>
                         </div>
                         <div class="menu-link">
+                            <a :href="$td('/influencer', 'metagarden-chain.menu-influencer-url')" class="menu-link-a">{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</a>
+                        </div>
+                        <div class="menu-link">
                             <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
                         </div>
                         <div class="hamburger-menu">
@@ -137,6 +140,17 @@ export default {
                                     </a>
                                 </div>
                                 <div class="sub-menu-item">
+                                    <a :href="$td('/influencer', 'metagarden-chain.menu-influencer-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</h4>
+                                            <p>{{ $td('Partner with the Metagarden platform in its early stages!', 'metagarden-chain.menu-influencer-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
                                     <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank">
                                         <div class="sub-menu-item-image">
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
@@ -155,7 +169,7 @@ export default {
                 <div class="hello">
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
-                        <h1>{{ $td('Metagarden gaming platform', 'metagarden-chain.platform-title')}}</h1>
+                        <h1>{{ $td('Gaming platform', 'metagarden-chain.platform-title')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
                             <p class="subtitle-h1"><b>The future has arrived!</b> Almost any internet user can now become a game developer without having any programming skills, just by using ChatGPT-like technologies to create mini-games in a matter of days.</p>
                             <p class="subtitle-h1">Powered by the fastest and most cost-effective EVM blockchain, the Metagarden Gaming Platform offers game developers the easiest way to seamlessly integrate crypto, NFTs and smart contracts into their games. Developers will also be able to release their own game tokens or use popular ones, and easily integrate a simple custom wallet with crypto deposits and withdrawals for the players.</p>
