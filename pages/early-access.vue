@@ -170,9 +170,9 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <template v-if="$i18n.locale === 'en'">
-                            <h1>Buy tokens to become early adopter</h1>
+                            <h1>Buy tokens before Mainnet launch</h1>
                             <p class="subtitle-h1">You can help launch our gaming EVM and become an early adopter of the Metagarden Chain. This can be done by purchasing early access tokens called MEGANET.</p>
-                            <p class="subtitle-h1">MEGANET tokens entitle you to enter the Metagarden Chain genesis block at the Mainnet launch and receive METAGARDEN (native Metagarden Chain coins) with a 100% bonus.</p>
+                            <p class="subtitle-h1">MEGANET tokens entitle you to enter the Metagarden Chain genesis block at the Mainnet launch and receive native Metagarden Chain coins with a 100% bonus.</p>
                             <p class="subtitle-h1">This bonus is our way of thanking you for supporting the Metagarden Chain launch.</p>
                             <div class="buttons-block">
                                 <a href="https://launchpad.metagarden.io" class="btn" target="_blank">Buy MEGANET tokens</a>
@@ -180,9 +180,9 @@ export default {
                             </div>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <h1>Купите токены, чтобы стать первым пользователем</h1>
+                            <h1>Купите токены до запуска основной сети</h1>
                             <p class="subtitle-h1">Вы можете помочь запустить нашу игровую EVM и стать одним из первых пользователей Metagarden Chain. Это можно сделать, купив токены раннего доступа под названием MEGANET.</p>
-                            <p class="subtitle-h1">Токены MEGANET дают вам право войти в генезисный блок Metagarden Chain при запуске основной сети и получить METAGARDEN (нативные монеты Metagarden Chain) со 100% бонусом.</p>
+                            <p class="subtitle-h1">Токены MEGANET дают вам право войти в генезисный блок Metagarden Chain при запуске Mainnet и получить нативные монеты Metagarden Chain с бонусом +100%.</p>
                             <p class="subtitle-h1">Этот бонус – наш способ отблагодарить вас за поддержку запуска Metagarden Chain.</p>
                             <div class="buttons-block">
                                 <a href="https://launchpad.metagarden.io/ru" class="btn" target="_blank">Купить MEGANET</a>
