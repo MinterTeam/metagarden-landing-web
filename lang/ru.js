@@ -444,7 +444,7 @@ export default {
 		'hello-description': 'Metagarden Chain - самый быстрый EVM-блокчейн первого уровня, предназначенный для игр. 5-секундные блоки с немедленным завершением, высокая пропускная способность, дешевые транзакции, сверхбыстрый кросс-чейн мост с топовыми EVM-блокчейнами, API и SDK для разработчиков игр.',
 		'hello-description-tokenomics': 'METAGARDEN — это газовый токен, обеспечивающий работу игрового EVM блокчейна (Metagarden Chain), а также служебный токен Metagarden, play-to-earn платформы с мини-играми. Токен METAGARDEN играет ключевую роль в функциональности блокчейна и платформы.',
 		'menu-evm': 'EVM-блокчейн',
-		'menu-early-access': 'Ранний доступ',
+		'menu-early-access': 'Купить токены',
 		'menu-testnet': 'Тестнет',
 		'menu-tokenomics': 'Токеномика',
 		'menu-gamerid': 'GamerID',

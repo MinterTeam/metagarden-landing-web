@@ -50,7 +50,7 @@ export default {
                             <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</a>
                         </div>
                         <div class="menu-link menu-link-active">
-                            <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Early Access', 'metagarden-chain.menu-early-access')}}</a>
+                            <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Buy tokens', 'metagarden-chain.menu-early-access')}}</a>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
@@ -101,7 +101,7 @@ export default {
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
-                                            <h4>{{ $td('Early Access', 'metagarden-chain.menu-early-access')}}</h4>
+                                            <h4>{{ $td('Buy tokens', 'metagarden-chain.menu-early-access')}}</h4>
                                             <p>{{ $td('Become Metagarden Chain Early adopter.', 'metagarden-chain.menu-early-access-description')}}</p>
                                         </div>
                                     </a>
@@ -170,7 +170,7 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <template v-if="$i18n.locale === 'en'">
-                            <h1>Become Metagarden Chain Early adopter</h1>
+                            <h1>Buy tokens to become early adopter</h1>
                             <p class="subtitle-h1">You can help launch our gaming EVM and become an early adopter of the Metagarden Chain. This can be done by purchasing early access tokens called MEGANET.</p>
                             <p class="subtitle-h1">MEGANET tokens entitle you to enter the Metagarden Chain genesis block at the Mainnet launch and receive METAGARDEN (native Metagarden Chain coins) with a 100% bonus.</p>
                             <p class="subtitle-h1">This bonus is our way of thanking you for supporting the Metagarden Chain launch.</p>
@@ -180,7 +180,7 @@ export default {
                             </div>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <h1>Станьте первым пользователем Metagarden Chain</h1>
+                            <h1>Купите токены, чтобы стать первым пользователем</h1>
                             <p class="subtitle-h1">Вы можете помочь запустить нашу игровую EVM и стать одним из первых пользователей Metagarden Chain. Это можно сделать, купив токены раннего доступа под названием MEGANET.</p>
                             <p class="subtitle-h1">Токены MEGANET дают вам право войти в генезисный блок Metagarden Chain при запуске основной сети и получить METAGARDEN (нативные монеты Metagarden Chain) со 100% бонусом.</p>
                             <p class="subtitle-h1">Этот бонус – наш способ отблагодарить вас за поддержку запуска Metagarden Chain.</p>
