@@ -24,6 +24,8 @@ export const WETH_ETHEREUM_CONTRACT_ADDRESS = NETWORK === MAINNET ? '0xc02aaa39b
 export const BASE_COIN = NETWORK === MAINNET ? 'BIP' : 'MNT';
 export const COIN_NAME = BASE_COIN;
 export const CHAIN_ID = NETWORK === MAINNET ? 1 : 2;
+export const TWA_SCRIPT_URL = 'https://telegram.org/js/telegram-web-app.js';
+export const TWA_SCRIPT_HASH = 'sha384-rrYCDcTm7U/NeMS1/3PpsuYOwjAtiQZUyC8dUH9dudYxQ3BioJkRzB8ueU0oZ7zg';
 
 export const LANGUAGE_COOKIE_KEY = 'minter-language';
 export const I18N_ROUTE_NAME_SEPARATOR = '___';
