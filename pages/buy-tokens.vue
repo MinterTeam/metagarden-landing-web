@@ -12,7 +12,7 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Early Access Campaign — Become Metagarden Chain Early Adopter', 'metagarden-chain.title-early-access'));
+        const title = getTitle(this.$td('Buy tokens — Metagarden Chain', 'metagarden-chain.title-early-access'));
         const description = this.$td('5 second final blocks, high throughput, low cost transactions, API and SDK for game developers.', 'metagarden-chain.menu-early-access-description');
 
         return {

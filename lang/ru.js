@@ -434,7 +434,7 @@ export default {
 	},
 	'metagarden-chain': {
 		'title': 'Metagarden Chain — мощный EVM-блокчейн 1 уровня для игр',
-		'title-early-access': 'Кампания раннего доступа — станьте первым пользователем Metagarden Chain',
+		'title-early-access': 'Купить токены — Metagarden Chain',
 		'title-gamerid': 'GamerID для игровой платформы Metagarden — Metagarden Chain',
 		'title-tokenomics': 'Токеномика — Metagarden Chain',
 		'title-platform': 'Игровая платформа Metagarden — Metagarden Chain',
