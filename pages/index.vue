@@ -52,7 +52,7 @@ export default {
                             <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</a>
                         </div>
                         <div class="menu-link">
-                            <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Buy tokens', 'metagarden-chain.menu-early-access')}}</a>
+                            <a :href="$td('/buy-tokens', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Buy tokens', 'metagarden-chain.menu-early-access')}}</a>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
@@ -98,7 +98,7 @@ export default {
                                     </a>
                                 </div>
                                 <div class="sub-menu-item">
-                                    <a :href="$td('/early-access', 'metagarden-chain.menu-early-access-url')">
+                                    <a :href="$td('/buy-tokens', 'metagarden-chain.menu-early-access-url')">
                                         <div class="sub-menu-item-image">
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
                                         </div>
@@ -174,7 +174,7 @@ export default {
                         <h1>{{ $td('Ultimate Gaming EVM Blockchain', 'metagarden-chain.hello-title')}}</h1>
                         <p class="subtitle-h1">{{ $td('The Metagarden Chain is the fastest Layer 1 EVM-compatible blockchain designed for gaming. 5-second blocks with immediate finality, high throughput, low-cost transactions, ultra-fast cross-chain bridge with top EVMs, API and SDK for game developers.', 'metagarden-chain.hello-description')}}</p>
                         <div class="buttons-block">
-                            <a :href="$td('/early-access', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
+                            <a :href="$td('/buy-tokens', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
                             <!--<a :href="$td('123', 'metagarden-chain.learn-button-url')" class="btn btn-outline" target="_blank">{{ $td('Learn More', 'metagarden-chain.learn-button')}}</a>-->
                         </div>
                     </div>
@@ -343,19 +343,19 @@ export default {
                             <tr>
                                 <template v-if="$i18n.locale === 'en'">
                                     <th>EVM Blockchain</th>
-                                    <th>Tx Speed</th>
+                                    <th>Block finality</th>
                                     <th>Smart contract deployment cost</th>
                                     <th>NFT minting cost</th>
                                     <th>Transfer cost</th>
-                                    <th>Block finality</th>
+                                    <th>Tx Speed</th>
                                 </template>
                                 <template v-if="$i18n.locale === 'ru'">
                                     <th>EVM-блокчейн</th>
-                                    <th>Tx скорость</th>
+                                    <th>Финальность блока</th>
                                     <th>Создание смарт-контракта</th>
                                     <th>Минтинг NFT</th>
                                     <th>Отправка</th>
-                                    <th>Финальность блока</th>
+                                    <th>Tx скорость</th>
                                 </template>
                             </tr>
                         </thead>
@@ -370,43 +370,43 @@ export default {
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://etherscan.io/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-ethereum.png" width="24" height="24" /> Ethereum</a></td>
-                                <td>30 {{ $td('sec', 'metagarden-chain.sec')}}</td>
+                                <td>15 {{ $td('min', 'metagarden-chain.min')}}</td>
                                 <td>{{ $td('from', 'metagarden-chain.from')}} $150</td>
                                 <td>{{ $td('from', 'metagarden-chain.from')}} $8</td>
                                 <td>{{ $td('from', 'metagarden-chain.from')}} $5</td>
-                                <td>15 {{ $td('min', 'metagarden-chain.min')}}</td>
+                                <td>30 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://bscscan.com/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-bnb.png" width="24" height="24" /> BNB Smart Chain</a></td>
-                                <td>3 {{ $td('sec', 'metagarden-chain.sec')}}</td>
+                                <td>12 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                                 <td>{{ $td('from', 'metagarden-chain.from')}} $7</td>
                                 <td>$0.06</td>
                                 <td>$0.03</td>
-                                <td>12 {{ $td('sec', 'metagarden-chain.sec')}}</td>
+                                <td>3 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://polygonscan.com/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-polygon.png" width="24" height="24" /> Polygon</a></td>
-                                <td>2 {{ $td('sec', 'metagarden-chain.sec')}}</td>
+                                <td>30 {{ $td('min', 'metagarden-chain.min')}}</td>
                                 <td>$0.1 – $1.5</td>
                                 <td>{{ $td('from', 'metagarden-chain.from')}} $0.05</td>
                                 <td>$0.005</td>
-                                <td>30 {{ $td('min', 'metagarden-chain.min')}}</td>
+                                <td>2 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://arbiscan.io/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-arbitrum.png" width="24" height="24" /> Arbitrum</a></td>
-                                <td>0.25 {{ $td('sec', 'metagarden-chain.sec')}}</td>
+                                <td>1-3 {{ $td('min', 'metagarden-chain.min')}}</td>
                                 <td>$1 – $8</td>
                                 <td>$0.2</td>
                                 <td>$0.13</td>
-                                <td>1-3 {{ $td('min', 'metagarden-chain.min')}}</td>
+                                <td>0.25 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                             </tr>
                             <tr>
                                 <td class="flextd"><a href="https://optimistic.etherscan.io/" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/c-optimism.png" width="24" height="24" /> Optimism</a></td>
-                                <td>0.36 {{ $td('sec', 'metagarden-chain.sec')}}</td>
+                                <td>30 – 60 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                                 <td>$1 - $30</td>
                                 <td>$0.26</td>
                                 <td>$0.26</td>
-                                <td>30 – 60 {{ $td('sec', 'metagarden-chain.sec')}}</td>
+                                <td>0.36 {{ $td('sec', 'metagarden-chain.sec')}}</td>
                             </tr>
                         </tbody>
                     </table>
