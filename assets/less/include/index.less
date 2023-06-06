@@ -785,12 +785,15 @@ footer p {
     header {
         padding: 0 0 16px 0;
     }
+    .hello-image {
+        max-width: 445px;
+        max-height: 455px;
+        right: 0;
+        top: 100px;
+    }
     .subtitle-h1 {
         font-size: 16px;
         line-height: 19px;
-    }
-    .hello-content {
-        max-width: 100%;
     }
     section {
         padding: 40px 0;
@@ -854,6 +857,17 @@ img.games-image {
     border-radius: 8px 0 0 8px;
     color: #222;
 }
+@media (max-width: 1016px) {
+    .metagarden-chain-platform .hello-image {
+        max-width: 70%;
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
 
 .metagarden-chain-influencer {
     .hello-image {
@@ -880,4 +894,230 @@ img.games-image {
             padding: 0 0 130px;
         }
     }
+}
+
+.megachain-blocks-video {
+    filter: drop-shadow(-8px 16px 20px rgba(30, 5, 54, 0.5));
+    border-radius: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+.team-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+.team-item {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    img {
+        margin: 0 8px 0 0;
+    }
+}
+h3.team-item-name {
+    margin: 0;
+}
+h3.team-item-name a {
+    text-decoration-line: underline;
+}
+h3.team-item-name a:hover {
+    text-decoration-line: none;
+}
+.team-item-content-title {
+    display: flex;
+    align-items: center;
+    margin: 0 0 8px 0;
+}
+@media (max-width: 1016px) {
+    .team-block {
+        gap: 10px;
+    }
+    .team-item {
+        width: 100%;
+    }
+}
+
+
+.roadmap {
+    h3 {
+        margin: 0 0 30px 0;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 24px;
+    }
+    h4 {
+        margin: 0 0 8px 0;
+    }
+}
+.coming {
+	margin: 0 0 90px 0;
+}
+.coming ul {
+	max-height: 200px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.coming ul li {
+	min-width: 340px;
+	font-weight: 700;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	gap: 29px;
+}
+ul li {
+	list-style: none;
+	position: relative;
+	padding: 0 0 0 40px;
+	margin: 0 0 0 10px;
+}
+ul li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 8px;
+	height: 8px;
+	background-color: transparent;
+	border: 2px #AB56FF solid;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.completed {
+	margin: 0 0 100px 0;
+}
+.completed_t {
+	margin: 0 0 24px 0;
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: bold;
+}
+.completed_timeline {
+	margin: 0 auto;
+	padding: 0 0 0 10px;
+}
+.completed_outer {
+	border-left: 4px dotted #AB56FF;
+}
+.completed_card {
+	position: relative;
+	margin: 0 0 25px 36px;
+}
+.completed_info {
+	display: flex;
+	flex-direction: column;
+}
+.completed_info p {
+	margin: 0 0 16px 0;
+}
+.completed_info p+p {
+	margin-top: 0;
+}
+.completed_info p.timeline_links a {
+	font-weight: 700;
+	margin: 0 16px 0 0;
+}
+.completed_info ul {
+	display: block;
+	list-style-type: disc;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 16px;
+}
+.completed_info ul li {
+	margin: 0 0 16px 0;
+}
+.completed h4::before {
+	content: "";
+	position: absolute;
+	width: 37px;
+	height: 37px;
+	background: #AB56FF;
+	border-radius: 20px;
+	left: -56px;
+	top: -6px;
+	border: 6px solid #300c54;
+}
+#timeline_1:before {
+	content: "1";
+	color: #fff;
+	font-weight: 700;
+	position: absolute;
+	left: -43px;
+	z-index: 1;
+	line-height: 24px;
+}
+#timeline_2:before {
+	content: "2";
+	color: #fff;
+	font-weight: 700;
+	position: absolute;
+	left: -43px;
+	z-index: 1;
+	line-height: 24px;
+}
+#timeline_3:before {
+	content: "3";
+	color: #fff;
+	font-weight: 700;
+	position: absolute;
+	left: -43px;
+	z-index: 1;
+	line-height: 24px;
+}
+#timeline_4:before {
+	content: "4";
+	color: #fff;
+	font-weight: 700;
+	position: absolute;
+	left: -43px;
+	z-index: 1;
+	line-height: 24px;
+}
+#timeline_5:before {
+	content: "5";
+	color: #fff;
+	font-weight: 700;
+	position: absolute;
+	left: -43px;
+	z-index: 1;
+	line-height: 24px;
+}
+#timeline_6:before {
+	content: "6";
+	color: #fff;
+	font-weight: 700;
+	position: absolute;
+	left: -43px;
+	z-index: 1;
+	line-height: 24px;
+}
+#timeline_7:before {
+	content: "7";
+	color: #fff;
+	font-weight: 700;
+	position: absolute;
+	left: -43px;
+	z-index: 1;
+	line-height: 24px;
+}
+@media (max-width: 1016px) {
+    .coming ul {
+		max-height: 100%;
+	}
+	.coming ul li {
+		min-width: 0;
+	}
+	.completed-item {
+		width: 100%;
+	}
 }

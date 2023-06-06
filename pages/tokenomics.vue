@@ -50,7 +50,7 @@ export default {
                             <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</a>
                         </div>
                         <div class="menu-link">
-                            <a :href="$td('/buy-tokens', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Buy tokens', 'metagarden-chain.menu-early-access')}}</a>
+                            <a :href="$td('/buy-tokens', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Buy Tokens', 'metagarden-chain.menu-early-access')}}</a>
                         </div>
                         <div class="menu-link menu-link-active">
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
@@ -101,7 +101,7 @@ export default {
                                             <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
-                                            <h4>{{ $td('Buy tokens', 'metagarden-chain.menu-early-access')}}</h4>
+                                            <h4>{{ $td('Buy Tokens', 'metagarden-chain.menu-early-access')}}</h4>
                                             <p>{{ $td('Become Metagarden Chain Early adopter.', 'metagarden-chain.menu-early-access-description')}}</p>
                                         </div>
                                     </a>
