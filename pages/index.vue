@@ -567,11 +567,12 @@ export default {
                     <template v-if="$i18n.locale === 'en'">
                         <h3>Expected in 2023-2024</h3>
                         <ul>
+                            <li>Mainnet launch</li>
                             <li>Smart Contract Builder</li>
                             <li>Cross-game tools</li>
                             <li>Rapid launch of game projects</li>
                             <li>API & SDK for developers</li>
-                            <li>Full game platform launch</li>
+                            <li>Game platform launch</li>
                             <li>Non-castodial wallet launch</li>
                             <li>Launch of more than 100 crypto games on the platform</li>
                         </ul>
@@ -579,6 +580,7 @@ export default {
                     <template v-if="$i18n.locale === 'ru'">
                         <h3>Ожидается в 2023-2024</h3>
                         <ul>
+                            <li>Запуск основной сети</li>
                             <li>Конструктор смарт-контрактов</li>
                             <li>Кросс-игровые инструменты</li>
                             <li>Быстрый запуск игровых проектов</li>
