@@ -538,7 +538,7 @@ export default {
                         <div class="team-item-content">
                             <div class="team-item-content-title">
                                 <img src="/img/metagarden-chain/icon-linkedin.svg" alt="">
-                                <h3 class="team-item-name"><a href=https://www.linkedin.com/in/vidineev"" target="_blank" rel="nofollow">{{ $td('Nikita Vidineev', 'metagarden-chain.team-8')}}</a></h3>
+                                <h3 class="team-item-name"><a href="https://www.linkedin.com/in/vidineev" target="_blank" rel="nofollow">{{ $td('Nikita Vidineev', 'metagarden-chain.team-8')}}</a></h3>
                             </div>
                             <p>{{ $td('Project Manager. 15 years of experience in project management and digital marketing. Has worked for a variety of large companies and brands. Holds a degree in Global Economics.', 'metagarden-chain.team-8-d')}}</p>
                         </div>
