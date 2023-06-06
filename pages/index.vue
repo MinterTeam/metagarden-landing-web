@@ -467,8 +467,7 @@ export default {
                         </picture>
                         <div class="team-item-content">
                             <div class="team-item-content-title">
-                                <img src="/img/metagarden-chain/icon-linkedin.svg" alt="">
-                                <h3 class="team-item-name"><a href="" target="_blank" rel="nofollow">{{ $td('Sergey Tkachev', 'metagarden-chain.team-3')}}</a></h3>
+                                <h3 class="team-item-name">{{ $td('Sergey Tkachev', 'metagarden-chain.team-3')}}</h3>
                             </div>
                             <p>{{ $td('Chief Marketing Officer, Co-Founder. With more than 10 years of experience in digital marketing, he is responsible for social network promo and ad campaigns, community management, and customer support.', 'metagarden-chain.team-3-d')}}</p>
                         </div>
@@ -482,7 +481,7 @@ export default {
                         <div class="team-item-content">
                             <div class="team-item-content-title">
                                 <img src="/img/metagarden-chain/icon-linkedin.svg" alt="">
-                                <h3 class="team-item-name"><a href="https://www.linkedin.com/in/ariil-davydov-a4b452169/" target="_blank" rel="nofollow">{{ $td('Ariil Davydov', 'metagarden-chain.team-4')}}</a></h3>
+                                <h3 class="team-item-name"><a href="https://www.linkedin.com/in/ariil" target="_blank" rel="nofollow">{{ $td('Ariil Davydov', 'metagarden-chain.team-4')}}</a></h3>
                             </div>
                             <p>{{ $td('Designer, Co-Founder. Having over 17 years of experience in UX and graphic design, he is behind the whole visual part of our projects, including branding, user interface, usability, and function.', 'metagarden-chain.team-4-d')}}</p>
                         </div>
