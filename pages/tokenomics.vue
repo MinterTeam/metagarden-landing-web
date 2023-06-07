@@ -76,7 +76,7 @@ export default {
                                 <div class="sub-menu-item">
                                     <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                            <img src="/img/metagarden-chain/menu-launchpad.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</h4>
@@ -87,18 +87,18 @@ export default {
                                 <div class="sub-menu-item">
                                     <a :href="$td('/', 'metagarden-chain.menu-evm-url')">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                            <img src="/img/metagarden-chain/menu-blockchain.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</h4>
-                                            <p>{{ $td('Fast blocks, high throughput, cheap smart contract deployment, cheap NFT minting, cheap transactions, API and SDK for game developers and many more features.', 'metagarden-chain.menu-evm-description')}}</p>
+                                            <p>{{ $td('5 second blocks with immediate finality, high throughput, low-cost transactions, cross-chain compatibility with top EVMs, API and SDK for game developers.', 'metagarden-chain.menu-evm-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="sub-menu-item">
                                     <a :href="$td('/buy-tokens', 'metagarden-chain.menu-early-access-url')">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                            <img src="/img/metagarden-chain/menu-buy.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Buy Tokens', 'metagarden-chain.menu-early-access')}}</h4>
@@ -109,18 +109,18 @@ export default {
                                 <div class="sub-menu-item">
                                     <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                            <img src="/img/metagarden-chain/menu-tokenomics.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
-                                            <p>{{ $td('METAGARDEN is the gas token that enables the work of the gaming EVM blockchain (Metagarden Сhain) and a utility token of the Metagarden platform, a play-to-earn platform with mini-games. The METAGARDEN token plays a key role in the functioning of the blockchain and its gaming platform.', 'metagarden-chain.menu-tokenomics-description')}}</p>
+                                            <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="sub-menu-item">
                                     <a :href="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                            <img src="/img/metagarden-chain/menu-id.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</h4>
@@ -131,7 +131,7 @@ export default {
                                 <div class="sub-menu-item">
                                     <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                            <img src="/img/metagarden-chain/menu-games.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</h4>
@@ -142,7 +142,7 @@ export default {
                                 <div class="sub-menu-item">
                                     <a :href="$td('/influencer', 'metagarden-chain.menu-influencer-url')">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                            <img src="/img/metagarden-chain/menu-infl.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</h4>
@@ -153,7 +153,7 @@ export default {
                                 <div class="sub-menu-item">
                                     <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/metagarden-chain/metagarden-chain-logo-small.svg" alt="">
+                                            <img src="/img/metagarden-chain/menu-test.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</h4>
@@ -421,7 +421,7 @@ export default {
                 </template>
             </div>
         </section>
-        <section class="circulation">
+        <!--<section class="circulation">
             <div class="container">
                 <h2>{{ $td('Circulation', 'metagarden-chain.сirculation-title')}}</h2>
                 <div class="pie">
@@ -473,7 +473,7 @@ export default {
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <section class="vision">
             <div class="container">
                 <template v-if="$i18n.locale === 'en'">
