@@ -127,7 +127,7 @@ export default {
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
-                                            <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
+                                            <p>{{ $td('MEGA is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
                                         </div>
                                     </a>
                                 </div>

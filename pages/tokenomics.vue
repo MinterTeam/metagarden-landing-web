@@ -13,7 +13,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Tokenomics — Metagarden Chain', 'metagarden-chain.title-tokenomics'));
-        const description = this.$td('METAGARDEN is the gas token that enables the work of the gaming EVM blockchain (Metagarden Сhain) and a utility token of the Metagarden platform, a play-to-earn platform with mini-games. The METAGARDEN token plays a key role in the functioning of the blockchain and its gaming platform.', 'metagarden-chain.menu-tokenomics-description');
+        const description = this.$td('MEGA is the gas token that enables the work of the gaming EVM blockchain (Metagarden Сhain) and a utility token of the Metagarden platform, a play-to-earn platform with mini-games. The METAGARDEN token plays a key role in the functioning of the blockchain and its gaming platform.', 'metagarden-chain.menu-tokenomics-description');
 
         return {
             title: title,
@@ -127,7 +127,7 @@ export default {
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</h4>
-                                            <p>{{ $td('METAGARDEN is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
+                                            <p>{{ $td('MEGA is the gas token empowering the work of gaming blockchain (Metagarden Chain) and a utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in blockchain and platform functionality.', 'metagarden-chain.menu-tokenomics-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
@@ -184,7 +184,7 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <h1>{{ $td('Tokenomics', 'metagarden-chain.hello-title-tokenomics')}}</h1>
-                        <p class="subtitle-h1">{{ $td('Metagarden Chain token is the gas token that enables the work of the gaming EVM blockchain (Metagarden Сhain) and a utility token of the Metagarden platform, a play-to-earn platform with mini-games. The Metagarden Chain token plays a key role in the functioning of the blockchain and its gaming platform.', 'metagarden-chain.hello-description-tokenomics')}}</p>
+                        <p class="subtitle-h1">{{ $td('MEGA is the gas token that enables the work of the gaming EVM blockchain (Metagarden Сhain) and a utility token of the Metagarden platform, a play-to-earn platform with mini-games. The MEGA plays a key role in the functioning of the blockchain and its gaming platform.', 'metagarden-chain.hello-description-tokenomics')}}</p>
                         <div class="buttons-block">
                             <a :href="$td('/buy-tokens', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
                         </div>
@@ -209,7 +209,7 @@ export default {
                         <div class="use-items">
                             <div class="use-item">
                                 <h4 class="use-item-h4">Blockchain transaction fees</h4>
-                                <p>All blockchain transactions will be paid in Metagarden Chain tokens.</p>
+                                <p>All blockchain transactions will be paid in MEGA.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Delegation</h4>
@@ -226,7 +226,7 @@ export default {
                         <div class="use-items">
                             <div class="use-item">
                                 <h4 class="use-item-h4">Комиссии за транзакции</h4>
-                                <p>Все транзакции в блокчейне будут оплачиваться в токенах Metagarden Chain.</p>
+                                <p>Все транзакции в блокчейне будут оплачиваться в токенах MEGA.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Делегирование</h4>
@@ -261,15 +261,15 @@ export default {
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Staking Token</h4>
-                                <p>Players can gain additional privileges on the Platform for staking Metagarden Chain tokens.</p>
+                                <p>Players can gain additional privileges on the Platform for staking MEGA.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Hodl Reward</h4>
-                                <p>When players have Metagarden Chain tokens on their game balance, they can receive rewards on the balance at a fixed rate.</p>
+                                <p>When players have MEGA on their game balance, they can receive rewards on the balance at a fixed rate.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Farming Token</h4>
-                                <p>Metagarden Chain token is a token that is required to participate in the liquidity programmes set up by the game developers.</p>
+                                <p>MEGA is a token that is required to participate in the liquidity programmes set up by the game developers.</p>
                             </div>
                         </div>
                     </div>
@@ -281,27 +281,27 @@ export default {
                         <div class="use-items">
                             <div class="use-item">
                                 <h4 class="use-item-h4">Unified Game Token</h4>
-                                <p>If the game does not have its own token, Metagarden Chain token is used to pay for the game rounds presented on the mini-game Platform.</p>
+                                <p>If the game does not have its own token, MEGA is used to pay for the game rounds presented on the mini-game Platform.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Hit Launching (voting for games)</h4>
-                                <p>It is the Metagarden Chain tokens miners who receive voting VOTES tokens. These tokens select the most promising games and entitle them to airdrops and discounts of up to 99% before launch.</p>
+                                <p>It is the MEGA miners who receive voting VOTES tokens. These tokens select the most promising games and entitle them to airdrops and discounts of up to 99% before launch.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Payment for Game Elements</h4>
-                                <p>Users will be able to purchase various game elements, such as NFTs, boosts, loot boxes, in-game art, and more for Metagarden Chain tokens.</p>
+                                <p>Users will be able to purchase various game elements, such as NFTs, boosts, loot boxes, in-game art, and more for MEGA.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">The DAO Governance</h4>
-                                <p>Through the Metagarden Chain token and its mining process, governance tokens VOTES are issued. VOTES tokens are used to make decisions about the development and promotion of the platform.</p>
+                                <p>Through the MEGA and its mining process, governance tokens VOTES are issued. VOTES tokens are used to make decisions about the development and promotion of the platform.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Cross-Game Reputation</h4>
-                                <p>Using the Metagarden Chain token, we'll be able to assess the player's involvement on the Platform, get proof of their reputation on the Platform, which will be recorded on the blockchain and broadcast for all games on the Platform, and also visible and provable to all users of this information.</p>
+                                <p>Using the MEGA, we'll be able to assess the player's involvement on the Platform, get proof of their reputation on the Platform, which will be recorded on the blockchain and broadcast for all games on the Platform, and also visible and provable to all users of this information.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Cross-Game Liquidity</h4>
-                                <p>Through the Metagarden Chain token, the tokens of the mini-games presented on the Platform can be exchanged with a maximum of liquidity. With the Metagarden Chain token, users can play any game on the Platform, even those in which other tokens are used. The exchange within the Platform is organised with maximum simplicity and profit.</p>
+                                <p>Through the MEGA, the tokens of the mini-games presented on the Platform can be exchanged with a maximum of liquidity. With the MEGA, users can play any game on the Platform, even those in which other tokens are used. The exchange within the Platform is organised with maximum simplicity and profit.</p>
                             </div>
                         </div>
                     </div>
@@ -317,23 +317,23 @@ export default {
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Liquidity Pools</h4>
-                                <p>When new games are launched on the Platform, their developers will provide liquidity to their tokens by creating a pool with Metagarden Chain tokens.</p>
+                                <p>When new games are launched on the Platform, their developers will provide liquidity to their tokens by creating a pool with MEGA.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Collateral</h4>
-                                <p>Platform players will be able to pledge their Metagarden Chain tokens as collateral for other assets and game elements. It will also be possible to use the Metagarden Chain tokens pledge to obtain assets in other blockchains of the user's choice (USDT, BNB, ETH, BTC).</p>
+                                <p>Platform players will be able to pledge their MEGA as collateral for other assets and game elements. It will also be possible to use the MEGA pledge to obtain assets in other blockchains of the user's choice (USDT, BNB, ETH, BTC).</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Launch Fee</h4>
-                                <p>At the launch of each new game on the Platform, a fixed number of Metagarden Chain tokens will be burned.</p>
+                                <p>At the launch of each new game on the Platform, a fixed number of MEGA will be burned.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Buyback and Burn</h4>
-                                <p>Metagarden Chain tokens are burned after each game round. This ensures a deflationary tokenomics model.</p>
+                                <p>MEGA are burned after each game round. This ensures a deflationary tokenomics model.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Insurance</h4>
-                                <p>Platform players can use Metagarden Chain tokens to insure the outcome of rounds and receive compensation if defeated.</p>
+                                <p>Platform players can use MEGA to insure the outcome of rounds and receive compensation if defeated.</p>
                             </div>
                         </div>
                     </div>
@@ -356,11 +356,11 @@ export default {
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Стейкинг токен</h4>
-                                <p>За блокировку токенов Metagarden Chain (стейкинг) игроки смогут получать дополнительные привилегии на платформе.</p>
+                                <p>За блокировку токенов MEGA (стейкинг) игроки смогут получать дополнительные привилегии на платформе.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Ходл ревард</h4>
-                                <p>Если игроки держат токены Metagarden Chain на своем игровом балансе, они смогут получать вознаграждения на остаток (на балансе) по фиксированной ставке.</p>
+                                <p>Если игроки держат токены MEGA на своем игровом балансе, они смогут получать вознаграждения на остаток (на балансе) по фиксированной ставке.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Фарминг токен</h4>
@@ -380,11 +380,11 @@ export default {
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Голосование за игры</h4>
-                                <p>Именно майнеры токенов Metagarden Chain будут получать голосующие токены VOTES, которыми отбираются перспективные игры и дают право на аирдропы и скидки до 99% до запуска.</p>
+                                <p>Именно майнеры токенов MEGA будут получать голосующие токены VOTES, которыми отбираются перспективные игры и дают право на аирдропы и скидки до 99% до запуска.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Оплата за игровые-элементы</h4>
-                                <p>Пользователи будут иметь возможность приобретать различные игровые элементы, такие как NFTs, бусты, лутбоксы, оформление в играх и прочее за токены Metagarden Chain.</p>
+                                <p>Пользователи будут иметь возможность приобретать различные игровые элементы, такие как NFTs, бусты, лутбоксы, оформление в играх и прочее за MEGA.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">ДАО гавернанс</h4>
@@ -392,11 +392,11 @@ export default {
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Кросс-гейм репутация</h4>
-                                <p>С помощью токена Metagarden Chain мы сможем оценить вовлечённость игрока в платформу, получить доказательство его репутации на платформе, которая будет фиксироваться в блокчейне и транслироваться для всех игр платформы, а также будет видна и доказуема для всех пользователей этой информации.</p>
+                                <p>С помощью MEGA мы сможем оценить вовлечённость игрока в платформу, получить доказательство его репутации на платформе, которая будет фиксироваться в блокчейне и транслироваться для всех игр платформы, а также будет видна и доказуема для всех пользователей этой информации.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Кросс-гейм ликвидность</h4>
-                                <p>Благодаря токену Metagarden Chain, токены мини-игр представленных на платформе могут обмениваться с максимальной ликвидностью. С помощью токена Metagarden Chain можно играть в любые игры платформы, даже в которых действуют свои токены, так как обмен внутри платформы будет организован с максимальной простотой и выгодой.</p>
+                                <p>Благодаря токену MEGA, токены мини-игр представленных на платформе могут обмениваться с максимальной ликвидностью. С помощью MEGA можно играть в любые игры платформы, даже в которых действуют свои токены, так как обмен внутри платформы будет организован с максимальной простотой и выгодой.</p>
                             </div>
                         </div>
                     </div>
@@ -412,23 +412,23 @@ export default {
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Пулы ликвидности</h4>
-                                <p>При запуске новых игр на платформе, их разработчики будут предоставлять ликвидность своим токенам через создание пула с токенами Metagarden Chain.</p>
+                                <p>При запуске новых игр на платформе, их разработчики будут предоставлять ликвидность своим токенам через создание пула с MEGA.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Залоговое обеспечение</h4>
-                                <p>Игроки платформы смогут закладывать в обеспечение свои токены Metagarden Chain для получения других активов и игровых элементов. Также, с помощью залога токенов Metagarden Chain будет возможность получать активы в других блокчейнах на выбор пользователя (USDT, BNB, ETH, BTC).</p>
+                                <p>Игроки платформы смогут закладывать в обеспечение свои токены MEGA для получения других активов и игровых элементов. Также, с помощью залога MEGA будет возможность получать активы в других блокчейнах на выбор пользователя (USDT, BNB, ETH, BTC).</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Сжигание при лонче игры</h4>
-                                <p>Фиксированное количество токенов Metagarden Chain будет сжигаться при запуске каждой новой игры на платформе.</p>
+                                <p>Фиксированное количество токенов MEGA будет сжигаться при запуске каждой новой игры на платформе.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Выкуп и сжигание</h4>
-                                <p>Токены Metagarden Chain будут сжигаться после каждого игрового раунда для обеспечения дефляционной модели токеномики.</p>
+                                <p>MEGA будут сжигаться после каждого игрового раунда для обеспечения дефляционной модели токеномики.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Страхование</h4>
-                                <p>Игроки платформы будут иметь возможность застраховать с помощью токенов Metagarden Chain исход игровых раундов и, в случае поражения, получить компенсацию убытка.</p>
+                                <p>Игроки платформы будут иметь возможность застраховать с помощью MEGA исход игровых раундов и, в случае поражения, получить компенсацию убытка.</p>
                             </div>
                         </div>
                     </div>
