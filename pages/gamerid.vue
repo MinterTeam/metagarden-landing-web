@@ -53,11 +53,14 @@ export default {
                             <a :href="$td('/buy-tokens', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Buy Tokens', 'metagarden-chain.menu-early-access')}}</a>
                         </div>
                         <div class="menu-link">
+                            <a :href="$td('/wallet', 'metagarden-chain.menu-wallet-url')" class="menu-link-a">{{ $td('Wallet', 'metagarden-chain.menu-wallet')}}</a>
+                        </div>
+                        <div class="menu-link">
                             <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
                         </div>
-                        <div class="menu-link menu-link-active">
+                        <!--<div class="menu-link menu-link-active">
                             <a :href="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')" class="menu-link-a">{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</a>
-                        </div>
+                        </div>-->
                         <div class="menu-link">
                             <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</a>
                         </div>
@@ -107,6 +110,17 @@ export default {
                                     </a>
                                 </div>
                                 <div class="sub-menu-item">
+                                    <a :href="$td('/wallet', 'metagarden-chain.menu-wallet-url')">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/metagarden-chain/menu-wallet.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Wallet', 'metagarden-chain.menu-wallet')}}</h4>
+                                            <p>{{ $td('To receive +100% bonus and airdrops, you must register your wallet and have at least 1 MEGANET token on your balance.', 'metagarden-chain.menu-wallet-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
                                     <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')">
                                         <div class="sub-menu-item-image">
                                             <img src="/img/metagarden-chain/menu-tokenomics.svg" alt="">
@@ -117,7 +131,7 @@ export default {
                                         </div>
                                     </a>
                                 </div>
-                                <div class="sub-menu-item">
+                                <!--<div class="sub-menu-item">
                                     <a :href="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')">
                                         <div class="sub-menu-item-image">
                                             <img src="/img/metagarden-chain/menu-id.svg" alt="">
@@ -127,7 +141,7 @@ export default {
                                             <p>{{ $td('The GamerID will be released in the form of an NFT at the Metagarden Chain Mainnet launch, and the following privileges will be tied to your GamerID: the ability to receive free game tokens, various game bonuses, and income boosts on the platform.', 'metagarden-chain.menu-gamerid-description')}}</p>
                                         </div>
                                     </a>
-                                </div>
+                                </div>-->
                                 <div class="sub-menu-item">
                                     <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')">
                                         <div class="sub-menu-item-image">
