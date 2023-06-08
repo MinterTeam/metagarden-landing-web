@@ -67,6 +67,24 @@ p {
     text-align: center;
     cursor: pointer;
     transition: all 0.3s 0.02s ease;
+    img {
+        width: 24px;
+        height: 24px;
+        margin: 0 8px 0 0;
+    }
+}
+.btn-icon {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px 8px 8px;
+    img {
+        width: 24px;
+        height: 24px;
+        margin: 0 8px 0 0;
+    }
+}
+@media (max-width: 460px) {
+    .btn-icon {justify-content: center;}
 }
 .btn:hover {
     border: 2px solid #b265fe;
@@ -78,8 +96,9 @@ p {
 }
 .btn-disable, .btn-disable:hover {
     cursor: not-allowed;
-    background: #a56cdd;
-    border: 1px solid #a56cdd;
+    color: #8B5AB9;
+    background: #612598;
+    border: 1px solid #612598;
 }
 a.simple-link {
     font-weight: 700;
@@ -349,6 +368,15 @@ tbody tr.tr-active {
     width: 100%;
     z-index: 1;
 }
+.hello h3 {
+    color: inherit;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 4px 0;
+}
 .hello-content h1 {
     max-width: 100%;
 }
@@ -413,8 +441,8 @@ p {
     margin: 0 0 16px;
 }
 p a {
-    font-weight: 700;
-    color: #FF8A00;
+    //font-weight: 700;
+    color: #fff;
     text-decoration-line: underline;
 }
 p a:hover {
@@ -543,7 +571,7 @@ footer p {
 @media (max-width: 460px) {
     a.btn {
         width: 100%;
-        font-size: 16px;
+        font-size: 17px;
         line-height: 29px;
         padding: 14px 15px 13px;
     }
@@ -566,7 +594,7 @@ footer p {
         max-width: 700px;
     }
     .subtitle-h1 {
-        max-width: 513px;
+        max-width: 575px;
     }
     .hello-image {
         max-width: 517px;
@@ -604,7 +632,7 @@ footer p {
     .hello-image {
         max-width: 530px;
         max-height: 439px;
-        right: -160px;
+        right: -170px;
         top: 140px;
     }
 }
@@ -1169,4 +1197,49 @@ ul li::before {
 	.completed-item {
 		width: 100%;
 	}
+}
+
+.buy-price-block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 31px 0;
+    small {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+.buy-price-value {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.buy-address-block {
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    align-items: center;
+    color: #FEC825;
+    font-weight: 700;
+    margin: 0 0 24px 0;
+    button {
+        width: 24px;
+        height: 24px;
+        background: 0 0;
+        border: none;
+        border-radius: 0;
+        color: inherit;
+        font: inherit;
+        text-align: inherit;
+        padding: 0;
+        cursor: pointer;
+    }
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+.buy-address {
+    word-wrap: break-word;
+    overflow: hidden;
 }

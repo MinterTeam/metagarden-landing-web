@@ -185,22 +185,40 @@ export default {
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <template v-if="$i18n.locale === 'en'">
                             <h1>Buy tokens before Mainnet launch</h1>
-                            <p class="subtitle-h1">You can help launch our gaming EVM and become an early adopter of the Metagarden Chain. This can be done by purchasing early access tokens called MEGANET.</p>
-                            <p class="subtitle-h1">MEGANET tokens entitle you to enter the Metagarden Chain genesis block at the Mainnet launch and receive native Metagarden Chain coins with a 100% bonus.</p>
-                            <p class="subtitle-h1">This bonus is our way of thanking you for supporting the Metagarden Chain launch.</p>
+                            <p class="subtitle-h1">We issued MEGA coins on <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> and <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> for those who want to buy the Metagarden Chain coins before the Mainet launch.</p>
+                            <div class="buy-price-block">
+                                <h3>Early stages price</h3>
+                                <div class="buy-price-value">1 MEGA = $1</div>
+                                <small>Minimum purchase of $100</small>
+                            </div>
+                            <p class="subtitle-h1">To buy MEGA coins simply send your ETH, BNB or USDT tokens to this address in either Ethereum or BNB Smart Chian︎:</p>
+                            <div class="buy-address-block">
+                                <div class="buy-address">0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2</div>
+                                <button type="button" ><img src="/img/metagarden-chain/icon-copy.svg" alt=""></button>
+                            </div>
+                            <p class="subtitle-h1">The MEGA coins will be send back to your address automatically.</p>
                             <div class="buttons-block">
-                                <a href="https://launchpad.metagarden.io" class="btn" target="_blank">Buy MEGANET tokens</a>
-                                <a href="/" class="btn btn-outline">About blockchain</a>
+                                <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c4e6727ab2218affa6a30250b1148922bb7745c&chain=bsc" class="btn btn-icon" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/icon-pancake.png" alt="">or Buy on PancakeSwap</a>
+                                <a class="btn btn-outline btn-icon btn-disable"><img src="/img/metagarden-chain/icon-uniswap.png" alt="">Uniswap coming soon</a>
                             </div>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <h1>Купите токены до запуска основной сети</h1>
-                            <p class="subtitle-h1">Вы можете помочь запустить нашу игровую EVM и стать одним из первых пользователей Metagarden Chain. Это можно сделать, купив токены раннего доступа под названием MEGANET.</p>
-                            <p class="subtitle-h1">Токены MEGANET дают вам право войти в генезисный блок Metagarden Chain при запуске Mainnet и получить нативные монеты Metagarden Chain с бонусом +100%.</p>
-                            <p class="subtitle-h1">Этот бонус – наш способ отблагодарить вас за поддержку запуска Metagarden Chain.</p>
+                            <h1>Купите токены до запуска мейннета</h1>
+                            <p class="subtitle-h1">Мы выпустили токены MEGA в <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> и <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> для тех, кто хочет купить токены Metagarden Chain до запуска основной сети.</p>
+                            <div class="buy-price-block">
+                                <h3>Цена на ранних стадиях</h3>
+                                <div class="buy-price-value">1 MEGA = $1</div>
+                                <small>Минимальная покупка от $100</small>
+                            </div>
+                            <p class="subtitle-h1">Чтобы купить токены MEGA, просто отправьте свои монеты ETH, BNB или USDT на этот адрес в Ethereum или BNB Smart Chian︎:</p>
+                            <div class="buy-address-block">
+                                <div class="buy-address">0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2</div>
+                                <button type="button" ><img src="/img/metagarden-chain/icon-copy.svg" alt=""></button>
+                            </div>
+                            <p class="subtitle-h1">Токены MEGA будут отправлены на ваш адрес автоматически.</p>
                             <div class="buttons-block">
-                                <a href="https://launchpad.metagarden.io/ru" class="btn" target="_blank">Купить MEGANET</a>
-                                <a href="/ru" class="btn btn-outline">О блокчейне</a>
+                                <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c4e6727ab2218affa6a30250b1148922bb7745c&chain=bsc" class="btn btn-icon" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/icon-pancake.png" alt="">или купите на PancakeSwap</a>
+                                <a class="btn btn-outline btn-icon btn-disable"><img src="/img/metagarden-chain/icon-uniswap.png" alt="">Uniswap скоро...</a>
                             </div>
                         </template>
                     </div>
