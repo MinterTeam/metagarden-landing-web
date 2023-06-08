@@ -12,7 +12,7 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Get +100% bonus and Games Airdrops — Metagarden Chain', 'metagarden-chain.title-wallet'));
+        const title = getTitle(this.$td('Metagarden Wallet', 'metagarden-chain.title-wallet'));
         const description = this.$td('In order to receive +100% bonus and to be eligible for airdrops, you must have at least 1 MEGANET token in your wallet.', 'metagarden-chain.menu-wallet-description');
 
         return {
@@ -170,9 +170,9 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <template v-if="$i18n.locale === 'en'">
-                            <h1>Register wallet, <br>get +100% bonus and Games Airdrops</h1>
-                            <p class="subtitle-h1">In order to receive +100% bonus and to be eligible for airdrops, you must have at least 1 MEGANET token in your wallet. MEGANET are pre-launch tokens can be bought in the wallet after registration.</p>
-                            <p class="subtitle-h1">For every 1 MEGANET token, you will receive 2 MEGA coins (native Metagarden Chain coins) at the mainnet launch.</p>
+                            <h1>Register wallet, <br>Get +100% bonus & airdrops from games</h1>
+                            <p class="subtitle-h1">To receive +100% bonus and airdrops, you must register your wallet and have at least 1 MEGANET token on your balance. MEGANET tokens are pre-launch tokens that can be bought after registration.</p>
+                            <p class="subtitle-h1">For every 1 MEGANET token, you will receive 2 MEGA coins (native Metagarden Chain coins) at the Mainnet launch.</p>
                             <div class="buttons-block">
                                 <a href="https://launchpad.metagarden.io" class="btn" target="_blank">Register wallet</a>
                                 <a href="/" class="btn btn-outline">About project</a>
@@ -180,7 +180,7 @@ export default {
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <h1>Зарегистрируйте кошелек, <br>получите бонус +100%</h1>
-                            <p class="subtitle-h1">Чтобы получить +100% бонус и иметь право на аирдропы, в вашем кошельке должен быть хотя бы 1 токен MEGANET. MEGANET — это прелонч токены, которые можно купить в кошельке после регистрации.</p>
+                            <p class="subtitle-h1">Чтобы получить +100% бонус и аирдропы, вы должны зарегистрировать свой кошелек и иметь на балансе минимум 1 токен MEGANET. Токены MEGANET — это прелонч токены, которые можно купить после регистрации.</p>
                             <p class="subtitle-h1">За каждый токен MEGANET вы получите 2 монеты MEGA (нативные монеты Metagarden Chain) при запуске основной сети.</p>
                             <div class="buttons-block">
                                 <a href="https://launchpad.metagarden.io/ru" class="btn" target="_blank">Зарегистрировать кошелек</a>

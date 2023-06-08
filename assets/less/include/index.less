@@ -17,6 +17,9 @@ html {
 }
 .metagarden-chain-layout {
     background: url(/img/metagarden-chain/bg1.svg) top left no-repeat, url(/img/metagarden-chain/bg2.svg) top right no-repeat, url(/img/metagarden-chain/bg3.svg) bottom left no-repeat, url(/img/metagarden-chain/bg4.svg) top 65% right no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .wrapper {
     display: flex;
@@ -533,6 +536,9 @@ footer p {
     .features-item {
         width: 100% !important;
     }
+    .metagarden-chain-layout {
+        background: url(/img/metagarden-chain/bg2.svg) top right no-repeat, url(/img/metagarden-chain/bg3.svg) bottom left no-repeat;
+    }
 }
 @media (max-width: 460px) {
     a.btn {
@@ -578,6 +584,12 @@ footer p {
         left: 0;
         right: 0;
         margin: 0 auto;
+    }
+    .metagarden-chain-early-access .hello-content {
+        max-width: 100%;
+    }
+    .metagarden-chain-early-access .subtitle-h1 {
+        max-width: 100%;
     }
 }
 
@@ -636,6 +648,12 @@ footer p {
         left: 0;
         right: 0;
         margin: 0 auto;
+    }
+    .metagarden-chain-gamerid .hello-content {
+        max-width: 100%;
+    }
+    .metagarden-chain-gamerid .subtitle-h1 {
+        max-width: 100%;
     }
 }
 

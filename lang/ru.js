@@ -438,7 +438,7 @@ export default {
 		'title-gamerid': 'GamerID для игровой платформы Metagarden — Metagarden Chain',
 		'title-tokenomics': 'Токеномика — Metagarden Chain',
 		'title-platform': 'Игровая платформа Metagarden — Metagarden Chain',
-		'title-wallet': 'Получите бонус +100% и аирдропы игр — Metagarden Chain',
+		'title-wallet': 'Кошелек Metagarden',
 		'description': '5-секундные финальные блоки, высокая пропускная способность, низкая стоимость транзакций, API и SDK для разработчиков игр.',
 		'hello-title': 'Мощный EVM-блокчейн для игр',
 		'hello-title-tokenomics': 'Токеномика',
