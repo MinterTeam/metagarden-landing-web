@@ -127,7 +127,7 @@ module.exports = {
         clientOnline: false,
         // clientPrefetch: false,
         componentAliases: false, // NLink, NChild
-        componentClientOnly: false,
+        // componentClientOnly: false,
     },
     render: {
         bundleRenderer: {

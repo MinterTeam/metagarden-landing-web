@@ -196,7 +196,9 @@ export default {
                             <p class="subtitle-h1">To buy MEGA coins simply send your ETH, BNB or USDT tokens to this address in either Ethereum or BNB Smart Chian︎:</p>
                             <div class="buy-address-block">
                                 <div class="buy-address">0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2</div>
-                                <BaseButtonCopyIcon copy-text="0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2" :is-inline="true"/>
+                                <client-only>
+                                    <BaseButtonCopyIcon copy-text="0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2" :is-inline="true"/>
+                                </client-only>
                             </div>
                             <p class="subtitle-h1">The MEGA coins will be send back to your address automatically.</p>
                             <div class="buttons-block">
