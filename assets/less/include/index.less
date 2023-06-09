@@ -778,22 +778,18 @@ footer p {
     .use-items, .mining-privilege-items {
         columns: 1;
     }
-    .pie {
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-    }
 }
 
 .pie {
     display: flex;
-    margin: 0 0 40px 0;
+    margin: 0 0 49px 0;
 }
 .pie-img {
-    margin: 0 32px 0 0;
+    margin: 0 24px 0 0;
     img {
-        width: 156px;
-        height: 125px;
+        width: 100%;
+        max-width: 514px;
+        max-height: 124px;
     }
 }
 .pie-item {
@@ -861,6 +857,14 @@ footer p {
 @media (max-width: 960px) {
     .circulation-text-block {
         width: 100%;
+    }
+    .pie {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+    .pie-img {
+        margin: 0;
     }
 }
 .vision {

@@ -43,7 +43,7 @@ export default {
                         <h1>{{ $td('Tokenomics', 'metagarden-chain.hello-title-tokenomics')}}</h1>
                         <p class="subtitle-h1">{{ $td('MEGA is the gas token that enables the work of the gaming EVM blockchain (Metagarden Сhain) and a utility token of the Metagarden platform, a play-to-earn platform with mini-games. The MEGA plays a key role in the functioning of the blockchain and its gaming platform.', 'metagarden-chain.hello-description-tokenomics')}}</p>
                         <div class="buttons-block">
-                            <a :href="$td('/buy-tokens', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
+                            <a :href="$td('/buy-tokens', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Buy Tokens', 'metagarden-chain.become-button')}}</a>
                         </div>
                     </div>
                     <picture>
@@ -292,59 +292,58 @@ export default {
                 </template>
             </div>
         </section>
-        <!--<section class="circulation">
+        <section class="circulation">
             <div class="container">
                 <h2>{{ $td('Circulation', 'metagarden-chain.сirculation-title')}}</h2>
                 <div class="pie">
                     <div class="pie-img">
-                        <img src="/img/metagarden-chain/pie.svg" alt="">
+                        <img src="/img/metagarden-chain/circ.svg" alt="">
                     </div>
                     <template v-if="$i18n.locale === 'en'">
                         <div class="pie-content">
-                            <div class="pie-item pie-item-1"><span>Total number of tokens</span>128,000,000</div>
-                            <div class="pie-item pie-item-2"><span>In circulation</span>0.4%</div>
-                            <div class="pie-item pie-item-3"><span>Burned</span>0.8%</div>
-                            <div class="pie-item pie-item-4"><span>Staked</span>0.45%</div>
+                            <div class="pie-item pie-item-1"><span>Total number of tokens</span>1,000,000,000</div>
+                            <div class="pie-item pie-item-2"><span>Early Access Campaign</span>1%</div>
                         </div>
                     </template>
                     <template v-if="$i18n.locale === 'ru'">
                         <div class="pie-content">
-                            <div class="pie-item pie-item-1"><span>Общее количество токенов</span>128,000,000</div>
-                            <div class="pie-item pie-item-2"><span>В обращении</span>0.4%</div>
-                            <div class="pie-item pie-item-3"><span>Сожжено</span>0.8%</div>
-                            <div class="pie-item pie-item-4"><span>Стейкинг</span>0.45%</div>
+                            <div class="pie-item pie-item-1"><span>Общее количество токенов</span>1,000,000,000</div>
+                            <div class="pie-item pie-item-2"><span>Кампания раннего доступа</span>1%</div>
                         </div>
                     </template>
                 </div>
                 <div class="circulation-text">
                     <div class="circulation-text-block">
-                        <p>{{ $td('The Metagarden Chain token is represented on several blockchains:', 'metagarden-chain.сirculation-blockchain')}}</p>
+                        <p>{{ $td('The MEGA token is represented on several blockchains:', 'metagarden-chain.сirculation-blockchain')}}</p>
                         <div class="circulation-blockchain">
                             <img src="/img/landing/metagarden/icon-e.svg" alt="Ethereum">
                             <div>
                                 <div class="circulation-blockchain-name">Ethereum</div>
-                                <div class="circulation-blockchain-address"><a href="https://etherscan.io/token/0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c" target="_blank">0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c</a></div>
+                                <div class="circulation-blockchain-address"><a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank">0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c</a></div>
                             </div>
                         </div>
                         <div class="circulation-blockchain">
                             <img src="/img/landing/metagarden/icon-b.svg" alt="BNB Smart Chain">
                             <div>
                                 <div class="circulation-blockchain-name">BNB Smart Chain</div>
-                                <div class="circulation-blockchain-address"><a href="https://bscscan.com/token/0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c" target="_blank">0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c</a></div>
+                                <div class="circulation-blockchain-address"><a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank">0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c</a></div>
                             </div>
-                        </div>
-                        <div class="circulation-blockchain">
-                            <img src="/img/landing/metagarden/icon-m.svg" alt="Minter">
-                            <div class="circulation-blockchain-name">Minter</div>
                         </div>
                     </div>
                     <div class="circulation-text-block">
-                        <p>{{ $td('Currently, there are about 500,000 tokens in free circulation on the market. Over 99% of the total token supply is held by the project team.', 'metagarden-chain.сirculation-team')}}</p>
-                        <a :href="$td('/buy-tokens', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Become Early Adopter', 'metagarden-chain.become-button')}}</a>
+                        <template v-if="$i18n.locale === 'en'">
+                            <p>We issued MEGA coins on <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> and <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> for those who want to buy the Metagarden Chain coins before the Mainet launch.</p>
+                            <p>The starting price of the MEGA token was $1.</p>
+                        </template>
+                        <template v-if="$i18n.locale === 'ru'">
+                            <p>Мы выпустили токены MEGA в <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> и <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> для тех, кто хочет купить токены Metagarden Chain до запуска основной сети.</p>
+                            <p>Стартовая цена токена MEGA составляла $1.</p>
+                        </template>
+                        <a :href="$td('/buy-tokens', 'metagarden-chain.become-button-url')" class="btn">{{ $td('Buy tokens', 'metagarden-chain.become-button')}}</a>
                     </div>
                 </div>
             </div>
-        </section>-->
+        </section>
         <section class="vision">
             <div class="container">
                 <template v-if="$i18n.locale === 'en'">
