@@ -17,6 +17,7 @@ export default {
                         <a :href="$td('/', 'metagarden-chain.menu-evm-url')"><img src="/img/metagarden-chain/meganet-logo.svg" width="29" height="32" alt="Metagarden Chain"></a>
                     </div>
                     <div class="navbar-top-menu">
+                        <a href="http://t.me/metagardenbot?start=start" class="menu-link-a" target="_blank">{{ $td('Play Games', 'metagarden-chain.menu-play')}}</a>
                         <a :href="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')" class="menu-link-a">{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</a>
                         <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</a>
                         <a :href="$td('/influencer', 'metagarden-chain.menu-influencer-url')" class="menu-link-a">{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</a>
