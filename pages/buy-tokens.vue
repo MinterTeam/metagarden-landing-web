@@ -52,7 +52,7 @@ export default {
                                 <div class="buy-price-value">1 MEGA = $1</div>
                                 <small>Minimum purchase of $100</small>
                             </div>
-                            <p class="subtitle-h1">To buy MEGA coins simply send your ETH, BNB or USDT tokens to this address in either Ethereum or BNB Smart Chian︎:</p>
+                            <p class="subtitle-h1">To buy MEGA coins simply send* your ETH, BNB or USDT tokens to this address in either Ethereum or BNB Smart Chian︎:</p>
                             <div class="buy-address-block">
                                 <div class="buy-address">0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2</div>
                                 <client-only>
@@ -60,6 +60,10 @@ export default {
                                 </client-only>
                             </div>
                             <p class="subtitle-h1">The MEGA coins will be send back to your address automatically.</p>
+                            <div class="warning-block">
+                                <img src="/img/metagarden-chain/icon-warning.svg" alt="">
+                                <span>* Do not send tokens from <b>exchange wallets</b>, your tokens will be lost. Send only from wallets <b>you have a seed phrase</b> to.</span>
+                            </div>
                             <div class="buttons-block">
                                 <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c4e6727ab2218affa6a30250b1148922bb7745c&chain=bsc" class="btn btn-icon" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/icon-pancake.png" alt="">or Buy on PancakeSwap</a>
                                 <a class="btn btn-outline btn-icon btn-disable"><img src="/img/metagarden-chain/icon-uniswap.png" alt="">Uniswap coming soon</a>
@@ -73,7 +77,7 @@ export default {
                                 <div class="buy-price-value">1 MEGA = $1</div>
                                 <small>Минимальная покупка от $100</small>
                             </div>
-                            <p class="subtitle-h1">Чтобы купить токены MEGA, просто отправьте свои монеты ETH, BNB или USDT на этот адрес в Ethereum или BNB Smart Chian︎:</p>
+                            <p class="subtitle-h1">Чтобы купить токены MEGA, просто отправьте* свои монеты ETH, BNB или USDT на этот адрес в Ethereum или BNB Smart Chian︎:</p>
                             <div class="buy-address-block">
                                 <div class="buy-address">0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2</div>
                                 <client-only>
@@ -81,6 +85,10 @@ export default {
                                 </client-only>
                             </div>
                             <p class="subtitle-h1">Токены MEGA будут отправлены на ваш адрес автоматически.</p>
+                            <div class="warning-block">
+                                <img src="/img/metagarden-chain/icon-warning.svg" alt="">
+                                <span>* Не отправляйте токены с <b>кошельков биржи</b>, ваши токены будут потеряны. Отправляйте только с кошельков, от которых <b>у вас есть seed-фраза</b>.</span>
+                            </div>
                             <div class="buttons-block">
                                 <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c4e6727ab2218affa6a30250b1148922bb7745c&chain=bsc" class="btn btn-icon" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/icon-pancake.png" alt="">или купите на PancakeSwap</a>
                                 <a class="btn btn-outline btn-icon btn-disable"><img src="/img/metagarden-chain/icon-uniswap.png" alt="">Uniswap скоро...</a>
