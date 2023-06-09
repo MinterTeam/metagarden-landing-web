@@ -22,18 +22,10 @@ export default {
                         </template>
                     </div>
                     <div class="metagarden-footer-right">
-                        <template v-if="$i18n.locale === 'en'">
-                            <a href="https://discord.gg/CvyR3h3BQV" target="_blank"><img src="/img/metagarden-chain/icon-discord.svg" alt="discord eng"></a>
-                            <a href="https://www.youtube.com/@metagarden-chain" target="_blank"><img src="/img/metagarden-chain/icon-youtube.svg" alt="youtube eng"></a>
-                            <a href="https://twitter.com/metagardengames" target="_blank"><img src="/img/metagarden-chain/icon-twitter.svg" alt="twitter eng"></a>
-                            <a href="https://t.me/metagarden" target="_blank"><img src="/img/metagarden-chain/icon-telegram.svg" alt="telegram eng"></a>
-                        </template>
-                        <template v-if="$i18n.locale === 'ru'">
-                            <a href="https://discord.gg/CvyR3h3BQV" target="_blank"><img src="/img/metagarden-chain/icon-discord.svg" alt="discord ru"></a>
-                            <a href="https://www.youtube.com/@metagarden-chain" target="_blank"><img src="/img/metagarden-chain/icon-youtube.svg" alt="youtube ru"></a>
-                            <a href="https://twitter.com/metagardengames" target="_blank"><img src="/img/metagarden-chain/icon-twitter.svg" alt="twitter ru"></a>
-                            <a href="https://t.me/metagardenru" target="_blank"><img src="/img/metagarden-chain/icon-telegram.svg" alt="telegram ru"></a>
-                        </template>
+                        <a :href="$td('https://discord.gg/CvyR3h3BQV', 'metagarden-chain.social-discord')" target="_blank"><img src="/img/metagarden-chain/icon-discord.svg" alt="Metagarden Chain Discord"></a>
+                        <a :href="$td('https://www.youtube.com/@metagarden-chain', 'metagarden-chain.social-youtube')" target="_blank"><img src="/img/metagarden-chain/icon-youtube.svg" alt="Metagarden Chain Youtube"></a>
+                        <a :href="$td('https://twitter.com/metagardengames', 'metagarden-chain.social-twitter')" target="_blank"><img src="/img/metagarden-chain/icon-twitter.svg" alt="Metagarden Chain Twitter"></a>
+                        <a :href="$td('https://t.me/metagarden', 'metagarden-chain.social-telegram')" target="_blank"><img src="/img/metagarden-chain/icon-telegram.svg" alt="Metagarden Chain Telegram"></a>
                     </div>
                 </div>
                 <p>© 2023 Minter Development Foundation. All Rights Reserved. 75 Broadway, Suite 202, San Francisco, CA, 94111.<br>For correspondence: 548 Market St #32852, San Francisco, CA 94104-5401. <b>hello@metagarden.io</b></p>

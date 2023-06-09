@@ -1,8 +1,10 @@
 <script>
+import TheHeader from '~/layouts/_header.vue';
 import TheFooter from '~/layouts/_footer.vue';
 
 export default {
     components: {
+        TheHeader,
         TheFooter,
     },
     head() {
@@ -18,6 +20,7 @@ export default {
 
 <template>
     <div class="wrapper metagarden-chain-layout">
+        <TheHeader/>
         <nuxt/>
 
     <TheFooter/>

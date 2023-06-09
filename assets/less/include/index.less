@@ -169,13 +169,65 @@ tbody tr.tr-active {
 	transition: all 0.3s 0.02s ease;
 }
 
-.top-bar {
+/* NAV */
+.navbar {
+    
+}
+.navbar-level-1 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    background: #350C5C;
+    box-shadow: -8px 8px 20px rgba(0, 0, 0, 0.2);
+    .mdc-menu-surface--anchor {
+        margin: 20px 16px 20px 24px;
+    }
+    .header__language-button {
+        border: 0;
+    }
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-logo {
+    margin: 16px 24px 16px 16px;
+    a {
+        display: block;
+        width: 29px;
+        height: 32px;
+    }
+}
+.navbar-top-menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-social {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    a {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+}
+.mobil-menu {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    background: #350C5C;
+    box-shadow: -8px 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 16px 24px;
+}
+
+.navbar-level-2 {
+    margin: 28px 0 0 0;
 }
 .menu {
     display: flex;
@@ -189,7 +241,7 @@ tbody tr.tr-active {
     height: 100%;
     display: flex;
     align-items: center;
-    margin: 0 22px 0 0;
+    margin: 0 32px 0 0;
 }
 .menu-link:hover .sub-menu {
     display: block;
@@ -207,6 +259,7 @@ tbody tr.tr-active {
 }
 .menu-link-a:hover, .menu-link:hover .menu-link-a, .menu-link-active .menu-link-a {
     border-bottom: 4px #AB56FF solid;
+    color: #AB56FF;
 }
 .mdc-menu-surface--anchor {
     display: inline-block;
@@ -273,14 +326,10 @@ tbody tr.tr-active {
 .sub-menu-item-content h4 {margin: 0 0 8px 0;}
 .header__language-button {
     border-radius: 50%;
-    border: 2px solid #f5ece9;
+    /*border: 2px solid #f5ece9;*/
     img {
         vertical-align: top;
     }
-}
-.hamburger-menu {
-    display: none;
-    //padding: 5px 0 0 20px;
 }
 #menu__toggle {
     display: none;
@@ -511,8 +560,6 @@ footer p {
     .container {
         padding: 0 24px;
     }
-    .menu-link {display: none;}
-    .hamburger-menu {display: block;}
     .hello {
         display: flex;
         flex-direction: column-reverse;
@@ -546,7 +593,8 @@ footer p {
     }
 }
 @media (max-width: 750px) {
-    .menu-link {display: none;}
+    .navbar-level-1, .navbar-level-2 {display: none;}
+    .mobil-menu {display: flex;}
     .hamburger-menu {display: block;}
     .hello {
         padding: 0;
@@ -968,7 +1016,7 @@ img.games-image {
 @media (min-width: 1016px) {
     .metagarden-chain-influencer {
         header {
-            padding: 0 0 130px;
+            padding: 0 0 100px;
         }
     }
 }

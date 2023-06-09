@@ -529,5 +529,9 @@ export default {
 		'team-8-d': 'Менеджер проектов. 15-летний опыт работы в области управления проектами и цифрового маркетинга. Работал в различных крупных компаниях и брендах. Имеет степень в области мировой экономики.',
 		'team-9-d': 'Специалист по маркетингу. Имея более чем 12-летний опыт работы в сфере цифрового маркетинга, он отвечает за маркетинговую стратегию, партнерские отношения и рекламные кампании.',
 		'roadmap-title': 'Дорожная карта',
+		'social-discord': 'https://discord.gg/CvyR3h3BQV',
+		'social-youtube': 'https://www.youtube.com/@metagarden-chain',
+		'social-twitter': 'https://twitter.com/metagardengames',
+		'social-telegram': 'https://t.me/metagardenru',
 	},
 };
