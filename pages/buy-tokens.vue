@@ -65,7 +65,7 @@ export default {
                                 <span>* Do not send tokens from <b>exchange wallets</b>, your tokens will be lost. Send only from wallets <b>you have a seed phrase</b> to.</span>
                             </div>
                             <div class="buttons-block">
-                                <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c4e6727ab2218affa6a30250b1148922bb7745c&chain=bsc" class="btn btn-icon" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/icon-pancake.png" alt="">or Buy on PancakeSwap</a>
+                                <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c4e6727ab2218affa6a30250b1148922bb7745c&chain=bsc&inputCurrency=0x55d398326f99059fF775485246999027B3197955" class="btn btn-icon" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/icon-pancake.png" alt="">or Buy on PancakeSwap</a>
                                 <a class="btn btn-outline btn-icon btn-disable"><img src="/img/metagarden-chain/icon-uniswap.png" alt="">Uniswap coming soon</a>
                             </div>
                         </template>
@@ -90,7 +90,7 @@ export default {
                                 <span>* Не отправляйте токены с <b>кошельков биржи</b>, ваши токены будут потеряны. Отправляйте только с кошельков, от которых <b>у вас есть seed-фраза</b>.</span>
                             </div>
                             <div class="buttons-block">
-                                <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c4e6727ab2218affa6a30250b1148922bb7745c&chain=bsc" class="btn btn-icon" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/icon-pancake.png" alt="">или купите на PancakeSwap</a>
+                                <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c4e6727ab2218affa6a30250b1148922bb7745c&chain=bsc&inputCurrency=0x55d398326f99059fF775485246999027B3197955" class="btn btn-icon" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/icon-pancake.png" alt="">или купите на PancakeSwap</a>
                                 <a class="btn btn-outline btn-icon btn-disable"><img src="/img/metagarden-chain/icon-uniswap.png" alt="">Uniswap скоро...</a>
                             </div>
                         </template>
