@@ -334,19 +334,6 @@ export default {
                     </div>
                     <div class="team-item">
                         <picture>
-                            <source srcset="/img/metagarden-chain/team-3.avif 1x, /img/metagarden-chain/team-3@2x.avif 2x" type="image/avif">
-                            <source srcset="/img/metagarden-chain/team-3.webp 1x, /img/metagarden-chain/team-3@2x.webp 2x" type="image/webp">
-                            <img src="/img/metagarden-chain/team-3.png" srcset="/img/metagarden-chain/team-3@2x.png 2x" alt="" role="presentation"/>
-                        </picture>
-                        <div class="team-item-content">
-                            <div class="team-item-content-title">
-                                <h3 class="team-item-name">{{ $td('Sergey Tkachev', 'metagarden-chain.team-3')}}</h3>
-                            </div>
-                            <p>{{ $td('Chief Marketing Officer, Co-Founder. With more than 10 years of experience in digital marketing, he is responsible for social network promo and ad campaigns, community management, and customer support.', 'metagarden-chain.team-3-d')}}</p>
-                        </div>
-                    </div>
-                    <div class="team-item">
-                        <picture>
                             <source srcset="/img/metagarden-chain/team-4.avif 1x, /img/metagarden-chain/team-4@2x.avif 2x" type="image/avif">
                             <source srcset="/img/metagarden-chain/team-4.webp 1x, /img/metagarden-chain/team-4@2x.webp 2x" type="image/webp">
                             <img src="/img/metagarden-chain/team-4.png" srcset="/img/metagarden-chain/team-4@2x.png 2x" alt="" role="presentation"/>
