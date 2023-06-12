@@ -46,23 +46,23 @@ export default {
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <template v-if="$i18n.locale === 'en'">
                             <h1>Buy tokens before Mainnet launch</h1>
-                            <p class="subtitle-h1">We issued MEGA coins on <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> and <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> for those who want to buy the Metagarden Chain coins before the Mainet launch.</p>
+                            <p class="subtitle-h1">We issued MEGA tokens on <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> and <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> for those who want to buy the Metagarden Chain tokens before the Mainet launch.</p>
                             <div class="buy-price-block">
                                 <h3>Early stages price</h3>
                                 <div class="buy-price-value">1 MEGA = $1</div>
                                 <small>Minimum purchase of $100</small>
                             </div>
-                            <p class="subtitle-h1">To buy MEGA coins simply send* your ETH, BNB or USDT tokens to this address in either Ethereum or BNB Smart Chian︎:</p>
+                            <p class="subtitle-h1">To buy MEGA tokens simply send* your ETH, BNB or USDT tokens to this address in either Ethereum or BNB Smart Chian︎:</p>
                             <div class="buy-address-block">
                                 <div class="buy-address">0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2</div>
                                 <client-only>
                                     <BaseButtonCopyIcon copy-text="0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2" :is-inline="true"/>
                                 </client-only>
                             </div>
-                            <p class="subtitle-h1">The MEGA coins will be send back to your address automatically.</p>
+                            <p class="subtitle-h1">The MEGA tokens will be send back to your address automatically.</p>
                             <div class="warning-block">
                                 <img src="/img/metagarden-chain/icon-warning.svg" alt="">
-                                <span>* Do not send tokens from <b>exchange wallets</b>, your tokens will be lost. Send only from wallets <b>you have a seed phrase</b> to.</span>
+                                <span>* Do not send tokens from <b>exchange wallets</b>, your tokens will be lost. <br>Send only from wallets <b>you have a seed phrase</b> to.</span>
                             </div>
                             <div class="buttons-block">
                                 <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c4e6727ab2218affa6a30250b1148922bb7745c&chain=bsc&inputCurrency=0x55d398326f99059fF775485246999027B3197955" class="btn btn-icon" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/icon-pancake.png" alt="">or Buy on PancakeSwap</a>
@@ -87,7 +87,7 @@ export default {
                             <p class="subtitle-h1">Токены MEGA будут отправлены на ваш адрес автоматически.</p>
                             <div class="warning-block">
                                 <img src="/img/metagarden-chain/icon-warning.svg" alt="">
-                                <span>* Не отправляйте токены с <b>кошельков биржи</b>, ваши токены будут потеряны. Отправляйте только с кошельков, от которых <b>у вас есть seed-фраза</b>.</span>
+                                <span>* Не отправляйте токены с <b>кошельков биржи</b>, ваши токены будут потеряны. <br>Отправляйте только с кошельков, от которых <b>у вас есть seed-фраза</b>.</span>
                             </div>
                             <div class="buttons-block">
                                 <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c4e6727ab2218affa6a30250b1148922bb7745c&chain=bsc&inputCurrency=0x55d398326f99059fF775485246999027B3197955" class="btn btn-icon" target="_blank" rel="nofollow"><img src="/img/metagarden-chain/icon-pancake.png" alt="">или купите на PancakeSwap</a>

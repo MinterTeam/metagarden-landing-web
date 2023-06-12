@@ -66,7 +66,7 @@ export default {
         </header>
         <section class="games">
             <div class="container">
-                <h2>{{ $td('We are on track to launch over 100 mini-games from various game developers by the end of 2023', 'metagarden-chain.platform-games-title')}}</h2>
+                <h2>{{ $td('We are on track to launch over 100 mini-games from various game developers in 2023-2024', 'metagarden-chain.platform-games-title')}}</h2>
                 <div class="games-grid">
                     <div class="games-item">
                         <picture>
