@@ -530,7 +530,7 @@ export default {
 		'team-9-d': 'Специалист по маркетингу. Имея более чем 12-летний опыт работы в сфере цифрового маркетинга, он отвечает за маркетинговую стратегию, партнерские отношения и рекламные кампании.',
 		'roadmap-title': 'Дорожная карта',
 		'social-discord': 'https://discord.gg/CvyR3h3BQV',
-		'social-youtube': 'https://www.youtube.com/@metagarden-chain',
+		'social-youtube': 'https://www.youtube.com/@metagardenchain',
 		'social-twitter': 'https://twitter.com/metagardengames',
 		'social-telegram': 'https://t.me/metagardenru',
 	},

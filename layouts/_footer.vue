@@ -23,7 +23,7 @@ export default {
                     </div>
                     <div class="metagarden-footer-right">
                         <a :href="$td('https://discord.gg/CvyR3h3BQV', 'metagarden-chain.social-discord')" target="_blank"><img src="/img/metagarden-chain/icon-discord.svg" alt="Metagarden Chain Discord"></a>
-                        <a :href="$td('https://www.youtube.com/@metagarden-chain', 'metagarden-chain.social-youtube')" target="_blank"><img src="/img/metagarden-chain/icon-youtube.svg" alt="Metagarden Chain Youtube"></a>
+                        <a :href="$td('https://www.youtube.com/@metagardenchain', 'metagarden-chain.social-youtube')" target="_blank"><img src="/img/metagarden-chain/icon-youtube.svg" alt="Metagarden Chain Youtube"></a>
                         <a :href="$td('https://twitter.com/metagardengames', 'metagarden-chain.social-twitter')" target="_blank"><img src="/img/metagarden-chain/icon-twitter.svg" alt="Metagarden Chain Twitter"></a>
                         <a :href="$td('https://t.me/metagarden', 'metagarden-chain.social-telegram')" target="_blank"><img src="/img/metagarden-chain/icon-telegram.svg" alt="Metagarden Chain Telegram"></a>
                     </div>

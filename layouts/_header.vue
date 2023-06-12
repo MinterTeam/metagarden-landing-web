@@ -18,15 +18,15 @@ export default {
                     </div>
                     <div class="navbar-top-menu">
                         <a href="http://t.me/metagardenbot?start=start" class="menu-link-a" target="_blank">{{ $td('Play Games', 'metagarden-chain.menu-play')}}</a>
-                        <a :href="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')" class="menu-link-a">{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</a>
-                        <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</a>
-                        <a :href="$td('/influencer', 'metagarden-chain.menu-influencer-url')" class="menu-link-a">{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</a>
+                        <nuxt-link :to="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')" class="menu-link-a">{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</nuxt-link>
+                        <nuxt-link :to="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</nuxt-link>
+                        <nuxt-link :to="$td('/influencer', 'metagarden-chain.menu-influencer-url')" class="menu-link-a">{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</nuxt-link>
                     </div>
                 </div>
                 <div class="navbar-right">
                     <div class="navbar-social">
                         <a :href="$td('https://discord.gg/CvyR3h3BQV', 'metagarden-chain.social-discord')" target="_blank"><img src="/img/metagarden-chain/icon-discord.svg" alt="Metagarden Chain Discord"></a>
-                        <a :href="$td('https://www.youtube.com/@metagarden-chain', 'metagarden-chain.social-youtube')" target="_blank"><img src="/img/metagarden-chain/icon-youtube.svg" alt="Metagarden Chain Youtube"></a>
+                        <a :href="$td('https://www.youtube.com/@metagardenchain', 'metagarden-chain.social-youtube')" target="_blank"><img src="/img/metagarden-chain/icon-youtube.svg" alt="Metagarden Chain Youtube"></a>
                         <a :href="$td('https://twitter.com/metagardengames', 'metagarden-chain.social-twitter')" target="_blank"><img src="/img/metagarden-chain/icon-twitter.svg" alt="Metagarden Chain Twitter"></a>
                         <a :href="$td('https://t.me/metagarden', 'metagarden-chain.social-telegram')" target="_blank"><img src="/img/metagarden-chain/icon-telegram.svg" alt="Metagarden Chain Telegram"></a>
                     </div>
@@ -40,16 +40,16 @@ export default {
                             <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank" class="menu-link-a"><img src="/img/metagarden-chain/launchpad.svg" class="menu-icon" alt="Metagarden Chain Launchpad" width="16" height="16"/>{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</a>
                         </div>
                         <div class="menu-link">
-                            <a :href="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</a>
+                            <nuxt-link :to="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</nuxt-link>
                         </div>
                         <div class="menu-link">
-                            <a :href="$td('/buy-tokens', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Buy Tokens', 'metagarden-chain.menu-early-access')}}</a>
+                            <nuxt-link :to="$td('/buy-tokens', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Buy Tokens', 'metagarden-chain.menu-early-access')}}</nuxt-link>
                         </div>
                         <div class="menu-link">
-                            <a :href="$td('/wallet', 'metagarden-chain.menu-wallet-url')" class="menu-link-a">{{ $td('Wallet', 'metagarden-chain.menu-wallet')}}</a>
+                            <nuxt-link :to="$td('/wallet', 'metagarden-chain.menu-wallet-url')" class="menu-link-a">{{ $td('Wallet', 'metagarden-chain.menu-wallet')}}</nuxt-link>
                         </div>
                         <div class="menu-link">
-                            <a :href="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</a>
+                            <nuxt-link :to="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</nuxt-link>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
