@@ -52,11 +52,11 @@ export default {
                                 <div class="buy-price-value">1 MEGA = $1</div>
                                 <small>Minimum purchase of $30</small>
                             </div>
-                            <p class="subtitle-h1">To buy MEGA tokens simply send* your ETH, BNB or USDT tokens to this address in either Ethereum or BNB Smart Chian︎:</p>
+                            <p class="subtitle-h1">To buy MEGA tokens simply send* your ETH or BNB tokens to this address in either Ethereum or BNB Smart Chian︎:</p>
                             <div class="buy-address-block">
-                                <div class="buy-address">0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2</div>
+                                <div class="buy-address">0x065aEcd156136F002076ECC3f42EAca132E36444</div>
                                 <client-only>
-                                    <BaseButtonCopyIcon copy-text="0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2" :is-inline="true"/>
+                                    <BaseButtonCopyIcon copy-text="0x065aEcd156136F002076ECC3f42EAca132E36444" :is-inline="true"/>
                                 </client-only>
                             </div>
                             <p class="subtitle-h1">The MEGA tokens will be send back to your address automatically.</p>
@@ -77,11 +77,11 @@ export default {
                                 <div class="buy-price-value">1 MEGA = $1</div>
                                 <small>Минимальная покупка от $30</small>
                             </div>
-                            <p class="subtitle-h1">Чтобы купить токены MEGA, просто отправьте* свои монеты ETH, BNB или USDT на этот адрес в Ethereum или BNB Smart Chian︎:</p>
+                            <p class="subtitle-h1">Чтобы купить токены MEGA, просто отправьте* свои монеты ETH или BNB на этот адрес в Ethereum или BNB Smart Chian︎:</p>
                             <div class="buy-address-block">
-                                <div class="buy-address">0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2</div>
+                                <div class="buy-address">0x065aEcd156136F002076ECC3f42EAca132E36444</div>
                                 <client-only>
-                                    <BaseButtonCopyIcon copy-text="0xfc25e5AB0CaA286bC1Ba1E3C1492e72f827D68A2" :is-inline="true"/>
+                                    <BaseButtonCopyIcon copy-text="0x065aEcd156136F002076ECC3f42EAca132E36444" :is-inline="true"/>
                                 </client-only>
                             </div>
                             <p class="subtitle-h1">Токены MEGA будут отправлены на ваш адрес автоматически.</p>
