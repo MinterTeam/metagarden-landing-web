@@ -50,7 +50,7 @@ export default {
                             <div class="buy-price-block">
                                 <h3>Early stages price</h3>
                                 <div class="buy-price-value">1 MEGA = $1</div>
-                                <small>Minimum purchase of $100</small>
+                                <small>Minimum purchase of $30</small>
                             </div>
                             <p class="subtitle-h1">To buy MEGA tokens simply send* your ETH, BNB or USDT tokens to this address in either Ethereum or BNB Smart Chian︎:</p>
                             <div class="buy-address-block">
@@ -75,7 +75,7 @@ export default {
                             <div class="buy-price-block">
                                 <h3>Цена на ранних стадиях</h3>
                                 <div class="buy-price-value">1 MEGA = $1</div>
-                                <small>Минимальная покупка от $100</small>
+                                <small>Минимальная покупка от $30</small>
                             </div>
                             <p class="subtitle-h1">Чтобы купить токены MEGA, просто отправьте* свои монеты ETH, BNB или USDT на этот адрес в Ethereum или BNB Smart Chian︎:</p>
                             <div class="buy-address-block">
