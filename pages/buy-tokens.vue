@@ -48,7 +48,7 @@ export default {
                             <h1>Buy tokens before Mainnet launch</h1>
                             <p class="subtitle-h1">We issued MEGA tokens on <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> and <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> for those who want to buy the Metagarden Chain tokens before the Mainet launch.</p>
                             <div class="buy-price-block">
-                                <h3>Early stages price</h3>
+                                <h3 class="buy-price-h3">Early stages price</h3>
                                 <div class="buy-price-value">1 MEGA = $1</div>
                                 <small>Minimum purchase of $30</small>
                             </div>
@@ -73,7 +73,7 @@ export default {
                             <h1>Купите токены до запуска мейннета</h1>
                             <p class="subtitle-h1">Мы выпустили токены MEGA в <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> и <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> для тех, кто хочет купить токены Metagarden Chain до запуска основной сети.</p>
                             <div class="buy-price-block">
-                                <h3>Цена на ранних стадиях</h3>
+                                <h3 class="buy-price-h3">Цена на ранних стадиях</h3>
                                 <div class="buy-price-value">1 MEGA = $1</div>
                                 <small>Минимальная покупка от $30</small>
                             </div>
