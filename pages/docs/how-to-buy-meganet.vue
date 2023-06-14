@@ -1,13 +1,9 @@
 <script>
 import getTitle from '~/assets/get-title.js';
 import trackClick from '~/assets/v-track-click.js';
-import BaseButtonCopyIcon from '~/components/base/BaseButtonCopyIcon.vue';
 
 export default {
     layout: 'metagarden-chain',
-    components: {
-        BaseButtonCopyIcon,
-    },
     directives: {
         trackClick,
     },
