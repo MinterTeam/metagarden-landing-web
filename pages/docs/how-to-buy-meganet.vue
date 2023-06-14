@@ -113,8 +113,8 @@ export default {
                             <div class="buttons-block"><a href="https://console.minter.network/swap" class="btn" target="_blank">Go to Console</a></div>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <h1>Как купить MEGANET – прелонч токены Metagarden Chain</h1>
-                            <p class="subtitle-h1">MEGANET – это прелонч-токен Metagarden Chain, быстрого игрового EVM-блокчейна первого уровня. За каждый токен MEGANET вы получите 2 монеты MEGA (нативные монеты Metagarden Chain) при запуске основной сети. Есть несколько способов купить токен MEGANET, выбирайте наиболее удобный для вас.</p>
+                            <h1>Как купить MEGANET, пре-лонч токены Metagarden Chain</h1>
+                            <p class="subtitle-h1">MEGANET – это пре-лонч токен Metagarden Chain, быстрого игрового EVM-блокчейна первого уровня. За каждый токен MEGANET вы получите 2 монеты MEGA (нативные монеты Metagarden Chain) при запуске основной сети. Есть несколько способов купить токен MEGANET, выбирайте наиболее удобный для вас.</p>
                             <div class="buy-price-block">
                                 <h3 class="buy-price-h3">Актуальная цена:</h3>
                                 <div class="buy-price-value">1 MEGANET = $0.32</div>

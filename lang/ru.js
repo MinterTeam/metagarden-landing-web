@@ -533,7 +533,7 @@ export default {
 		'social-youtube': 'https://www.youtube.com/@metagardenchain',
 		'social-twitter': 'https://twitter.com/metagardengames',
 		'social-telegram': 'https://t.me/metagardenru',
-		'title-how-buy-meganet': 'Как купить MEGANET – прелонч токены Metagarden Chain',
+		'title-how-buy-meganet': 'Как купить MEGANET, пре-лонч токены Metagarden Chain',
 		'menu-how-buy-meganet-description': 'За каждый токен MEGANET вы получите 2 монеты MEGA (нативные монеты Metagarden Chain) при запуске основной сети.',
 	},
 };
