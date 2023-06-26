@@ -37,7 +37,7 @@ export default {
                 <div class="container">
                     <div class="menu">
                         <div class="menu-link">
-                            <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank" class="menu-link-a"><img src="/img/metagarden-chain/launchpad.svg" class="menu-icon" alt="Metagarden Chain Launchpad" width="16" height="16"/>{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</a>
+                            <a :href="$td('http://t.me/metagardenbot?start=launchpad', 'metagarden-chain.menu-launchpad-url')" target="_blank" class="menu-link-a"><img src="/img/metagarden-chain/launchpad.svg" class="menu-icon" alt="Metagarden Chain Launchpad" width="16" height="16"/>{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</a>
                         </div>
                         <div class="menu-link">
                             <nuxt-link :to="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</nuxt-link>
@@ -65,7 +65,7 @@ export default {
                     </label>
                     <div class="menu__box">
                         <div class="sub-menu-item">
-                            <a :href="$td('https://launchpad.metagarden.io/', 'metagarden-chain.menu-launchpad-url')" target="_blank">
+                            <a :href="$td('http://t.me/metagardenbot?start=launchpad', 'metagarden-chain.menu-launchpad-url')" target="_blank">
                                 <div class="sub-menu-item-image">
                                     <img src="/img/metagarden-chain/menu-launchpad.svg" alt="">
                                 </div>

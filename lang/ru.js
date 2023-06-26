@@ -460,7 +460,7 @@ export default {
 		'menu-wallet-url': '/ru/wallet',
 		'menu-gamerid-url': '/ru/gamerid',
 		'menu-platform-url': '/ru/platform',
-		'menu-launchpad-url': 'https://launchpad.metagarden.io/ru',
+		'menu-launchpad-url': 'http://t.me/metagardenbot?start=launchpadru',
 		'menu-evm-description': 'Быстрые блоки, высокая пропускная способность, дешевое развертывание смарт-контрактов, дешевый минтинг NFT, дешевые транзакции, API и SDK для разработчиков игр и многие другие функции.',
 		'menu-early-access-description': 'Станьте ранним пользователем Metagarden Chain.',
 		'menu-wallet-description': 'Чтобы получить +100% бонус и аирдропы, вы должны зарегистрировать свой кошелек и иметь на балансе минимум 1 токен MEGANET.',
