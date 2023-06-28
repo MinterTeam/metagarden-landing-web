@@ -75,7 +75,7 @@ export default {
                             <a href="http://t.me/metagardenbot?start=wonder" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.games-item-button')}}</a>
                         </div>
                     </div>
-                    <div class="index-games-item index-games-item-reverse" id="index-games-item-2">
+                    <div class="index-games-item index-games-item-reverse">
                         <div class="index-games-item-img">
                             <picture>
                                 <source srcset="/img/metagarden-chain/index-miner.avif 1x, /img/metagarden-chain/index-miner@2x.avif 2x" type="image/avif">
@@ -89,7 +89,7 @@ export default {
                             <a href="http://t.me/metagardenbot?start=luckyminer" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.games-item-button')}}</a>
                         </div>
                     </div>
-                    <div class="index-games-item" id="index-games-item-3">
+                    <div class="index-games-item">
                         <div class="index-games-item-img">
                             <picture>
                                 <source srcset="/img/metagarden-chain/index-snatch.avif 1x, /img/metagarden-chain/index-snatch@2x.avif 2x" type="image/avif">
@@ -103,7 +103,7 @@ export default {
                             <a href="http://t.me/metagardenbot?start=snatch" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.games-item-button')}}</a>
                         </div>
                     </div>
-                    <div class="index-games-item index-games-item-reverse" id="index-games-item-4">
+                    <div class="index-games-item index-games-item-reverse">
                         <div class="index-games-item-img">
                             <picture>
                                 <source srcset="/img/metagarden-chain/index-heist.avif 1x, /img/metagarden-chain/index-heist@2x.avif 2x" type="image/avif">
@@ -118,6 +118,7 @@ export default {
                         </div>
                     </div>
                 </div>
+                <div class="index-games-100">{{ $td('We are on track to launch over 100 hyper-casual crypto games for Telegram in 2023-2024', 'metagarden-chain.index-games-100')}}</div>
             </div>
         </section>
         <section class="why-telegram-section">
@@ -133,8 +134,8 @@ export default {
                                 <li>The best messenger</li>
                                 <li>700M user base</li>
                                 <li>Great virality tools</li>
-                                <li>Top security and privacy</li>
                                 <li>Ability to launch games in a single tap</li>
+                                <li>Top security and privacy</li>
                             </ul>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
@@ -142,8 +143,8 @@ export default {
                                 <li>Лучший мессенджер</li>
                                 <li>700 миллионов пользователей</li>
                                 <li>Отличные инструменты виральности</li>
-                                <li>Высочайшая безопасность и конфиденциальность</li>
                                 <li>Возможность запуска игр одним касанием</li>
+                                <li>Высочайшая безопасность и конфиденциальность</li>
                             </ul>
                         </template>
                     </div>
@@ -366,7 +367,6 @@ export default {
                             <li>API & SDK for developers</li>
                             <li>Game platform launch</li>
                             <li>Non-castodial wallet launch</li>
-                            <li>Launch of more than 100 crypto games on the platform</li>
                         </ul>
                     </template>
                     <template v-if="$i18n.locale === 'ru'">
@@ -380,7 +380,6 @@ export default {
                             <li>API и SDK для разработчиков</li>
                             <li>Полноценный запуск игровой платформы</li>
                             <li>Запуск некастодиального кошелька</li>
-                            <li>Выход более 100 крипто-игр на платформе</li>
                         </ul>
                     </template>
                 </div>

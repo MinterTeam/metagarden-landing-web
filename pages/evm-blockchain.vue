@@ -307,6 +307,7 @@ export default {
                     <template v-if="$i18n.locale === 'en'">
                         <h3>Expected in 2023-2024</h3>
                         <ul>
+                            <li>To launch over 100 hyper-casual crypto games for Telegram</li>
                             <li>Mainnet launch</li>
                             <li>Smart Contract Builder</li>
                             <li>Cross-game tools</li>
@@ -314,12 +315,12 @@ export default {
                             <li>API & SDK for developers</li>
                             <li>Game platform launch</li>
                             <li>Non-castodial wallet launch</li>
-                            <li>Launch of more than 100 crypto games on the platform</li>
                         </ul>
                     </template>
                     <template v-if="$i18n.locale === 'ru'">
                         <h3>Ожидается в 2023-2024</h3>
                         <ul>
+                            <li>Запуск более 100 гипер-казуальных криптоигр для Telegram</li>
                             <li>Запуск основной сети</li>
                             <li>Конструктор смарт-контрактов</li>
                             <li>Кросс-игровые инструменты</li>
@@ -327,7 +328,6 @@ export default {
                             <li>API и SDK для разработчиков</li>
                             <li>Полноценный запуск игровой платформы</li>
                             <li>Запуск некастодиального кошелька</li>
-                            <li>Выход более 100 крипто-игр на платформе</li>
                         </ul>
                     </template>
                 </div>
