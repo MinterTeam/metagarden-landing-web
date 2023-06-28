@@ -5,6 +5,13 @@ src: url('../fonts/Archivo-ExtraBold.ttf') format('truetype');
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../fonts/Unbounded-Bold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
 
 html {
     color: #fff;
@@ -591,7 +598,7 @@ footer p {
         width: 45%;
     }
 }
-@media (max-width: 750px) {
+@media (max-width: 780px) {
     .navbar-level-1, .navbar-level-2 {display: none;}
     .mobil-menu {display: flex;}
     .hamburger-menu {display: block;}
@@ -1414,6 +1421,159 @@ ul li::before {
         h3 {
             font-size: 24px;
             line-height: 28px;
+        }
+    }
+}
+.metagarden-chain-index {
+    .hello {
+        padding: 50px 0 0 0;
+    }
+    .hello-content {
+        max-width: 100%;
+    }
+    .subtitle-h1 {
+        max-width: 554px;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 0 40px 0;
+    }
+    .index-games-item {
+        position: relative;
+        padding: 0 0 110px 0;
+        display: flex;
+        align-items: center;
+        gap: 48px;
+        h3 {
+            font-size: 22px;
+            line-height: 26px;
+            font-family: 'Unbounded';
+        }
+        p {
+            max-width: 554px;
+        }
+        img {
+            position: absolute;
+            top: -200px;
+            border-radius: 34px;
+            box-shadow: -16px 4px 52px 0px rgba(0, 0, 0, 0.25);
+        }
+    }
+    /*#index-games-item-2 {
+        top: -100px;
+    }
+    #index-games-item-3 {
+        top: -200px;
+    }
+    #index-games-item-4 {
+        top: -300px;
+    }*/
+    .index-games-item-reverse {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    .index-games-item-img {
+        display: flex;
+        position: relative;
+        width: 198px;
+    }
+    .why-telegram-section {
+        padding: 80px 0;
+    }
+    .why-telegram {
+        display: flex;
+        gap: 55px;
+        align-items: center;
+        flex-wrap: wrap;
+        ul {
+            gap: 26px;
+        }
+        li {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        ul li::before {
+            background-image: url(/img/metagarden-chain/icon-ok.png);
+            background-size: 24px 24px;
+            width: 24px;
+            height: 24px;
+            border: 0;
+            top: 0;
+        }
+    }
+    .why-we-section {
+        padding: 80px 0 150px 0;
+    }
+    .why-we-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: space-between;
+    }
+    .why-we-item {
+        width: 45%;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+    .why-we-img {
+        img {
+            width: 64px;
+            height: 64px;
+        }
+    }
+    .why-we-text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .video-section {
+        padding: 50px 0 150px 0;
+    }
+}
+@media (max-width: 860px) {
+    .metagarden-chain-index {
+        .subtitle-h1 {
+            max-width: 100%;
+            margin: 0;
+        }
+        .index-games-item {
+            padding: 0 0 25px;
+            img {
+                position: relative;
+                top: 0;
+            }
+        }
+        .why-telegram-img {
+            margin: 0 auto;
+            img {
+                display: block;
+                width: 70%;
+                margin: 0 auto
+            }
+        }
+        .why-we-item {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 640px) {
+    .metagarden-chain-index {
+        .index-games-item-img {
+            width: 99px;
+        }
+        .index-games-item {
+            padding: 0 0 48px 0;
+            gap: 24px;
+            img {
+                width: 99px;
+                border-radius: 16px;
+            }
+        }
+        .index-games-item-reverse {
+            flex-direction: row;
+            text-align: left;
+        }
+        .why-telegram-section, .why-we-section, .video-section {
+            padding: 40px 0;
         }
     }
 }

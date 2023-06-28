@@ -19,8 +19,9 @@ export default {
                     <div class="navbar-top-menu">
                         <a href="http://t.me/metagardenbot?start=start" class="menu-link-a" target="_blank">{{ $td('Play Games', 'metagarden-chain.menu-play')}}</a>
                         <nuxt-link :to="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')" class="menu-link-a">{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</nuxt-link>
-                        <nuxt-link :to="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</nuxt-link>
+                        <!--<nuxt-link :to="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</nuxt-link>-->
                         <nuxt-link :to="$td('/influencer', 'metagarden-chain.menu-influencer-url')" class="menu-link-a">{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</nuxt-link>
+                        <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
                     </div>
                 </div>
                 <div class="navbar-right">
@@ -40,7 +41,10 @@ export default {
                             <a :href="$td('http://t.me/metagardenbot?start=launchpad', 'metagarden-chain.menu-launchpad-url')" target="_blank" class="menu-link-a"><img src="/img/metagarden-chain/launchpad.svg" class="menu-icon" alt="Metagarden Chain Launchpad" width="16" height="16"/>{{ $td('Launchpad', 'metagarden-chain.menu-launchpad')}}</a>
                         </div>
                         <div class="menu-link">
-                            <nuxt-link :to="$td('/', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</nuxt-link>
+                            <nuxt-link :to="$td('/', 'metagarden-chain.menu-index-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-index')}}</nuxt-link>
+                        </div>
+                        <div class="menu-link">
+                            <nuxt-link :to="$td('/evm-blockchain', 'metagarden-chain.menu-evm-url')" class="menu-link-a">{{ $td('EVM Blockchain', 'metagarden-chain.menu-evm')}}</nuxt-link>
                         </div>
                         <div class="menu-link">
                             <nuxt-link :to="$td('/buy-tokens', 'metagarden-chain.menu-early-access-url')" class="menu-link-a">{{ $td('Buy Tokens', 'metagarden-chain.menu-early-access')}}</nuxt-link>
@@ -50,9 +54,6 @@ export default {
                         </div>
                         <div class="menu-link">
                             <nuxt-link :to="$td('/tokenomics', 'metagarden-chain.menu-tokenomics-url')" class="menu-link-a">{{ $td('Tokenomics', 'metagarden-chain.menu-tokenomics')}}</nuxt-link>
-                        </div>
-                        <div class="menu-link">
-                            <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +77,18 @@ export default {
                             </a>
                         </div>
                         <div class="sub-menu-item">
-                            <a :href="$td('/', 'metagarden-chain.menu-evm-url')">
+                            <a :href="$td('/', 'metagarden-chain.menu-index-url')">
+                                <div class="sub-menu-item-image">
+                                    <img src="/img/metagarden-chain/menu-games.svg" alt="">
+                                </div>
+                                <div class="sub-menu-item-content">
+                                    <h4>{{ $td('Gaming Platform', 'metagarden-chain.menu-index')}}</h4>
+                                    <p>{{ $td('In order to deliver the best decentralisation, speed and fees for our crypto games we use the power of 5 sovereign blockchains: Ethereum, BNB Smart Chain, Metagarden Chain, Minter and Minter HUB.', 'metagarden-chain.menu-index-description')}}</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="sub-menu-item">
+                            <a :href="$td('/evm-blockchain', 'metagarden-chain.menu-evm-url')">
                                 <div class="sub-menu-item-image">
                                     <img src="/img/metagarden-chain/menu-blockchain.svg" alt="">
                                 </div>
@@ -130,7 +142,7 @@ export default {
                                 </div>
                             </a>
                         </div>
-                        <div class="sub-menu-item">
+                        <!--<div class="sub-menu-item">
                             <a :href="$td('/platform', 'metagarden-chain.menu-platform-url')">
                                 <div class="sub-menu-item-image">
                                     <img src="/img/metagarden-chain/menu-games.svg" alt="">
@@ -140,7 +152,7 @@ export default {
                                     <p>{{ $td('Powered by the fastest EVM blockchain, the Metagarden Gaming Platform offers developers the easiest way to seamlessly integrate crypto, NFTs and smart contracts into their games.', 'metagarden-chain.menu-platform-description')}}</p>
                                 </div>
                             </a>
-                        </div>
+                        </div>-->
                         <div class="sub-menu-item">
                             <a :href="$td('/influencer', 'metagarden-chain.menu-influencer-url')">
                                 <div class="sub-menu-item-image">
