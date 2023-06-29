@@ -50,7 +50,7 @@ export default {
                             In order to deliver the best decentralisation, speed and fees for our crypto games we use the power of 5 sovereign blockchains: <b>Ethereum</b>, <b>BNB Smart Chain</b>, <b>Metagarden Chain</b>, <b>Minter</b> and <b>Minter HUB</b>.
                             </template>
                             <template v-if="$i18n.locale === 'ru'">
-                            Чтобы обеспечить наилучшую децентрализацию, скорость и комиссию для наших криптоигр, мы используем мощь 5 суверенных блокчейнов: <b>Ethereum</b>, <b>BNB Smart Chain</b>, <b>Metagarden Chain</b>, <b>Minter</b> и <b>Minter HUB</b>.
+                            Чтобы обеспечить наилучшую децентрализацию, скорость и комиссию для наших крипто-игр, мы используем мощь 5 суверенных блокчейнов: <b>Ethereum</b>, <b>BNB Smart Chain</b>, <b>Metagarden Chain</b>, <b>Minter</b> и <b>Minter HUB</b>.
                             </template>
                         </p>
                     </div>
@@ -63,6 +63,20 @@ export default {
                     <div class="index-games-item">
                         <div class="index-games-item-img">
                             <picture>
+                                <source srcset="/img/metagarden-chain/index-heist.avif 1x, /img/metagarden-chain/index-heist@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/index-heist.webp 1x, /img/metagarden-chain/index-heist@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/index-heist.png" srcset="/img/metagarden-chain/index-heist@2x.png 2x" alt="" role="presentation"/>
+                            </picture>
+                        </div>
+                        <div class="index-games-item-content">
+                            <h3>Heist</h3>
+                            <p>{{ $td('Exciting multiplayer game where players can grab big money by committing the heist of the century. Intuitive interface, interesting gameplay, great hyper-casual crypto game when you have a spare moment.', 'metagarden-chain.index-games-heist-description')}}</p>
+                            <a class="btn btn-disable" target="_blank">{{ $td('Soon...', 'metagarden-chain.games-item-button-soon')}}</a>
+                        </div>
+                    </div>
+                    <div class="index-games-item index-games-item-reverse">
+                        <div class="index-games-item-img">
+                            <picture>
                                 <source srcset="/img/metagarden-chain/index-wonder.avif 1x, /img/metagarden-chain/index-wonder@2x.avif 2x" type="image/avif">
                                 <source srcset="/img/metagarden-chain/index-wonder.webp 1x, /img/metagarden-chain/index-wonder@2x.webp 2x" type="image/webp">
                                 <img src="/img/metagarden-chain/index-wonder.png" srcset="/img/metagarden-chain/index-wonder@2x.png 2x" alt="" role="presentation"/>
@@ -73,20 +87,6 @@ export default {
                             <p>{{ $td('Win, collect, and sell unique NFTs found in various WanderBoxes!', 'metagarden-chain.index-games-wonder-description')}}</p>
                             <p>{{ $td('Various collections will be added to the game. Each NFT in the collection has its own number, name, unique description, and rarity: simple, rare, epic, legendary, and the coolest - mythical!', 'metagarden-chain.index-games-wonder-description-2')}}</p>
                             <a href="http://t.me/metagardenbot?start=wonder" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.games-item-button')}}</a>
-                        </div>
-                    </div>
-                    <div class="index-games-item index-games-item-reverse">
-                        <div class="index-games-item-img">
-                            <picture>
-                                <source srcset="/img/metagarden-chain/index-miner.avif 1x, /img/metagarden-chain/index-miner@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/metagarden-chain/index-miner.webp 1x, /img/metagarden-chain/index-miner@2x.webp 2x" type="image/webp">
-                                <img src="/img/metagarden-chain/index-miner.png" srcset="/img/metagarden-chain/index-miner@2x.png 2x" alt="" role="presentation"/>
-                            </picture>
-                        </div>
-                        <div class="index-games-item-content">
-                            <h3>Lucky Miner</h3>
-                            <p>{{ $td('Become a miner of METAGARDEN tokens. It\'s an exciting process in the form of a game. You\'ll be receiving daily rewards with many other bonuses.', 'metagarden-chain.index-games-miner-description')}}</p>
-                            <a href="http://t.me/metagardenbot?start=luckyminer" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.games-item-button')}}</a>
                         </div>
                     </div>
                     <div class="index-games-item">
@@ -106,15 +106,15 @@ export default {
                     <div class="index-games-item index-games-item-reverse">
                         <div class="index-games-item-img">
                             <picture>
-                                <source srcset="/img/metagarden-chain/index-heist.avif 1x, /img/metagarden-chain/index-heist@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/metagarden-chain/index-heist.webp 1x, /img/metagarden-chain/index-heist@2x.webp 2x" type="image/webp">
-                                <img src="/img/metagarden-chain/index-heist.png" srcset="/img/metagarden-chain/index-heist@2x.png 2x" alt="" role="presentation"/>
+                                <source srcset="/img/metagarden-chain/index-miner.avif 1x, /img/metagarden-chain/index-miner@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/index-miner.webp 1x, /img/metagarden-chain/index-miner@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/index-miner.png" srcset="/img/metagarden-chain/index-miner@2x.png 2x" alt="" role="presentation"/>
                             </picture>
                         </div>
                         <div class="index-games-item-content">
-                            <h3>Heist</h3>
-                            <p>{{ $td('Exciting multiplayer game where players can grab big money by committing the heist of the century. Intuitive interface, interesting gameplay, great hyper-casual crypto game when you have a spare moment.', 'metagarden-chain.index-games-heist-description')}}</p>
-                            <a class="btn btn-disable" target="_blank">{{ $td('Soon...', 'metagarden-chain.games-item-button-soon')}}</a>
+                            <h3>Lucky Miner</h3>
+                            <p>{{ $td('Become a miner of METAGARDEN tokens. It\'s an exciting process in the form of a game. You\'ll be receiving daily rewards with many other bonuses.', 'metagarden-chain.index-games-miner-description')}}</p>
+                            <a href="http://t.me/metagardenbot?start=luckyminer" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.games-item-button')}}</a>
                         </div>
                     </div>
                 </div>
@@ -200,13 +200,13 @@ export default {
                             <div class="why-we-img">
                                 <img src="/img/metagarden-chain/why-we-3.png" alt="" role="presentation"/>
                             </div>
-                            <div class="why-we-text">Мы заканчиваем тестирование EVM-блокчейна <b>Metagarden Chain</b>, отличного продукта для <b>для индустрии криптоигр</b></div>
+                            <div class="why-we-text">Мы заканчиваем тестирование EVM-блокчейна <b>Metagarden Chain</b>, отличного продукта для <b>для индустрии крипто-игр</b></div>
                         </div>
                         <div class="why-we-item">
                             <div class="why-we-img">
                                 <img src="/img/metagarden-chain/why-we-4.png" alt="" role="presentation"/>
                             </div>
-                            <div class="why-we-text">Мы постоянно разрабатываем новые <b>DeFi-приложения</b> и <b>криптоигры</b></div>
+                            <div class="why-we-text">Мы постоянно разрабатываем новые <b>DeFi-приложения</b> и <b>крипто-игры</b></div>
                         </div>
                     </div>
                 </template>
@@ -372,7 +372,7 @@ export default {
                     <template v-if="$i18n.locale === 'ru'">
                         <h3>Ожидается в 2023-2024</h3>
                         <ul>
-                            <li>Запуск более 100 гипер-казуальных криптоигр для Telegram</li>
+                            <li>Запуск более 100 гипер-казуальных крипто-игр для Telegram</li>
                             <li>Запуск основной сети Metagarden Chain</li>
                             <li>Конструктор смарт-контрактов</li>
                             <li>Кросс-игровые инструменты</li>
