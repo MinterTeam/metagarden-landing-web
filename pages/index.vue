@@ -44,15 +44,19 @@ export default {
                 <div class="hello">
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
-                        <h1>{{ $td('The leading platform of hyper-casual crypto games for Telegram', 'metagarden-chain.title-index')}}</h1>
-                        <p class="subtitle-h1">
-                            <template v-if="$i18n.locale === 'en'">
+                        <h1>{{ $td('Probably, the most popular hyper-casual crypto games platform in Telegram', 'metagarden-chain.title-index')}}</h1>
+                        <template v-if="$i18n.locale === 'en'">
+                            <div class="quote">Over <span>1 million</span> succesful transactions. <br>And we are just getting started...</div>
+                            <p class="subtitle-h1">
                             In order to deliver the best decentralisation, speed and fees for our crypto games we use the power of 5 sovereign blockchains: <b>Ethereum</b>, <b>BNB Smart Chain</b>, <b>Metagarden Chain</b>, <b>Minter</b> and <b>Minter HUB</b>.
-                            </template>
-                            <template v-if="$i18n.locale === 'ru'">
+                            </p>
+                        </template>
+                        <template v-if="$i18n.locale === 'ru'">
+                            <div class="quote">Более <span>1 миллиона</span> успешных транзакций. <br>И мы только начинаем...</div>
+                            <p class="subtitle-h1">
                             Чтобы обеспечить наилучшую децентрализацию, скорость и комиссию для наших крипто-игр, мы используем мощь 5 суверенных блокчейнов: <b>Ethereum</b>, <b>BNB Smart Chain</b>, <b>Metagarden Chain</b>, <b>Minter</b> и <b>Minter HUB</b>.
-                            </template>
-                        </p>
+                            </p>
+                        </template>
                     </div>
                 </div>
             </div>
@@ -172,13 +176,13 @@ export default {
                             <div class="why-we-img">
                                 <img src="/img/metagarden-chain/why-we-3.png" alt="" role="presentation"/>
                             </div>
-                            <div class="why-we-text">We are finishing tests for EVM-blockchain <b>Metagarden Chain</b>, a great product <b>for crypto gaming industry</b></div>
+                            <div class="why-we-text">We are finishing tests for the <a href="/evm-blockchain" class="simple-link">Metagarden Chain</a>, the fastest Layer 1 EVM-compatible blockchain designed for gaming</div>
                         </div>
                         <div class="why-we-item">
                             <div class="why-we-img">
                                 <img src="/img/metagarden-chain/why-we-4.png" alt="" role="presentation"/>
                             </div>
-                            <div class="why-we-text">We constantly keep developing new <b>DeFi apps</b> and <b>crypto games</b></div>
+                            <div class="why-we-text">We are constantly developing new <b>crypto games</b> and <b>DeFi apps</b></div>
                         </div>
                     </div>
                 </template>
@@ -200,13 +204,13 @@ export default {
                             <div class="why-we-img">
                                 <img src="/img/metagarden-chain/why-we-3.png" alt="" role="presentation"/>
                             </div>
-                            <div class="why-we-text">Мы заканчиваем тестирование EVM-блокчейна <b>Metagarden Chain</b>, отличного продукта для <b>для индустрии крипто-игр</b></div>
+                            <div class="why-we-text">Мы заканчиваем тестирование <a href="/ru/evm-blockchain" class="simple-link">Metagarden Chain</a>, самого быстрого EVM-совместимого блокчейна первого уровня, предназначенного для игр</div>
                         </div>
                         <div class="why-we-item">
                             <div class="why-we-img">
                                 <img src="/img/metagarden-chain/why-we-4.png" alt="" role="presentation"/>
                             </div>
-                            <div class="why-we-text">Мы постоянно разрабатываем новые <b>DeFi-приложения</b> и <b>крипто-игры</b></div>
+                            <div class="why-we-text">Мы постоянно разрабатываем новые <b>крипто-игры</b> и <b>DeFi-приложения</b></div>
                         </div>
                     </div>
                 </template>
@@ -402,7 +406,7 @@ export default {
                                 </div>
                                 <div class="completed_card" id="timeline_3">
                                     <div class="completed_info">
-                                        <h4>Cross-chain exchanges.</h4>
+                                        <h4>Cross-chain exchanges</h4>
                                         <p>The ability to decentrally exchange a token in one network for another token in another network. For example, BNB (BEP-20) to USDT (ERC-20).</p>
                                     </div>
                                 </div>
