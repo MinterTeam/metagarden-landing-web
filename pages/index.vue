@@ -13,7 +13,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('The leading platform of hyper-casual crypto games for Telegram', 'metagarden-chain.title-index'));
-        const description = this.$td('In order to deliver the best decentralisation, speed and fees for our crypto games we use the power of 5 sovereign blockchains: Ethereum, BNB Smart Chain, Metagarden Chain, Minter and Minter HUB.', 'metagarden-chain.menu-index-description');
+        const description = this.$td('In order to deliver the best decentralisation, speed and fees for our crypto games we use the power of 5 sovereign blockchains: Ethereum, BNB Smart Chain, Metagarden Chain, Minter and TON.', 'metagarden-chain.menu-index-description');
 
         return {
             title: title,
@@ -48,13 +48,13 @@ export default {
                         <template v-if="$i18n.locale === 'en'">
                             <div class="quote">Over <span>1 million</span> succesful transactions. <br>And we are just getting started...</div>
                             <p class="subtitle-h1">
-                            In order to deliver the best decentralisation, speed and fees for our crypto games we use the power of 5 sovereign blockchains: <b>Ethereum</b>, <b>BNB Smart Chain</b>, <b>Metagarden Chain</b>, <b>Minter</b> and <b>Minter HUB</b>.
+                            In order to deliver the best decentralisation, speed and fees for our crypto games we use the power of 5 sovereign blockchains: <b>Ethereum</b>, <b>BNB Smart Chain</b>, <b>Metagarden Chain</b>, <b>Minter</b> and <b>TON</b>.
                             </p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <div class="quote">Более <span>1 миллиона</span> успешных транзакций. <br>И мы только начинаем...</div>
                             <p class="subtitle-h1">
-                            Чтобы обеспечить наилучшую децентрализацию, скорость и комиссию для наших крипто-игр, мы используем мощь 5 суверенных блокчейнов: <b>Ethereum</b>, <b>BNB Smart Chain</b>, <b>Metagarden Chain</b>, <b>Minter</b> и <b>Minter HUB</b>.
+                            Чтобы обеспечить наилучшую децентрализацию, скорость и комиссию для наших крипто-игр, мы используем мощь 5 суверенных блокчейнов: <b>Ethereum</b>, <b>BNB Smart Chain</b>, <b>Metagarden Chain</b>, <b>Minter</b> и <b>TON</b>.
                             </p>
                         </template>
                     </div>

@@ -434,7 +434,7 @@ export default {
 	},
 	'metagarden-chain': {
 		'title-index': 'Пожалуй, самая популярная платформа гипер-казуальных крипто-игр в Telegram',
-		'menu-index-description': 'Чтобы обеспечить наилучшую децентрализацию, скорость и комиссию для наших крипто-игр, мы используем мощь 5 суверенных блокчейнов: Ethereum, BNB Smart Chain, Metagarden Chain, Minter и Minter HUB.',
+		'menu-index-description': 'Чтобы обеспечить наилучшую децентрализацию, скорость и комиссию для наших крипто-игр, мы используем мощь 5 суверенных блокчейнов: Ethereum, BNB Smart Chain, Metagarden Chain, Minter и TON.',
 		'hello-index-description': 'Чтобы обеспечить наилучшую децентрализацию, скорость и комиссию для наших крипто-игр, мы используем мощь 5 суверенных блокчейнов: Ethereum, BNB Smart Chain, Metagarden Chain, Minter и Minter HUB.',
 		'games-item-button': 'Играть',
 		'games-item-button-soon': 'Скоро...',
