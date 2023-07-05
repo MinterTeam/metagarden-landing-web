@@ -12,7 +12,7 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('The leading platform of hyper-casual crypto games for Telegram', 'metagarden-chain.title-index'));
+        const title = getTitle(this.$td('The leading platform of crypto games for Telegram', 'metagarden-chain.title-index'));
         const description = this.$td('In order to deliver the best decentralisation, speed and fees for our crypto games we use the power of 5 sovereign blockchains: Ethereum, BNB Smart Chain, Metagarden Chain, Minter and TON.', 'metagarden-chain.menu-index-description');
 
         return {
@@ -44,7 +44,7 @@ export default {
                 <div class="hello">
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
-                        <h1>{{ $td('Probably, the most popular hyper-casual crypto games platform in Telegram', 'metagarden-chain.title-index')}}</h1>
+                        <h1>{{ $td('Probably, the most popular crypto games platform in Telegram', 'metagarden-chain.title-index')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
                             <div class="quote">Over <span>1 million</span> succesful transactions. <br>And we are just getting started...</div>
                             <p class="subtitle-h1">
@@ -122,7 +122,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="index-games-100">{{ $td('We are on track to launch over 100 hyper-casual crypto games for Telegram in 2023-2024', 'metagarden-chain.index-games-100')}}</div>
+                <div class="index-games-100">{{ $td('We are on track to launch over 100 crypto games for Telegram in 2023-2024', 'metagarden-chain.index-games-100')}}</div>
             </div>
         </section>
         <section class="why-telegram-section">
@@ -363,7 +363,7 @@ export default {
                     <template v-if="$i18n.locale === 'en'">
                         <h3>Expected in 2023-2024</h3>
                         <ul>
-                            <li>To launch over 100 hyper-casual crypto games for Telegram</li>
+                            <li>To launch over 100 crypto games for Telegram</li>
                             <li>Metagarden Chain mainnet launch</li>
                             <li>Smart Contract Builder</li>
                             <li>Cross-game tools</li>
@@ -376,7 +376,7 @@ export default {
                     <template v-if="$i18n.locale === 'ru'">
                         <h3>Ожидается в 2023-2024</h3>
                         <ul>
-                            <li>Запуск более 100 гипер-казуальных крипто-игр для Telegram</li>
+                            <li>Запуск более 100 крипто-игр для Telegram</li>
                             <li>Запуск основной сети Metagarden Chain</li>
                             <li>Конструктор смарт-контрактов</li>
                             <li>Кросс-игровые инструменты</li>

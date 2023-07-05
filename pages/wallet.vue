@@ -41,18 +41,16 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <template v-if="$i18n.locale === 'en'">
-                            <h1>Register wallet, <br>Get +100% bonus & airdrops from games</h1>
-                            <p class="subtitle-h1">To receive +100% bonus and airdrops, you must register your wallet and have at least 1 MEGANET token on your balance. MEGANET tokens are pre-launch tokens that can be bought after registration.</p>
-                            <p class="subtitle-h1">For every 1 MEGANET token, you will receive 2 MEGA coins (native Metagarden Chain coins) at the Mainnet launch.</p>
+                            <h1>Register wallet, <br>Get bonuses & airdrops from games</h1>
+                            <p class="subtitle-h1">To receive bonuses and airdrops, you must register your wallet and have at least 1 LAUNCHER token on your balance. LAUNCHER  tokens are pre-launch tokens that can be bought after registration.</p>
                             <div class="buttons-block">
                                 <a href="http://t.me/metagardenbot?start=launchpad" class="btn btn-icon btn-telegram" target="_blank"><img src="/img/metagarden-chain/icon-telegram.svg" alt="">Register via Telegram</a>
                                 <a href="/" class="btn btn-outline">About project</a>
                             </div>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <h1>Зарегистрируйте кошелек, <br>получите бонус +100%</h1>
-                            <p class="subtitle-h1">Чтобы получить +100% бонус и аирдропы, вы должны зарегистрировать свой кошелек и иметь на балансе минимум 1 токен MEGANET. Токены MEGANET — это пре-лонч токены, которые можно купить после регистрации.</p>
-                            <p class="subtitle-h1">За каждый токен MEGANET вы получите 2 монеты MEGA (нативные монеты Metagarden Chain) при запуске основной сети.</p>
+                            <h1>Зарегистрируйте кошелек, <br>получайте бонусы</h1>
+                            <p class="subtitle-h1">Чтобы получать бонусы и аирдропы, вы должны зарегистрировать свой кошелек и иметь на балансе хотя бы 1 токен LAUNCHER. Токены LAUNCHER - это прелонч токены, которые можно купить после регистрации.</p>
                             <div class="buttons-block">
                                 <a href="http://t.me/metagardenbot?start=launchpadru" class="btn btn-icon btn-telegram" target="_blank"><img src="/img/metagarden-chain/icon-telegram.svg" alt="">Зарегистрировать через Telegram</a>
                                 <a href="/ru" class="btn btn-outline">О проекте</a>
