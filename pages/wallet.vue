@@ -9,7 +9,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Metagarden Wallet', 'metagarden-chain.title-wallet'));
-        const description = this.$td('To receive +100% bonus and airdrops, you must register your wallet and have at least 1 MEGANET token on your balance.', 'metagarden-chain.menu-wallet-description');
+        const description = this.$td('To receive bonuses and airdrops, you must register your wallet and have at least 1 LAUNCHER token on your balance.', 'metagarden-chain.menu-wallet-description');
 
         return {
             title: title,

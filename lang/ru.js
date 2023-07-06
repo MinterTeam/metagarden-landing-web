@@ -478,7 +478,7 @@ export default {
 		'menu-launchpad-url': 'http://t.me/metagardenbot?start=launchpadru',
 		'menu-evm-description': 'Быстрые блоки, высокая пропускная способность, дешевое развертывание смарт-контрактов, дешевый минтинг NFT, дешевые транзакции, API и SDK для разработчиков игр и многие другие функции.',
 		'menu-early-access-description': 'Станьте ранним пользователем Metagarden Chain.',
-		'menu-wallet-description': 'Чтобы получить +100% бонус и аирдропы, вы должны зарегистрировать свой кошелек и иметь на балансе минимум 1 токен MEGANET.',
+		'menu-wallet-description': 'Чтобы получать бонусы и аирдропы, вы должны зарегистрировать свой кошелек и иметь на балансе минимум 1 токен LAUNCHER.',
 		'menu-gamerid-description': 'GamerID будет выпущен в форме NFT во время запуска Metagarden Chain Mainnet, и к вашему GamerID будут привязаны следующие привилегии: возможность получать бесплатные игровые токены, различные игровые бонусы и повышение дохода на платформе.',
 		'menu-testnet-description': 'Meganet - тестовая сеть Metaharden Chain.',
 		'menu-tokenomics-description': 'METAGARDEN — это газовый токен, обеспечивающий работу игрового EVM блокчейна (Metagarden Chain), а также служебный токен Metagarden, play-to-earn платформы с мини-играми. Токен METAGARDEN играет ключевую роль в функциональности блокчейна и платформы.',

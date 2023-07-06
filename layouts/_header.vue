@@ -116,7 +116,7 @@ export default {
                                 </div>
                                 <div class="sub-menu-item-content">
                                     <h4>{{ $td('Wallet', 'metagarden-chain.menu-wallet')}}</h4>
-                                    <p>{{ $td('To receive +100% bonus and airdrops, you must register your wallet and have at least 1 MEGANET token on your balance.', 'metagarden-chain.menu-wallet-description')}}</p>
+                                    <p>{{ $td('To receive bonuses and airdrops, you must register your wallet and have at least 1 LAUNCHER token on your balance.', 'metagarden-chain.menu-wallet-description')}}</p>
                                 </div>
                             </a>
                         </div>
