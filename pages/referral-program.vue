@@ -41,7 +41,7 @@ export default {
                     <div class="hello-content">
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
                         <h1>{{ $td('Multilevel referral program', 'metagarden-chain.hello-title-referral')}}</h1>
-                        <p class="subtitle-h1">{{ $td('Invite your friends to Metagarden and get rewards for their token purchases.', 'metagarden-chain.hello-description-tokenomics')}}</p>
+                        <p class="subtitle-h1">{{ $td('Invite your friends to Metagarden and get rewards for their token purchases.', 'metagarden-chain.hello-description-referral')}}</p>
                         <div class="buttons-block">
                             <a :href="$td('https://launchpad.metagarden.io', 'metagarden-chain.referral-button-url')" class="btn" target="_blank">{{ $td('Join now', 'metagarden-chain.referral-button')}}</a>
                         </div>
