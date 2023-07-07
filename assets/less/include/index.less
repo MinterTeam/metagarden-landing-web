@@ -1598,3 +1598,51 @@ ul li::before {
         }
     }
 }
+.metagarden-chain-referral {
+    .hello-content {
+        max-width: 568px;
+    }
+    .hello-image {
+        max-width: 436px;
+        max-height: 443px;
+        position: absolute;
+        right: -80px;
+        top: 30px;
+    }
+}
+.levels {
+    .levels-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 24px;
+        margin: 0 0 48px 0;
+        img {
+            width: 48px;
+            height: 100%;
+        }
+    }
+    .levels-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 24px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        .levels-percent {
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 39px;
+            padding: 1px 0 0 0;
+        }
+    }
+}
+@media (max-width: 960px) {
+    .levels-item {width: 186px;}
+}
+@media (max-width: 450px) {
+    .levels-item {width: auto;}
+    .levels-item img {display: none;}
+}

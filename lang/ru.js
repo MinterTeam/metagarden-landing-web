@@ -550,5 +550,13 @@ export default {
 		'social-telegram': 'https://t.me/metagardenru',
 		'title-how-buy-meganet': 'Как купить MEGANET, пре-лонч токены Metagarden Chain',
 		'menu-how-buy-meganet-description': 'За каждый токен MEGANET вы получите 2 монеты MEGA (нативные монеты Metagarden Chain) при запуске основной сети.',
+		'title-referral': 'Многоуровневая реферальная программа',
+		'hello-title-referral': 'Многоуровневая реферальная программа',
+		'menu-tokenomics-description': 'Приглашайте друзей в Metagarden и получайте награды за их покупки токенов.',
+		'hello-description-tokenomics': 'Приглашайте друзей в Metagarden и получайте награды за их покупки токенов.',
+		'referral-button': 'Подключиться',
+		'referral-button-url': 'https://launchpad.metagarden.io/ru',
+		'referral-levels-title': 'Уровни наград за рефералов:',
+		'referral-levels-item': 'Уровень',
 	},
 };
