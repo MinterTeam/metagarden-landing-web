@@ -332,7 +332,7 @@ export default {
                     </div>
                     <div class="circulation-text-block">
                         <template v-if="$i18n.locale === 'en'">
-                            <p>We issued MEGA coins on <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> and <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> for those who want to buy the Metagarden Chain coins before the Mainet launch.</p>
+                            <p>We issued MEGA tokens on <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> and <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> for those who want to buy the Metagarden Chain tokens before the Mainet launch.</p>
                             <p>The starting price of the MEGA token was $1.</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
