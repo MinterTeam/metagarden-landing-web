@@ -12,6 +12,13 @@ src: url('../fonts/Archivo-ExtraBold.ttf') format('truetype');
         font-style: normal;
         font-display: swap;
     }
+@font-face {
+    font-family: 'American Typewriter';
+    src: url('../fonts/AmericanTypewriter.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
 
 html {
     color: #fff;
@@ -107,6 +114,10 @@ p {
         height: 24px;
         margin: 0 8px 0 0;
     }
+}
+.btn-rounded {
+    border-radius: 44px;
+    padding: 8px 50px;
 }
 @media (max-width: 460px) {
     .btn-icon {justify-content: center;}
@@ -1657,4 +1668,101 @@ ul li::before {
 @media (max-width: 450px) {
     .levels-item {width: auto;}
     .levels-item img {display: none;}
+}
+
+.img-nomob {
+    @media (max-width: 460px) {
+        display: none !important;
+    }
+}
+.img-mob {
+    width: 100%;
+    height: auto;
+    display: none !important;
+    @media (max-width: 460px) {
+        display: block !important;
+    }
+}
+
+.games-heist {
+    background: linear-gradient(#243E52, #172835);
+    .hello-image {
+        max-width: 690px;
+        max-height: 550px;
+        position: absolute;
+        right: -140px;
+        top: 100px;
+    }
+    @media (max-width: 460px) {
+        background: #050E15;
+    }
+}
+.metagarden-games {
+    justify-content: center;
+    .hello {
+        padding: 50px 0;
+        .logo {
+            margin: 0 0 32px 0;
+        }
+        .games-logo {
+            margin: 0 0 20px 0;
+        }
+        h1 {
+            font-family: 'American Typewriter';
+            font-size: 50px;
+            line-height: 57px;
+            font-weight: 400;
+            margin: 0 0 21px 0;
+        }
+        .subtitle-h1 {
+            font-family: 'American Typewriter';
+        }
+    }
+    .hello-content {
+        max-width: 450px;
+    }
+    @media (max-width: 1016px) {
+        .hello {flex-direction: row;}
+        .hello-image {left: inherit;}
+    }
+    @media (max-width: 860px) {
+        .hello {
+            flex-wrap: wrap; align-items: center;
+        }
+        .hello-content {max-width: 100%;}
+        .hello-image {
+            display: block;
+            position: relative;
+            right: unset;
+            top: unset;
+            left: unset;
+        }
+    }
+    @media (max-width: 460px) {
+        .hello {
+            padding: 15px 0 0 0;
+            .logo {
+                margin: 0 0 100px 0;
+            }
+            .games-logo img {
+                width: 154px;
+                height: 52px;
+            }
+            h1 {
+                font-size: 34px;
+                line-height: 39px;
+                margin: 0 0 12px 0;
+            }
+            .subtitle-h1 {
+                margin: 0 0 32px 0;
+            }
+        }
+        .hello-content {
+            text-align: center;
+            padding: 0;
+        }
+        header {
+            padding: 0;
+        }
+    }
 }

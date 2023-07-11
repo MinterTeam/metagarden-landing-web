@@ -72,7 +72,7 @@ export default {
                         <h2>{{ $td('Gaming Platform', 'metagarden-chain.video-section-title')}}</h2>
                         <p>{{ $td('Try out the first play-to-earn Metagarden platform games. By the end of 2023, we plan to launch more than 100 mini-games from different developers. The games presented are in alpha status and can be played from a single Telegram bot, so you can easily switch between them without leaving your favorite messenger.', 'metagarden-chain.video-section-description')}}</p>
                         <div class="buttons-block">
-                            <a :href="$td('http://t.me/metagardenbot?start=start', 'metagarden-chain.video-section-button-url')" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.video-section-button')}}</a>
+                            <a :href="$td('https://t.me/metagardenbot?start=games', 'metagarden-chain.video-section-button-url')" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.video-section-button')}}</a>
                             <span>{{ $td('Try α-versions of our games in Telegram', 'metagarden-chain.video-button-description')}}</span>
                         </div>
                         <a :href="$td('/platform', 'metagarden-chain.video-section-more-url')" class="simple-link" target="_blank">{{ $td('Read more about platform', 'metagarden-chain.video-section-more')}}</a>

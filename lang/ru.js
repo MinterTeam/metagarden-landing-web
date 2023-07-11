@@ -514,7 +514,7 @@ export default {
 		'сirculation-blockchain': 'Токен MEGA представлен на нескольких блокчейнах:',
 		'video-section-title': 'Игровая платформа',
 		'video-section-description': 'Попробуйте первые play-to-earn игры нашей платформы. К концу 2023 года мы планируем запустить более 100 мини-игр от разных разработчиков. Представленные игры находятся в альфа-статусе и запускаются из единого Telegram-бота, так что вы можете с легкостью переключаться между ними, не выходя из любимого мессенджера.',
-		'video-section-button-url': 'http://t.me/metagardenbot?start=start',
+		'video-section-button-url': 'https://t.me/metagardenbot?start=games',
 		'video-section-button': 'Играть',
 		'video-button-description': 'Попробуйте α-версии наших игр в Telegram',
 		'video-section-more-url': '/ru/platform',
