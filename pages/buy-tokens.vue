@@ -43,7 +43,7 @@ export default {
             <div class="container">
                 <div class="hello">
                     <div class="hello-content">
-                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
+                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="256" height="40"/></div>
                         <template v-if="$i18n.locale === 'en'">
                             <h1>Buy tokens before Mainnet launch</h1>
                             <p class="subtitle-h1">We issued MEGA tokens on <a href="https://etherscan.io/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">Ethereum↗</a> and <a href="https://bscscan.com/token/0x7c4e6727Ab2218AFfa6A30250b1148922bB7745c" target="_blank" rel="nofollow">BNB Smart Chain↗</a> for those who want to buy the Metagarden Chain tokens before the Mainet launch.</p>

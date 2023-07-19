@@ -119,6 +119,13 @@ p {
     border-radius: 44px;
     padding: 8px 50px;
 }
+.btn-big {
+    min-height: 64px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 460px) {
     .btn-icon {justify-content: center;}
 }
@@ -1763,6 +1770,152 @@ ul li::before {
         }
         header {
             padding: 0;
+        }
+    }
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+.text-mini {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.justify-center {
+    justify-content: center;
+}
+.block-center {
+    text-align: center;
+}
+
+html.promo-landing {
+    background: #181818;
+}
+.promo-landing {
+    .metagarden-chain-layout {
+        background: url(/img/metagarden-chain/promo-landing-bg-1.svg) top left no-repeat,url(/img/metagarden-chain/promo-landing-bg-2.svg) top right no-repeat,url(/img/metagarden-chain/promo-landing-bg-3.svg) top 40% right no-repeat,url(/img/metagarden-chain/promo-landing-bg-4.svg) top 90% left no-repeat;
+    }
+    .navbar-level-1, .mobil-menu {
+        background: #181818;
+    }
+    .menu__box {
+        background-color: #181818;
+    }
+    .hello {
+        padding: 137px 0 0;
+    }
+    .hello-content {
+        max-width: 392px;
+    }
+    .logo {
+        margin: 0 0 32px;
+    }
+    h1 {
+        font-family: "Unbounded";
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 46px;
+        text-transform: uppercase;
+        margin: 0 0 16px;
+    }
+    h2 {
+        font-family: "Unbounded";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin: 0 0 24px;
+    }
+    .strip {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 32px;
+        margin: 40px 0;
+        font-family: "Unbounded";
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 46px;
+        text-transform: uppercase;
+        .strip-item {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            gap: 16px;
+        }
+        .strip-item-right {
+            font-size: 14px;
+            line-height: 17px;
+        }
+        .strip-item-arrow {
+            color: #AB56FF;
+        }
+    }
+    .strip-center {
+        display: flex;
+        justify-content: center;
+    }
+    @media (max-width: 1016px) {
+        .hello {
+            padding: 50px 0 0;
+        }
+        .hello-content {
+            max-width: 100%;
+        }
+        .hello-image {
+            max-width: 90% !important;
+            max-height: 100% !important;
+            display: block !important;
+            position: relative !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            margin: 0 auto !important;
+        }
+    }
+    @media (max-width: 780px) {
+        .metagarden-chain-layout {
+            background: none;
+        }
+    }
+    @media (max-width: 460px) {
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 39px;
+        }
+        h2 {
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+}
+.farmers {
+    .hello-image {
+        max-width: 537px;
+        max-height: 295px;
+        position: absolute;
+        right: 0;
+        top: unset;
+        bottom: -20px;
+    }
+    .farmer-bots-section {
+        padding: 36px 0 100px 0;
+        .strip {
+            margin: 0 0 56px 0;
+        }
+    }
+    .farmer-bots {
+        background: url(/img/metagarden-chain/farmer-bots-bg.svg) top center no-repeat;
+        background-size: 100%;
+        text-align: center;
+        margin: 0 0 48px 0;
+        img {
+            width: 100%;
+            height: 100%;
+            max-width: 848px;
+            max-height: 1064px;
         }
     }
 }

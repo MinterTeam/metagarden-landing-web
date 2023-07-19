@@ -17,7 +17,8 @@ export default {
                         <a :href="$td('/', 'metagarden-chain.menu-evm-url')"><img src="/img/metagarden-chain/meganet-logo.svg" width="29" height="32" alt="Metagarden Chain"></a>
                     </div>
                     <div class="navbar-top-menu">
-                        <a href="https://t.me/metagardenbot?start=games" class="menu-link-a" target="_blank">{{ $td('Play Games', 'metagarden-chain.menu-play')}}</a>
+                        <!--<a href="https://t.me/metagardenbot?start=games" class="menu-link-a" target="_blank">{{ $td('Play Games', 'metagarden-chain.menu-play')}}</a>-->
+                        <nuxt-link :to="$td('/nft-farmers', 'metagarden-chain.menu-farmers-url')" class="menu-link-a">{{ $td('NFT Farmers', 'metagarden-chain.menu-farmers')}}</nuxt-link>
                         <nuxt-link :to="$td('/gamerid', 'metagarden-chain.menu-gamerid-url')" class="menu-link-a">{{ $td('GamerID', 'metagarden-chain.menu-gamerid')}}</nuxt-link>
                         <!--<nuxt-link :to="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</nuxt-link>-->
                         <nuxt-link :to="$td('/influencer', 'metagarden-chain.menu-influencer-url')" class="menu-link-a">{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</nuxt-link>
@@ -84,6 +85,17 @@ export default {
                                 <div class="sub-menu-item-content">
                                     <h4>{{ $td('Gaming Platform', 'metagarden-chain.menu-index')}}</h4>
                                     <p>{{ $td('In order to deliver the best decentralisation, speed and fees for our crypto games we use the power of 5 sovereign blockchains: Ethereum, BNB Smart Chain, Metagarden Chain, Minter and Minter HUB.', 'metagarden-chain.menu-index-description')}}</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="sub-menu-item">
+                            <a :href="$td('/nft-farmers', 'metagarden-chain.menu-farmers-url')">
+                                <div class="sub-menu-item-image">
+                                    <img src="/img/metagarden-chain/menu-bot.svg" alt="">
+                                </div>
+                                <div class="sub-menu-item-content">
+                                    <h4>{{ $td('NFT Farmers', 'metagarden-chain.menu-farmers')}}</h4>
+                                    <p>{{ $td('Metagarden games earn commissions, farmer-bots collect them and send them to you.', 'metagarden-chain.farmers-description')}}</p>
                                 </div>
                             </a>
                         </div>

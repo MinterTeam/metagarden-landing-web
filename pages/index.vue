@@ -43,7 +43,7 @@ export default {
             <div class="container">
                 <div class="hello">
                     <div class="hello-content">
-                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
+                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="256" height="40"/></div>
                         <h1>{{ $td('Probably, the most popular crypto games platform in Telegram', 'metagarden-chain.title-index')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
                             <div class="quote">Over <span>1 million</span> succesful transactions. <br>And we are just getting started...</div>

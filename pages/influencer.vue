@@ -39,7 +39,7 @@ export default {
             <div class="container">
                 <div class="hello">
                     <div class="hello-content">
-                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
+                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="256" height="40"/></div>
                         <template v-if="$i18n.locale === 'en'">
                             <h1>Are you a YouTuber or Social Media Influencer?</h1>
                             <p class="subtitle-h1">Partner with the <b>Metagarden</b> platform in its early stages! Create content about us. If you are interested, please contact us.</p>

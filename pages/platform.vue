@@ -39,7 +39,7 @@ export default {
             <div class="container">
                 <div class="hello">
                     <div class="hello-content">
-                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
+                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="256" height="40"/></div>
                         <h1>{{ $td('Gaming platform', 'metagarden-chain.platform-title')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
                             <p class="subtitle-h1"><b>The future has arrived!</b> Almost any internet user can now become a game developer without having any programming skills, just by using ChatGPT-like technologies to create mini-games in a matter of days.</p>

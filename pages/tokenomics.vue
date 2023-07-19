@@ -39,7 +39,7 @@ export default {
             <div class="container">
                 <div class="hello">
                     <div class="hello-content">
-                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
+                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="256" height="40"/></div>
                         <h1>{{ $td('Tokenomics', 'metagarden-chain.hello-title-tokenomics')}}</h1>
                         <p class="subtitle-h1">{{ $td('MEGA is the gas token that enables the work of the gaming EVM blockchain (Metagarden Сhain) and a utility token of the Metagarden platform, a play-to-earn platform with mini-games. The MEGA plays a key role in the functioning of the blockchain and its gaming platform.', 'metagarden-chain.hello-description-tokenomics')}}</p>
                         <div class="buttons-block">

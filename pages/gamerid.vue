@@ -39,7 +39,7 @@ export default {
             <div class="container">
                 <div class="hello">
                     <div class="hello-content">
-                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
+                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="256" height="40"/></div>
                         <template v-if="$i18n.locale === 'en'">
                             <h1>Limited offer. <br>Get GamerID with privileges</h1>
                             <p class="subtitle-h1">Hurry up and be one of the first to get your GamerID. The first players to register will receive privileges tied to their GamerID.</p>

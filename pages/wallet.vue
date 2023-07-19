@@ -39,7 +39,7 @@ export default {
             <div class="container">
                 <div class="hello">
                     <div class="hello-content">
-                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="321" height="58"/></div>
+                        <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="256" height="40"/></div>
                         <template v-if="$i18n.locale === 'en'">
                             <h1>Register wallet, <br>Get bonuses & airdrops from games</h1>
                             <p class="subtitle-h1">To receive bonuses and airdrops, you must register your wallet and have at least 1 LAUNCHER token on your balance. LAUNCHER  tokens are pre-launch tokens that can be bought after registration.</p>
