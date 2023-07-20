@@ -23,6 +23,7 @@ export default {
                         <!--<nuxt-link :to="$td('/platform', 'metagarden-chain.menu-platform-url')" class="menu-link-a">{{ $td('Gaming Platform', 'metagarden-chain.menu-platform')}}</nuxt-link>-->
                         <nuxt-link :to="$td('/influencer', 'metagarden-chain.menu-influencer-url')" class="menu-link-a">{{ $td('For Influencers', 'metagarden-chain.menu-influencer')}}</nuxt-link>
                         <a :href="$td('https://scan.testnet.metagarden.io/', 'metagarden-chain.menu-testnet-url')" target="_blank" class="menu-link-a">{{ $td('Testnet', 'metagarden-chain.menu-testnet')}}</a>
+                        <a href="/metagarden_keynote.pdf" target="_blank" class="menu-link-a">{{ $td('Project Presentation', 'metagarden-chain.menu-presentation')}}</a>
                     </div>
                 </div>
                 <div class="navbar-right">

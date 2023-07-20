@@ -46,7 +46,7 @@ export default {
                         <div class="logo"><img src="/img/metagarden-chain/metagarden-chain-logo.svg" alt="Metagarden Chain" width="256" height="40"/></div>
                         <h1>{{ $td('Probably, the most popular crypto games platform in Telegram', 'metagarden-chain.title-index')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
-                            <div class="quote">Over <span>1 million</span> succesful transactions. <br>And we are just getting started...</div>
+                            <div class="quote">Over <span>1 million</span> successful transactions. <br>And we are just getting started...</div>
                             <p class="subtitle-h1">
                             In order to deliver the best decentralisation, speed and fees for our crypto games we use the power of 5 sovereign blockchains: <b>Ethereum</b>, <b>BNB Smart Chain</b>, <b>Metagarden Chain</b>, <b>Minter</b> and <b>TON</b>.
                             </p>

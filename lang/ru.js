@@ -568,5 +568,6 @@ export default {
 		'farmers-which-one': 'Какой попадется тебе?',
 		'menu-farmers': 'NFT-фармеры',
 		'menu-farmers-url': '/ru/nft-farmers',
+		'menu-presentation': 'Презентация проекта',
 	},
 };
