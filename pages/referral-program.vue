@@ -94,10 +94,18 @@ export default {
                     </div>
                 </div>
                  <template v-if="$i18n.locale === 'en'">
-                    <p>The program is valid for the purchase of token LAUNCHER.</p>
+                    <h3>Details:</h3>
+                    <ul>
+                        <li>The program is valid for the purchase of token LAUNCHER</li>
+                        <li>Payment methods that support referral rewards: Telegram (CryptoBot)</li>
+                    </ul>
                  </template>
                  <template v-if="$i18n.locale === 'ru'">
-                    <p>Программа действует для покупки токена LAUNCHER.</p>
+                    <h3>Детали:</h3>
+                    <ul>
+                        <li>Программа действует для покупки токена LAUNCHER</li>
+                        <li>Платежные методы, поддерживающие реферальные вознаграждения: Telegram (CryptoBot)</li>
+                    </ul>
                  </template>
             </div>
         </section>
