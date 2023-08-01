@@ -74,8 +74,8 @@ export default {
                         </div>
                         <div class="index-games-item-content">
                             <h3>Heist</h3>
-                            <p>{{ $td('Exciting multiplayer game where players can grab big money by committing the heist of the century. Intuitive interface, interesting gameplay, great hyper-casual crypto game when you have a spare moment.', 'metagarden-chain.index-games-heist-description')}}</p>
-                            <a class="btn btn-disable" target="_blank">{{ $td('Soon...', 'metagarden-chain.games-item-button-soon')}}</a>
+                            <p>{{ $td('Pig hackers rob a piggy bank! Exciting multiplayer game where players can grab big money by committing the heist of the century. Intuitive interface, interesting gameplay, great hyper-casual crypto game when you have a spare moment.', 'metagarden-chain.index-games-heist-description')}}</p>
+                            <a href="http://t.me/metagardenbot?start=heist" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.games-item-button')}}</a>
                         </div>
                     </div>
                     <div class="index-games-item index-games-item-reverse">
