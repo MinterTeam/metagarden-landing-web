@@ -67,9 +67,9 @@ export default {
                     <div class="index-games-item">
                         <div class="index-games-item-img">
                             <picture>
-                                <source srcset="/img/metagarden-chain/index-heist.avif 1x, /img/metagarden-chain/index-heist@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/metagarden-chain/index-heist.webp 1x, /img/metagarden-chain/index-heist@2x.webp 2x" type="image/webp">
-                                <img src="/img/metagarden-chain/index-heist.png" srcset="/img/metagarden-chain/index-heist@2x.png 2x" alt="" role="presentation"/>
+                                <source srcset="/img/metagarden-chain/index-heist-2.avif 1x, /img/metagarden-chain/index-heist-2@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/index-heist-2.webp 1x, /img/metagarden-chain/index-heist-2@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/index-heist-2.png" srcset="/img/metagarden-chain/index-heist-2@2x.png 2x" alt="" role="presentation"/>
                             </picture>
                         </div>
                         <div class="index-games-item-content">
