@@ -433,7 +433,8 @@ export default {
 		'learn-button-url': 'https://honee.app/ru/metagarden',
 	},
 	'metagarden-chain': {
-		'title-index': 'Пожалуй, самая популярная платформа крипто-игр в Telegram',
+		'title-index': 'Крипто-игры в Telegram',
+		'h1-index': 'Пожалуй, самая популярная платформа крипто-игр в Telegram',
 		'menu-index-description': 'Чтобы обеспечить наилучшую децентрализацию, скорость и комиссию для наших крипто-игр, мы используем мощь 5 суверенных блокчейнов: Ethereum, BNB Smart Chain, Metagarden Chain, Minter и TON.',
 		'hello-index-description': 'Чтобы обеспечить наилучшую децентрализацию, скорость и комиссию для наших крипто-игр, мы используем мощь 5 суверенных блокчейнов: Ethereum, BNB Smart Chain, Metagarden Chain, Minter и Minter HUB.',
 		'games-item-button': 'Играть',
