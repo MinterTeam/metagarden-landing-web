@@ -63,6 +63,20 @@ export default {
                     <div class="index-games-item">
                         <div class="index-games-item-img">
                             <picture>
+                                <source srcset="/img/metagarden-chain/index-poker.avif 1x, /img/metagarden-chain/index-poker@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/metagarden-chain/index-poker.webp 1x, /img/metagarden-chain/index-hpoker@2x.webp 2x" type="image/webp">
+                                <img src="/img/metagarden-chain/index-poker.png" srcset="/img/metagarden-chain/index-poker@2x.png 2x" alt="" role="presentation"/>
+                            </picture>
+                        </div>
+                        <div class="index-games-item-content">
+                            <h3>Poker Hero</h3>
+                            <p>{{ $td('Poker Hero is an online poker game with RPG elements. You will be able to play as different characters that have their own unique design, levels and game currency. Heroes can be upgraded, traded or sold, and they can be won from your opponents. You can challenge your friends or take part in big tournaments and win prizes.', 'metagarden-chain.index-games-poker-description')}}</p>
+                            <a href="https://pokerhero.io/" class="btn" target="_blank">{{ $td('Learn more', 'metagarden-chain.games-item-button-more')}}</a>
+                        </div>
+                    </div>
+                    <div class="index-games-item index-games-item-reverse">
+                        <div class="index-games-item-img">
+                            <picture>
                                 <source srcset="/img/metagarden-chain/index-heist-2.avif 1x, /img/metagarden-chain/index-heist-2@2x.avif 2x" type="image/avif">
                                 <source srcset="/img/metagarden-chain/index-heist-2.webp 1x, /img/metagarden-chain/index-heist-2@2x.webp 2x" type="image/webp">
                                 <img src="/img/metagarden-chain/index-heist-2.png" srcset="/img/metagarden-chain/index-heist-2@2x.png 2x" alt="" role="presentation"/>
@@ -74,7 +88,7 @@ export default {
                             <a href="http://t.me/metagardenbot?start=heist" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.games-item-button')}}</a>
                         </div>
                     </div>
-                    <div class="index-games-item index-games-item-reverse">
+                    <div class="index-games-item">
                         <div class="index-games-item-img">
                             <picture>
                                 <source srcset="/img/metagarden-chain/index-wonder.avif 1x, /img/metagarden-chain/index-wonder@2x.avif 2x" type="image/avif">
@@ -89,7 +103,7 @@ export default {
                             <a href="http://t.me/metagardenbot?start=wonder" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.games-item-button')}}</a>
                         </div>
                     </div>
-                    <div class="index-games-item">
+                    <div class="index-games-item index-games-item-reverse">
                         <div class="index-games-item-img">
                             <picture>
                                 <source srcset="/img/metagarden-chain/index-snatch.avif 1x, /img/metagarden-chain/index-snatch@2x.avif 2x" type="image/avif">
@@ -103,7 +117,7 @@ export default {
                             <a href="http://t.me/metagardenbot?start=snatch" class="btn" target="_blank">{{ $td('Play', 'metagarden-chain.games-item-button')}}</a>
                         </div>
                     </div>
-                    <div class="index-games-item index-games-item-reverse">
+                    <div class="index-games-item">
                         <div class="index-games-item-img">
                             <picture>
                                 <source srcset="/img/metagarden-chain/index-miner.avif 1x, /img/metagarden-chain/index-miner@2x.avif 2x" type="image/avif">
